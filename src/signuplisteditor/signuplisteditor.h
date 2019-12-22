@@ -1,7 +1,7 @@
 #ifndef SIGNUPLISTEDITOR_H
 #define SIGNUPLISTEDITOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "signuplist.h"
 #include "signuplisteditor/abstractathletewidget.h"

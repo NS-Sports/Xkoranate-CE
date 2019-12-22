@@ -1,7 +1,7 @@
 #ifndef SQISPARADIGMOPTIONS_H
 #define SQISPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorSQISParadigmOptions : public XkorAbstractOptionsWidget

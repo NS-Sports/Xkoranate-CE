@@ -1,7 +1,7 @@
 #ifndef HOWZZATPARADIGMOPTIONS_H
 #define HOWZZATPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorHowzzatParadigmOptions : public XkorAbstractOptionsWidget

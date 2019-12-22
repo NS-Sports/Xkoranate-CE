@@ -2,7 +2,7 @@
 #define ABSTRACTOPTIONSWIDGET_H
 
 #include <QtCore>
-#include <QtGui>
+#include <QtWidgets>
 
 class XkorAbstractOptionsWidget : public QWidget
 {

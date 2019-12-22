@@ -1,7 +1,7 @@
 #ifndef NSFSGRIDIRONPARADIGMOPTIONS_H
 #define NSFSGRIDIRONPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorNSFSGridironParadigmOptions : public XkorAbstractOptionsWidget

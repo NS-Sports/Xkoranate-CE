@@ -1,7 +1,7 @@
 #ifndef TABLEGENERATOR_H
 #define TABLEGENERATOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "tablegenerator/sortcriteriawidget.h"
 #include "tablegenerator/table.h"

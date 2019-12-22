@@ -1,7 +1,7 @@
 #ifndef EVENTEDITOR_H
 #define EVENTEDITOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "abstractoptionswidget.h"
 #include "event.h"

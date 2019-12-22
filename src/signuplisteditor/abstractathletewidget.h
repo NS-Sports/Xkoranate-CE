@@ -1,7 +1,7 @@
 #ifndef ABSTRACTATHLETEWIDGET_H
 #define ABSTRACTATHLETEWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include <tr1/random>
 
 #include "abstracttreewidget.h"

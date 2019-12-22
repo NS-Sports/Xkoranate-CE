@@ -1,7 +1,7 @@
 #ifndef NAVIGATIONWIDGET_H
 #define NAVIGATIONWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include <tr1/random>
 
 #include "abstracttreewidget.h"

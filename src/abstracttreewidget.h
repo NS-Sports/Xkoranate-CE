@@ -1,7 +1,7 @@
 #ifndef ABSTRACTTREEWIDGET_H
 #define ABSTRACTTREEWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "treewidget.h"
 

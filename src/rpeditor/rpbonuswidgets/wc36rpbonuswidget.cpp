@@ -20,10 +20,10 @@ XkorWC36RPBonusWidget::XkorWC36RPBonusWidget()
 	setUseTeamBonus();
 	
 	// set the column widths
-	treeWidget->header()->setResizeMode(0, QHeaderView::Stretch);
-	treeWidget->header()->setResizeMode(1, QHeaderView::Fixed);
+    treeWidget->header()->setSectionResizeMode(0, QHeaderView::Stretch);
+    treeWidget->header()->setSectionResizeMode(1, QHeaderView::Fixed);
 	treeWidget->header()->resizeSection(1, 150);
-	treeWidget->header()->setResizeMode(2, QHeaderView::Fixed);
+    treeWidget->header()->setSectionResizeMode(2, QHeaderView::Fixed);
 	treeWidget->header()->resizeSection(2, 100);
 	
 	setupLayout();

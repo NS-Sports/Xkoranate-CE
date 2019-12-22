@@ -1,7 +1,7 @@
 #ifndef CONFIGEDITOR_H
 #define CONFIGEDITOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "rplist.h"
 #include "rpeditor/abstractrpbonuswidget.h"

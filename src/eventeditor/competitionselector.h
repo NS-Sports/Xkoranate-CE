@@ -1,7 +1,7 @@
 #ifndef COMPETITIONSELECTOR_H
 #define COMPETITIONSELECTOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "sport.h"
 
 class XkorCompetitionSelector : public QWidget

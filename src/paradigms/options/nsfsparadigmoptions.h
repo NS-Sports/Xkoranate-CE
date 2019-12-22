@@ -1,7 +1,7 @@
 #ifndef NSFSPARADIGMOPTIONS_H
 #define NSFSPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorNSFSParadigmOptions : public XkorAbstractOptionsWidget

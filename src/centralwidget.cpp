@@ -1,6 +1,6 @@
 #include "centralwidget.h"
 
-#include <QtGui>
+#include <QtWidgets>
 #include "exceptions.h"
 #include "thinsplitter.h"
 #include "xml/xmlreader.h"

@@ -1,7 +1,7 @@
 #ifndef AUTORACINGPARADIGMOPTIONS_H
 #define AUTORACINGPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorAutoRacingParadigmOptions : public XkorAbstractOptionsWidget

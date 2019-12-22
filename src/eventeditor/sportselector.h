@@ -1,7 +1,7 @@
 #ifndef SPORTSELECTOR_H
 #define SPORTSELECTOR_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 #include "sport.h"
 

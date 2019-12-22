@@ -1,7 +1,7 @@
 #ifndef SCORINATEWIDGET_H
 #define SCORINATEWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include <tr1/random>
 
 #include "competitions/competitionfactory.h"

@@ -1,7 +1,7 @@
 #ifndef FOOTBA11ERPARADIGMOPTIONS_H
 #define FOOTBA11ERPARADIGMOPTIONS_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include "abstractoptionswidget.h"
 
 class XkorFootba11erParadigmOptions : public XkorAbstractOptionsWidget

@@ -1,6 +1,6 @@
 #include "eventeditor/scorinatewidget.h"
 
-#include <QtGui>
+#include <QtWidgets>
 #include <ctime>
 #include "sport.h"
 #include "xml/xmlindex.h"
@@ -79,7 +79,7 @@ void XkorScorinateWidget::exportResults()
 	{
 		dialog = new QFileDialog(this);
 		dialog->setWindowTitle(tr("Save results"));
-		dialog->setFilter(tr("Text files (*.txt)"));
+        dialog->setNameFilter(tr("Text files (*.txt)"));
 		dialog->setDefaultSuffix("txt");
 		dialog->setWindowModality(Qt::WindowModal);
 		dialog->setAcceptMode(QFileDialog::AcceptSave);

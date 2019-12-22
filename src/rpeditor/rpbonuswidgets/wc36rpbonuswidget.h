@@ -1,7 +1,7 @@
 #ifndef WC36RPBONUSWIDGET_H
 #define WC36RPBONUSWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 #include "rpeditor/abstractrpbonuswidget.h"
 

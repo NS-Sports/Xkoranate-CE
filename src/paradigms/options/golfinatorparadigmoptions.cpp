@@ -11,7 +11,7 @@ XkorGolfinatorParadigmOptions::XkorGolfinatorParadigmOptions(QHash<QString, QVar
 	course->setGridStyle(Qt::NoPen);
 	course->setAlternatingRowColors(true);
 
-	course->horizontalHeader()->setResizeMode(QHeaderView::Stretch);
+    course->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
 	QFont f;
 	QFontMetrics metrics(f);
