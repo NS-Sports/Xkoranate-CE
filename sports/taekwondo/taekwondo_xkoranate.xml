@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Taekwondo—xkoranate formula</name>
+	<discipline>Taekwondo</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>decision</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>+</string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>KO</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00746268656716</double>
+			<double>0.00746268656716</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00179856115108">-2</dataPoint>
+		<dataPoint pos="0.0329923561151">0</dataPoint>
+		<dataPoint pos="0.157767535971">0</dataPoint>
+		<dataPoint pos="0.220155125899">1</dataPoint>
+		<dataPoint pos="0.344930305755">1</dataPoint>
+		<dataPoint pos="0.407317895683">2</dataPoint>
+		<dataPoint pos="0.53209307554">2</dataPoint>
+		<dataPoint pos="0.594480665468">3</dataPoint>
+		<dataPoint pos="0.719255845324">3</dataPoint>
+		<dataPoint pos="0.781643435252">4</dataPoint>
+		<dataPoint pos="0.84403102518">4</dataPoint>
+		<dataPoint pos="0.906418615108">5</dataPoint>
+		<dataPoint pos="0.968806205036">7</dataPoint>
+		<dataPoint pos="0.998201438849">11</dataPoint>
+	</dataPoints>
+</sport>

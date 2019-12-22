@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Association football—Footba11er formula</name>
+	<discipline>Association football</discipline>
+	<event>Footba11er formula</event>
+	<scorinator/>
+	
+	<paradigm>footba11er</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<string type="attackStyle">list</string>
+		<list type="attackProbs">
+			<double>0.08</double>
+			<double>0.2</double>
+			<double>0.24</double>
+			<double>0.2</double>
+			<double>0.12</double>
+			<double>0.08</double>
+			<double>0.04</double>
+			<double>0.0224</double>
+			<double>0.0096</double>
+			<double>0.0048</double>
+			<double>0.0016</double>
+			<double>0.00112</double>
+			<double>0.00048</double>
+		</list>
+		<int type="maxAttacks">25</int>
+		<list type="pointValues">
+			<int>1</int>
+		</list>
+		<list type="pointProbs">
+			<double>1</double>
+		</list>
+		<string type="tiebreakers">goldengoal</string>
+		<string type="tiebreakerNames"/>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+</sport>

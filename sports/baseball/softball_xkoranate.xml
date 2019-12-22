@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Softball—xkoranate formula</name>
+	<discipline>Softball</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string></string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<int type="quietTieBreak">1</int>
+		<string type="tableHeaderGoalsFor">RF</string>
+		<string type="tableHeaderGoalsAgainst">RA</string>
+		<string type="tableHeaderGoalDifference">RD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00769230769231">0</dataPoint>
+		<dataPoint pos="0.19375">0</dataPoint>
+		<dataPoint pos="0.317788461538">1</dataPoint>
+		<dataPoint pos="0.441826923077">2</dataPoint>
+		<dataPoint pos="0.565865384615">3</dataPoint>
+		<dataPoint pos="0.689903846154">4</dataPoint>
+		<dataPoint pos="0.813942307692">6.375</dataPoint>
+		<dataPoint pos="0.937980769231">9</dataPoint>
+		<dataPoint pos="0.992307692308">11</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.00694444444444">0</dataPoint>
+		<dataPoint pos="0.689670138889">0</dataPoint>
+		<dataPoint pos="0.813802083333">1</dataPoint>
+		<dataPoint pos="0.937934027778">1</dataPoint>
+		<dataPoint pos="0.993055555556">4</dataPoint>
+	</dataPoints>
+</sport>

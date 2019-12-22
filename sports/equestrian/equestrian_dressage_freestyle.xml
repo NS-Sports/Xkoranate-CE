@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Dressage—Grand prix freestyle</name>
+	<alphabetizedName>Equestrian, dressage—Round 3</alphabetizedName>
+	<discipline>Equestrian, dressage</discipline>
+	<event>Grand prix freestyle</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.05</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0294117647059">69.100</dataPoint>
+		<dataPoint pos="0.150735294118">70.975</dataPoint>
+		<dataPoint pos="0.393382352941">72.775</dataPoint>
+		<dataPoint pos="0.636029411765">74.25</dataPoint>
+		<dataPoint pos="0.878676470588">76.9</dataPoint>
+		<dataPoint pos="0.970588235294">82.400</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 100 m breaststroke—Heats</name>
+	<alphabetizedName>Swimming—Men’s breaststroke 100 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 100 m breaststroke</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00769230769231">80.2</dataPoint>
+		<dataPoint pos="0.0697115384615">68.7175</dataPoint>
+		<dataPoint pos="0.19375">63.64375</dataPoint>
+		<dataPoint pos="0.317788461538">62.43875</dataPoint>
+		<dataPoint pos="0.441826923077">61.83</dataPoint>
+		<dataPoint pos="0.565865384615">61.46375</dataPoint>
+		<dataPoint pos="0.689903846154">60.98</dataPoint>
+		<dataPoint pos="0.813942307692">60.6625</dataPoint>
+		<dataPoint pos="0.937980769231">59.95125</dataPoint>
+		<dataPoint pos="0.992307692308">59.41</dataPoint>
+	</dataPoints>
+</sport>

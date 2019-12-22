@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s high jump—Final</name>
+	<alphabetizedName>Athletics—Men’s high jump—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s high jump</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.85</double>
+		<double type="depreciation">0.95</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">210</double>
+		<list type="heights">
+			<double>2.15</double>
+			<double>2.20</double>
+			<double>2.25</double>
+			<double>2.29</double>
+			<double>2.32</double>
+			<double>2.34</double>
+			<double>2.36</double>
+			<double>2.38</double>
+			<double>2.40</double>
+			<double>2.42</double>
+			<double>2.44</double>
+			<double>2.46</double>
+			<double>2.48</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

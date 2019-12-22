@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Women’s freestyle 10 km</name>
+	<discipline>Cross-country skiing</discipline>
+	<event>Women’s freestyle 10 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00625">2147.4</dataPoint>
+		<dataPoint pos="0.068359375">1942.38125</dataPoint>
+		<dataPoint pos="0.192578125">1731.63125</dataPoint>
+		<dataPoint pos="0.316796875">1675.5875</dataPoint>
+		<dataPoint pos="0.441015625">1641.55</dataPoint>
+		<dataPoint pos="0.565234375">1625.29375</dataPoint>
+		<dataPoint pos="0.689453125">1586.30625</dataPoint>
+		<dataPoint pos="0.813671875">1559.63125</dataPoint>
+		<dataPoint pos="0.937890625">1523.5125</dataPoint>
+		<dataPoint pos="0.99375">1498.4</dataPoint>
+	</dataPoints>
+</sport>

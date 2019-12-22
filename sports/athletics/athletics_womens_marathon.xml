@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s marathon</name>
+	<discipline>Athletics</discipline>
+	<event>Women’s marathon</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.176136363636</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00704225352113">10539</dataPoint>
+		<dataPoint pos="0.0691021126761">10104.25</dataPoint>
+		<dataPoint pos="0.193221830986">9818.25</dataPoint>
+		<dataPoint pos="0.317341549296">9423.75</dataPoint>
+		<dataPoint pos="0.441461267606">9319.75</dataPoint>
+		<dataPoint pos="0.565580985915">9214.25</dataPoint>
+		<dataPoint pos="0.689700704225">9141.5</dataPoint>
+		<dataPoint pos="0.813820422535">9046</dataPoint>
+		<dataPoint pos="0.937940140845">8844.5</dataPoint>
+		<dataPoint pos="0.992957746479">8804</dataPoint>
+	</dataPoints>
+</sport>

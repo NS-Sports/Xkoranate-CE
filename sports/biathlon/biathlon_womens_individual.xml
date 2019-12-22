@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Women’s individual 15 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Women’s individual 15 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0056818181818182">3401.8</dataPoint>
+		<dataPoint pos="0.060921717171717">3092.7111111111</dataPoint>
+		<dataPoint pos="0.17140151515152">2896.9</dataPoint>
+		<dataPoint pos="0.28188131313131">2827.2388888889</dataPoint>
+		<dataPoint pos="0.39236111111111">2790.2166666667</dataPoint>
+		<dataPoint pos="0.50284090909091">2732.55</dataPoint>
+		<dataPoint pos="0.61332070707071">2667.3055555556</dataPoint>
+		<dataPoint pos="0.72380050505051">2625.4055555556</dataPoint>
+		<dataPoint pos="0.8342803030303">2589.8833333333</dataPoint>
+		<dataPoint pos="0.9447601010101">2542.7055555556</dataPoint>
+		<dataPoint pos="0.99431818181818">2452.8</dataPoint>
+	</dataPoints>
+</sport>

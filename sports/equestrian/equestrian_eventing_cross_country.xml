@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Eventing—Cross country</name>
+	<alphabetizedName>Equestrian, eventing—Round 2</alphabetizedName>
+	<discipline>Equestrian, eventing</discipline>
+	<event>Cross country</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">ascending</string>
+		<list type="statuses">
+			<string>EL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.117647058824</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00806451612903">69.60</dataPoint>
+		<dataPoint pos="0.0789170506912">55.3428571429</dataPoint>
+		<dataPoint pos="0.220622119816">37.6571428571</dataPoint>
+		<dataPoint pos="0.36232718894">28.7714285714</dataPoint>
+		<dataPoint pos="0.504032258065">25.8</dataPoint>
+		<dataPoint pos="0.645737327189">21.2571428571</dataPoint>
+		<dataPoint pos="0.787442396313">17.2</dataPoint>
+		<dataPoint pos="0.929147465438">13.2857142857</dataPoint>
+		<dataPoint pos="0.991935483871">9.20</dataPoint>
+	</dataPoints>
+</sport>

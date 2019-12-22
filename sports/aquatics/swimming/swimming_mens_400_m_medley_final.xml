@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 400 m individual medley—Final</name>
+	<alphabetizedName>Swimming—Men’s medley individual 400 m—Round 2</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 400 m individual medley</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">255.4</dataPoint>
+		<dataPoint pos="0.208333333333">253.29</dataPoint>
+		<dataPoint pos="0.525">252.315</dataPoint>
+		<dataPoint pos="0.841666666667">246.481666667</dataPoint>
+		<dataPoint pos="0.95">243.84</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Women’s speed skating 1000 m</name>
+	<alphabetizedName>Ad’ihani pentathlon—Women’s—Event 3</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Women’s</event>
+	<scorinator>Speed skating (1000 m)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.014897486772487</double>
+			<double>0.002314814814815</double>
+		</list>
+		<double type="decathlonA">0.19</double>
+		<double type="decathlonB">200</double>
+		<double type="decathlonC">1.82</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.013513513513514">89.53</dataPoint>
+		<dataPoint pos="0.095720720720721">89.138333333333</dataPoint>
+		<dataPoint pos="0.26013513513514">88.445</dataPoint>
+		<dataPoint pos="0.42454954954955">88.166666666667</dataPoint>
+		<dataPoint pos="0.58896396396396">87.816666666667</dataPoint>
+		<dataPoint pos="0.75337837837838">87.4</dataPoint>
+		<dataPoint pos="0.91779279279279">86.77</dataPoint>
+		<dataPoint pos="0.98648648648649">86.56</dataPoint>
+	</dataPoints>
+</sport>

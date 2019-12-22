@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bobsleigh—Two-woman</name>
+	<alphabetizedName>Bobsleigh—Women’s 2-woman</alphabetizedName>
+	<discipline>Bobsleigh</discipline>
+	<event>Two-woman</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.007600293647709</double>
+			<double>0.014768752429071</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0060240963855422">57.39</dataPoint>
+		<dataPoint pos="0.061244979919679">54.955555555556</dataPoint>
+		<dataPoint pos="0.17168674698795">54.62</dataPoint>
+		<dataPoint pos="0.28212851405622">54.4</dataPoint>
+		<dataPoint pos="0.3925702811245">54.167777777778</dataPoint>
+		<dataPoint pos="0.50301204819277">53.87</dataPoint>
+		<dataPoint pos="0.61345381526104">53.73</dataPoint>
+		<dataPoint pos="0.72389558232932">53.572222222222</dataPoint>
+		<dataPoint pos="0.83433734939759">53.346666666667</dataPoint>
+		<dataPoint pos="0.94477911646586">53.178888888889</dataPoint>
+		<dataPoint pos="0.99397590361446">52.85</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s shot put—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s shot put—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s shot put</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.302395209581</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0078125">14.76</dataPoint>
+		<dataPoint pos="0.0786830357143">15.6721428571</dataPoint>
+		<dataPoint pos="0.220424107143">16.2457142857</dataPoint>
+		<dataPoint pos="0.362165178571">17.0242857143</dataPoint>
+		<dataPoint pos="0.50390625">17.46</dataPoint>
+		<dataPoint pos="0.645647321429">18.0085714286</dataPoint>
+		<dataPoint pos="0.787388392857">18.4692857143</dataPoint>
+		<dataPoint pos="0.929129464286">19.0864285714</dataPoint>
+		<dataPoint pos="0.9921875">19.73</dataPoint>
+	</dataPoints>
+</sport>

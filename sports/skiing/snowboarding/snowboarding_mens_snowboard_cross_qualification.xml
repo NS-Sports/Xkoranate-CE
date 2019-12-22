@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Men’s snowboard cross—Qualification</name>
+	<alphabetizedName>Snowboarding—Men’s snowboard cross—Round 1</alphabetizedName>
+	<discipline>Snowboarding</discipline>
+	<event>Men’s snowboard cross</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<int type="attempts">2</int>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.089285714285714</double>
+			<double>0.017857142857143</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0075757575757576">107.36</dataPoint>
+		<dataPoint pos="0.069602272727273">88.71625</dataPoint>
+		<dataPoint pos="0.1936553030303">85.108125</dataPoint>
+		<dataPoint pos="0.31770833333333">84.1475</dataPoint>
+		<dataPoint pos="0.44176136363636">83.530625</dataPoint>
+		<dataPoint pos="0.56581439393939">83.07125</dataPoint>
+		<dataPoint pos="0.68986742424242">82.34</dataPoint>
+		<dataPoint pos="0.81392045454545">81.85625</dataPoint>
+		<dataPoint pos="0.93797348484848">81.324375</dataPoint>
+		<dataPoint pos="0.99242424242424">80.15</dataPoint>
+	</dataPoints>
+</sport>

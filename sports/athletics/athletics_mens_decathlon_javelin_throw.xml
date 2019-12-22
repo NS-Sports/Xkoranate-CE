@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—Javelin throw</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 09</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>Javelin throw</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.2</double>
+		</list>
+		<double type="decathlonA">10.14</double>
+		<double type="decathlonB">7</double>
+		<double type="decathlonC">1.08</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00806451612903">43.44</dataPoint>
+		<dataPoint pos="0.0789170506912">44.9842857143</dataPoint>
+		<dataPoint pos="0.220622119816">49.9628571429</dataPoint>
+		<dataPoint pos="0.36232718894">56.0214285714</dataPoint>
+		<dataPoint pos="0.504032258065">59.96</dataPoint>
+		<dataPoint pos="0.645737327189">62.0764285714</dataPoint>
+		<dataPoint pos="0.787442396313">64.5935714286</dataPoint>
+		<dataPoint pos="0.929147465438">69.3935714286</dataPoint>
+		<dataPoint pos="0.991935483871">73.98</dataPoint>
+	</dataPoints>
+</sport>

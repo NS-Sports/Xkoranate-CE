@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Women’s skeleton</name>
+	<alphabetizedName>Ad’ihani pentathlon—Women’s—Event 2</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Women’s</event>
+	<scorinator>Skeleton</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.011111111111111</double>
+		</list>
+		<double type="decathlonA">0.493</double>
+		<double type="decathlonB">126</double>
+		<double type="decathlonC">1.79</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0064102564102564">61.14</dataPoint>
+		<dataPoint pos="0.068509615384615">59.473125</dataPoint>
+		<dataPoint pos="0.19270833333333">58.47625</dataPoint>
+		<dataPoint pos="0.31690705128205">58.104375</dataPoint>
+		<dataPoint pos="0.44110576923077">57.54</dataPoint>
+		<dataPoint pos="0.56530448717949">57.434375</dataPoint>
+		<dataPoint pos="0.68950320512821">57.193125</dataPoint>
+		<dataPoint pos="0.81370192307692">57.100625</dataPoint>
+		<dataPoint pos="0.93790064102564">56.88</dataPoint>
+		<dataPoint pos="0.99358974358974">56.68</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 1 500 m</name>
+	<alphabetizedName>Athletics—Men’s 01500 m</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 1 500 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00581395348837">233.95</dataPoint>
+		<dataPoint pos="0.0610465116279">226.010555556</dataPoint>
+		<dataPoint pos="0.171511627907">222.595</dataPoint>
+		<dataPoint pos="0.281976744186">221.268888889</dataPoint>
+		<dataPoint pos="0.392441860465">219.677777778</dataPoint>
+		<dataPoint pos="0.502906976744">217.76</dataPoint>
+		<dataPoint pos="0.613372093023">217.237777778</dataPoint>
+		<dataPoint pos="0.723837209302">216.470555556</dataPoint>
+		<dataPoint pos="0.834302325581">215.903333333</dataPoint>
+		<dataPoint pos="0.94476744186">214.350555556</dataPoint>
+		<dataPoint pos="0.994186046512">212.89</dataPoint>
+	</dataPoints>
+</sport>

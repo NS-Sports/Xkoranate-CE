@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling, track—Men’s omnium—Points race</name>
+	<alphabetizedName>Cycling, track—Men’s omnium—Event 2</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Men’s omnium</event>
+	<scorinator>Points race</scorinator>
+	
+	<paradigm>pointsrace</paradigm>
+	<paradigmOptions>
+		<int type="maxPoints">176</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.111111111111</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="points">
+		<dataPoint pos="0.0119047619048">0</dataPoint>
+		<dataPoint pos="0.094246031746">0</dataPoint>
+		<dataPoint pos="0.258928571429">1.75</dataPoint>
+		<dataPoint pos="0.423611111111">5</dataPoint>
+		<dataPoint pos="0.588293650794">8</dataPoint>
+		<dataPoint pos="0.752976190476">10</dataPoint>
+		<dataPoint pos="0.917658730159">16</dataPoint>
+		<dataPoint pos="0.988095238095">20</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="laps">
+		<dataPoint pos="0.0147058823529">-2</dataPoint>
+		<dataPoint pos="0.113235294118">-1</dataPoint>
+		<dataPoint pos="0.310294117647">0</dataPoint>
+		<dataPoint pos="0.507352941176">0</dataPoint>
+		<dataPoint pos="0.704411764706">0.7</dataPoint>
+		<dataPoint pos="0.901470588235">1</dataPoint>
+		<dataPoint pos="0.985294117647">2</dataPoint>
+	</dataPoints>
+</sport>

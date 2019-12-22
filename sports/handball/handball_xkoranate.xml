@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Handball—xkoranate formula</name>
+	<discipline>Handball</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+			<string>extratime</string>
+			<string>shootout</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>AET</string>
+			<string>AET</string>
+			<string>pen.</string>
+		</list>
+		<int type="shootoutLength">5</int>
+		<double type="shootoutProb">0.65</double>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0021186440678">13</dataPoint>
+		<dataPoint pos="0.0353813559322">19</dataPoint>
+		<dataPoint pos="0.101906779661">21</dataPoint>
+		<dataPoint pos="0.16843220339">22</dataPoint>
+		<dataPoint pos="0.234957627119">23</dataPoint>
+		<dataPoint pos="0.301483050847">24</dataPoint>
+		<dataPoint pos="0.368008474576">24</dataPoint>
+		<dataPoint pos="0.434533898305">25</dataPoint>
+		<dataPoint pos="0.501059322034">27</dataPoint>
+		<dataPoint pos="0.567584745763">28</dataPoint>
+		<dataPoint pos="0.634110169492">29</dataPoint>
+		<dataPoint pos="0.70063559322">29</dataPoint>
+		<dataPoint pos="0.767161016949">30.6333333333</dataPoint>
+		<dataPoint pos="0.833686440678">32</dataPoint>
+		<dataPoint pos="0.900211864407">33</dataPoint>
+		<dataPoint pos="0.966737288136">36</dataPoint>
+		<dataPoint pos="0.997881355932">40</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.0277777777778">1</dataPoint>
+		<dataPoint pos="0.149305555556">1.875</dataPoint>
+		<dataPoint pos="0.392361111111">3.625</dataPoint>
+		<dataPoint pos="0.635416666667">4</dataPoint>
+		<dataPoint pos="0.878472222222">5</dataPoint>
+		<dataPoint pos="0.972222222222">5</dataPoint>
+	</dataPoints>
+</sport>

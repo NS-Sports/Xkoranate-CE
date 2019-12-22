@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bowling, ten-pin—Women’s roll-off</name>
+	<discipline>Bowling, ten-pin</discipline>
+	<event>Women’s roll-off</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0009469696969697">25.4</dataPoint>
+		<dataPoint pos="0.023652720385675">29.186363636364</dataPoint>
+		<dataPoint pos="0.069064221763085">31.15909090909</dataPoint>
+		<dataPoint pos="0.1144757231405">32.4</dataPoint>
+		<dataPoint pos="0.15988722451791">33.8</dataPoint>
+		<dataPoint pos="0.20529872589532">34.6</dataPoint>
+		<dataPoint pos="0.25071022727273">35.6</dataPoint>
+		<dataPoint pos="0.29612172865014">36.2</dataPoint>
+		<dataPoint pos="0.34153323002755">36.795454545454</dataPoint>
+		<dataPoint pos="0.38694473140496">37.768181818182</dataPoint>
+		<dataPoint pos="0.43235623278237">38.2</dataPoint>
+		<dataPoint pos="0.47776773415978">38.8</dataPoint>
+		<dataPoint pos="0.52317923553719">39.6</dataPoint>
+		<dataPoint pos="0.5685907369146">40</dataPoint>
+		<dataPoint pos="0.61400223829201">40.4</dataPoint>
+		<dataPoint pos="0.65941373966942">41.004545454546</dataPoint>
+		<dataPoint pos="0.70482524104683">41.8</dataPoint>
+		<dataPoint pos="0.75023674242424">42.6</dataPoint>
+		<dataPoint pos="0.79564824380165">43.2</dataPoint>
+		<dataPoint pos="0.84105974517906">44.495454545454</dataPoint>
+		<dataPoint pos="0.88647124655647">45.668181818182</dataPoint>
+		<dataPoint pos="0.93188274793388">47.4</dataPoint>
+		<dataPoint pos="0.97729424931129">51.213636363636</dataPoint>
+		<dataPoint pos="0.99905303030303">60</dataPoint>
+		<dataPoint pos="1">60</dataPoint>
+	</dataPoints>
+</sport>

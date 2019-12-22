@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Figure skating—Pairs—Free skate</name>
+	<alphabetizedName>Figure skating—~Pairs—Round 2</alphabetizedName>
+	<discipline>Figure skating</discipline>
+	<event>Pairs</event>
+	<scorinator>Free skate</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.022727272727273">81.44</dataPoint>
+		<dataPoint pos="0.14488636363636">87.48</dataPoint>
+		<dataPoint pos="0.38920454545455">104.81625</dataPoint>
+		<dataPoint pos="0.63352272727273">119.15625</dataPoint>
+		<dataPoint pos="0.87784090909091">130.2975</dataPoint>
+		<dataPoint pos="0.97727272727273">141.81</dataPoint>
+	</dataPoints>
+</sport>

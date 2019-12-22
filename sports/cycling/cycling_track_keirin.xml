@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Track keirin</name>
+	<alphabetizedName>Cycling, track—~Keirin</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Keirin</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>ordinal</paradigm>
+	<paradigmOptions>
+		<double type="attackModifier">1</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>REL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.030303030303</double>
+			<double>0.030303030303</double>
+		</list>
+		<list type="statusSortOrder">
+			<double>1</double>
+			<double>2</double>
+		</list>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 800 m freestyle—Heats</name>
+	<alphabetizedName>Swimming—Women’s freestyle 0800 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 800 m freestyle</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0135135135135">548.87</dataPoint>
+		<dataPoint pos="0.0957207207207">531.591666667</dataPoint>
+		<dataPoint pos="0.260135135135">521.005</dataPoint>
+		<dataPoint pos="0.42454954955">515.375</dataPoint>
+		<dataPoint pos="0.588963963964">511.303333333</dataPoint>
+		<dataPoint pos="0.753378378378">506.595</dataPoint>
+		<dataPoint pos="0.917792792793">501.915</dataPoint>
+		<dataPoint pos="0.986486486486">498.06</dataPoint>
+	</dataPoints>
+</sport>

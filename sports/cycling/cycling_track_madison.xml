@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Track madison</name>
+	<alphabetizedName>Cycling, track—~Madison</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Madison</event>
+	<scorinator/>
+	
+	<paradigm>pointsrace</paradigm>
+	<paradigmOptions>
+		<int type="maxPoints">160</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.03</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="points">
+		<dataPoint pos="0.0277777777778">0</dataPoint>
+		<dataPoint pos="0.149305555556">2.625</dataPoint>
+		<dataPoint pos="0.392361111111">5</dataPoint>
+		<dataPoint pos="0.635416666667">6.375</dataPoint>
+		<dataPoint pos="0.878472222222">14.125</dataPoint>
+		<dataPoint pos="0.972222222222">17</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="laps">
+		<dataPoint pos="0.0277777777778">-4</dataPoint>
+		<dataPoint pos="0.149305555556">-3</dataPoint>
+		<dataPoint pos="0.392361111111">-1</dataPoint>
+		<dataPoint pos="0.635416666667">-1</dataPoint>
+		<dataPoint pos="0.878472222222">0</dataPoint>
+		<dataPoint pos="0.972222222222">0</dataPoint>
+	</dataPoints>
+</sport>

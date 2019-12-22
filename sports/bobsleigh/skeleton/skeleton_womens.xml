@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Skeleton—Women’s</name>
+	<discipline>Skeleton</discipline>
+	<event>Women’s</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.011111111111111</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0064102564102564">58.14</dataPoint>
+		<dataPoint pos="0.068509615384615">56.473125</dataPoint>
+		<dataPoint pos="0.19270833333333">55.47625</dataPoint>
+		<dataPoint pos="0.31690705128205">55.104375</dataPoint>
+		<dataPoint pos="0.44110576923077">54.54</dataPoint>
+		<dataPoint pos="0.56530448717949">54.434375</dataPoint>
+		<dataPoint pos="0.68950320512821">54.193125</dataPoint>
+		<dataPoint pos="0.81370192307692">54.100625</dataPoint>
+		<dataPoint pos="0.93790064102564">53.88</dataPoint>
+		<dataPoint pos="0.99358974358974">53.68</dataPoint>
+	</dataPoints>
+</sport>

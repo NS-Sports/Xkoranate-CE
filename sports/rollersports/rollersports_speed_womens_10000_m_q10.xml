@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Women’s 10 000 m points &amp; elimination—Qualifying (10 finishers)</name>
+	<discipline>Roller speed skating</discipline>
+	<event>Women’s 10 000 m points &amp; elimination</event>
+	<scorinator>Qualifying (10 finishers)</scorinator>
+	
+	<paradigm>eliminationrace</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+		<int type="laps">50</int>
+		<int type="finishers">10</int>
+		<int type="firstElimination">11</int>
+		<int type="lastElimination">47</int>
+		<string type="usePoints">true</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">21.9</dataPoint>
+		<dataPoint pos="0.55">20.75</dataPoint>
+	</dataPoints>
+</sport>

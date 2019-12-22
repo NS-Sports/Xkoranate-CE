@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Men’s downhill alpine skiing</name>
+	<alphabetizedName>Ad’ihani pentathlon—Men’s—Event 1</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Men’s</event>
+	<scorinator>Alpine skiing (downhill)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.099431818181818</double>
+			<double>0.019176136363636</double>
+		</list>
+		<double type="decathlonA">0.144</double>
+		<double type="decathlonB">270</double>
+		<double type="decathlonC">1.81</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0081967213114754">144.44</dataPoint>
+		<dataPoint pos="0.07903981264637">141.51428571429</dataPoint>
+		<dataPoint pos="0.22072599531616">139.57142857143</dataPoint>
+		<dataPoint pos="0.36241217798595">137.95857142857</dataPoint>
+		<dataPoint pos="0.50409836065574">136.66</dataPoint>
+		<dataPoint pos="0.64578454332553">135.79</dataPoint>
+		<dataPoint pos="0.78747072599532">135.22</dataPoint>
+		<dataPoint pos="0.92915690866511">134.64428571429</dataPoint>
+		<dataPoint pos="0.99180327868852">134.31</dataPoint>
+	</dataPoints>
+</sport>

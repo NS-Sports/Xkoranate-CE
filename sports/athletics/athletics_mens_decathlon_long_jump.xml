@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—Long jump</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 02</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>Long jump</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.389534883721</double>
+		</list>
+		<double type="decathlonA">0.14354</double>
+		<double type="decathlonB">220</double>
+		<double type="decathlonC">1.4</double>
+		<double type="decathlonMultiplier">100</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00666666666667">5.5</dataPoint>
+		<dataPoint pos="0.06875">6.42</dataPoint>
+		<dataPoint pos="0.192916666667">6.66</dataPoint>
+		<dataPoint pos="0.317083333333">6.855</dataPoint>
+		<dataPoint pos="0.44125">7</dataPoint>
+		<dataPoint pos="0.565416666667">7.075</dataPoint>
+		<dataPoint pos="0.689583333333">7.24</dataPoint>
+		<dataPoint pos="0.81375">7.355</dataPoint>
+		<dataPoint pos="0.937916666667">7.655</dataPoint>
+		<dataPoint pos="0.993333333333">7.78</dataPoint>
+	</dataPoints>
+</sport>

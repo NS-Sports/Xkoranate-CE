@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Curling—xkoranate formula</name>
+	<discipline>Curling</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string></string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<int type="quietTieBreak">1</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">1.5</dataPoint>
+		<dataPoint pos="0.045">2.5</dataPoint>
+		<dataPoint pos="0.115">3.5</dataPoint>
+		<dataPoint pos="0.185">4.5</dataPoint>
+		<dataPoint pos="0.255">4.5</dataPoint>
+		<dataPoint pos="0.325">5.5</dataPoint>
+		<dataPoint pos="0.395">5.5</dataPoint>
+		<dataPoint pos="0.465">6.5</dataPoint>
+		<dataPoint pos="0.535">6.5</dataPoint>
+		<dataPoint pos="0.605">7.5</dataPoint>
+		<dataPoint pos="0.675">7.5</dataPoint>
+		<dataPoint pos="0.745">8.5</dataPoint>
+		<dataPoint pos="0.815">9.5</dataPoint>
+		<dataPoint pos="0.885">10.5</dataPoint>
+		<dataPoint pos="0.955">11.5</dataPoint>
+		<dataPoint pos="0.99">11.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0">0.5</dataPoint>
+		<dataPoint pos="0.5">1.5</dataPoint>
+		<dataPoint pos="1">3.5</dataPoint>
+	</dataPoints>
+</sport>

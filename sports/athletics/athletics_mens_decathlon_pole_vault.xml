@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—Pole vault</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 08</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>Pole vault</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.80</double>
+		<double type="depreciation">0.99</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">420</double>
+		<list type="heights">
+			<double>3.80</double>
+			<double>3.90</double>
+			<double>4.00</double>
+			<double>4.10</double>
+			<double>4.20</double>
+			<double>4.30</double>
+			<double>4.40</double>
+			<double>4.50</double>
+			<double>4.60</double>
+			<double>4.70</double>
+			<double>4.80</double>
+			<double>4.90</double>
+			<double>5.00</double>
+			<double>5.10</double>
+			<double>5.20</double>
+			<double>5.30</double>
+			<double>5.40</double>
+			<double>5.50</double>
+			<double>5.60</double>
+			<double>5.70</double>
+			<double>5.80</double>
+			<double>5.90</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<double type="decathlonA">0.2797</double>
+		<double type="decathlonB">100</double>
+		<double type="decathlonC">1.35</double>
+		<double type="decathlonMultiplier">100</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 400 m hurdles—Final</name>
+	<alphabetizedName>Athletics—Women’s 2hurdles 400 m—Round 3</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 400 m hurdles</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00990099009901</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">57.55</dataPoint>
+		<dataPoint pos="0.208333333333">54.9683333333</dataPoint>
+		<dataPoint pos="0.525">54.125</dataPoint>
+		<dataPoint pos="0.841666666667">53.7233333333</dataPoint>
+		<dataPoint pos="0.98">52.64</dataPoint> <!-- manual tweak -->
+	</dataPoints>
+</sport>

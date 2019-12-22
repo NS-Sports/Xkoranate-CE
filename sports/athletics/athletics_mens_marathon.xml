@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s marathon</name>
+	<discipline>Athletics</discipline>
+	<event>Men’s marathon</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.176136363636</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00641025641026">9668</dataPoint>
+		<dataPoint pos="0.0685096153846">9119.25</dataPoint>
+		<dataPoint pos="0.192708333333">8893.375</dataPoint>
+		<dataPoint pos="0.316907051282">8664.0625</dataPoint>
+		<dataPoint pos="0.441105769231">8525.625</dataPoint>
+		<dataPoint pos="0.565304487179">8376.4375</dataPoint>
+		<dataPoint pos="0.689503205128">8175.3125</dataPoint>
+		<dataPoint pos="0.813701923077">8020.3125</dataPoint>
+		<dataPoint pos="0.937900641026">7831.5625</dataPoint>
+		<dataPoint pos="0.99358974359">7592</dataPoint>
+	</dataPoints>
+</sport>

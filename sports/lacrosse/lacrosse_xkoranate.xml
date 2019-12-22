@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lacrosse—xkoranate formula</name>
+	<discipline>Lacrosse</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+			<string>goldengoal</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>OT</string>
+			<string>OT</string>
+		</list>
+		<double type="goldenGoalProb">1</double>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">0.5</dataPoint>
+		<dataPoint pos="0.0508333333333">2.5</dataPoint>
+		<dataPoint pos="0.1325">4.375</dataPoint>
+		<dataPoint pos="0.214166666667">5.5</dataPoint>
+		<dataPoint pos="0.295833333333">7.5</dataPoint>
+		<dataPoint pos="0.3775">9.125</dataPoint>
+		<dataPoint pos="0.459166666667">9.5</dataPoint>
+		<dataPoint pos="0.540833333333">10.5</dataPoint>
+		<dataPoint pos="0.6225">12.5</dataPoint>
+		<dataPoint pos="0.704166666667">13.5</dataPoint>
+		<dataPoint pos="0.785833333333">15.7083333333</dataPoint>
+		<dataPoint pos="0.8675">18.5</dataPoint>
+		<dataPoint pos="0.949166666667">21.5</dataPoint>
+		<dataPoint pos="0.99">27.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.01">0.0833333333333</dataPoint>
+		<dataPoint pos="0.0508333333333">0.416666666667</dataPoint>
+		<dataPoint pos="0.1325">0.729166666667</dataPoint>
+		<dataPoint pos="0.214166666667">0.916666666667</dataPoint>
+		<dataPoint pos="0.295833333333">1.25</dataPoint>
+		<dataPoint pos="0.3775">1.52083333333</dataPoint>
+		<dataPoint pos="0.459166666667">1.58333333333</dataPoint>
+		<dataPoint pos="0.540833333333">1.75</dataPoint>
+		<dataPoint pos="0.6225">2.08333333333</dataPoint>
+		<dataPoint pos="0.704166666667">2.25</dataPoint>
+		<dataPoint pos="0.785833333333">2.61805555555</dataPoint>
+		<dataPoint pos="0.8675">3.08333333333</dataPoint>
+		<dataPoint pos="0.949166666667">3.58333333333</dataPoint>
+		<dataPoint pos="0.99">4.58333333333</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Men’s double trap</name>
+	<alphabetizedName>Shooting—Men’s trap double</alphabetizedName>
+	<discipline>Shooting</discipline>
+	<event>Men’s double trap</event>
+	<scorinator/>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">3</int>
+		<list type="qualifyingAttemptTypes">
+			<string>qualifyingScore</string>
+			<string>qualifyingScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.015</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="finalAttempts">1</int>
+		<int type="finalDisplayDigits">0</int>
+		
+		<int type="shootoffDisplayDigits">0</int>
+		<double type="shootoffRankModifier">2</double>
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="qualifyingScore">
+		<dataPoint pos="0.0125">33.5</dataPoint>
+		<dataPoint pos="0.094791666666667">38.583333333333</dataPoint>
+		<dataPoint pos="0.259375">42.75</dataPoint>
+		<dataPoint pos="0.42395833333333">44.5</dataPoint>
+		<dataPoint pos="0.58854166666667">44.5</dataPoint>
+		<dataPoint pos="0.753125">45.5</dataPoint>
+		<dataPoint pos="0.91770833333333">47.5</dataPoint>
+		<dataPoint pos="0.9875">48.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.018518518518519">33.5</dataPoint>
+		<dataPoint pos="0.11666666666667">39.3</dataPoint>
+		<dataPoint pos="0.31296296296296">42.5</dataPoint>
+		<dataPoint pos="0.50925925925926">44.5</dataPoint>
+		<dataPoint pos="0.70555555555556">45.5</dataPoint>
+		<dataPoint pos="0.90185185185185">46.5</dataPoint>
+		<dataPoint pos="0.98148148148148">47.5</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.1">0</dataPoint>
+		<dataPoint pos="0.35">1</dataPoint>
+		<dataPoint pos="1">2</dataPoint>
+	</dataPoints>
+</sport>

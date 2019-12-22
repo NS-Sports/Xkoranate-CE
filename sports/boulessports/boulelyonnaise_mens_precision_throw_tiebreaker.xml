@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boule lyonnaise—Men’s precision throw (second tiebreaker)</name>
+	<discipline>Boule lyonnaise</discipline>
+	<event>Men’s precision throw (second tiebreaker)</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.25">1</dataPoint>
+		<dataPoint pos="0.58">3</dataPoint>
+		<dataPoint pos="0.8992">8</dataPoint>
+		<dataPoint pos="0.9577">11</dataPoint>
+		<dataPoint pos="0.9865">15</dataPoint>
+		<dataPoint pos="0.9957">19</dataPoint>
+		<dataPoint pos="0.9982">22</dataPoint>
+		<dataPoint pos="0.9994">26</dataPoint>
+		<dataPoint pos="0.99976">29</dataPoint>
+		<dataPoint pos="0.99990">32</dataPoint>
+		<dataPoint pos="0.999975">37</dataPoint>
+	</dataPoints>
+</sport>

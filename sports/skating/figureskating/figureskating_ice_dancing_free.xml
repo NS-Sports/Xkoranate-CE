@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Figure skating—Ice dancing—Free dance</name>
+	<alphabetizedName>Figure skating—~~Ice dancing—Round 3</alphabetizedName>
+	<discipline>Figure skating</discipline>
+	<event>Ice dancing</event>
+	<scorinator>Free dance</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.02">58.24</dataPoint>
+		<dataPoint pos="0.1425">70.9725</dataPoint>
+		<dataPoint pos="0.3875">82.775</dataPoint>
+		<dataPoint pos="0.6325">91.8325</dataPoint>
+		<dataPoint pos="0.8775">100.065</dataPoint>
+		<dataPoint pos="0.98">110.42</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics—Men’s trampoline—Qualifying</name>
+	<alphabetizedName>Gymnastics, trampoline—Men’s trampoline—Round 1</alphabetizedName>
+	<discipline>Gymnastics, trampoline</discipline>
+	<event>Men’s trampoline</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0277777777778">64.60</dataPoint>
+		<dataPoint pos="0.149305555556">66.425</dataPoint>
+		<dataPoint pos="0.392361111111">69.1625</dataPoint>
+		<dataPoint pos="0.635416666667">69.775</dataPoint>
+		<dataPoint pos="0.878472222222">71.525</dataPoint>
+		<dataPoint pos="0.972222222222">72.40</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s shot put—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s shot put—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s shot put</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.302395209581</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00617283950617">16.13</dataPoint>
+		<dataPoint pos="0.068287037037">18.2425</dataPoint>
+		<dataPoint pos="0.192515432099">18.7325</dataPoint>
+		<dataPoint pos="0.31674382716">19.14375</dataPoint>
+		<dataPoint pos="0.440972222222">19.45375</dataPoint>
+		<dataPoint pos="0.565200617284">19.62</dataPoint>
+		<dataPoint pos="0.689429012346">19.8225</dataPoint>
+		<dataPoint pos="0.813657407407">20.01</dataPoint>
+		<dataPoint pos="0.937885802469">20.4125</dataPoint>
+		<dataPoint pos="0.993827160494">21.04</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Women’s 300 m time trial</name>
+	<alphabetizedName>Roller speed skating—Women’s 00300 m time trial</alphabetizedName>
+	<discipline>Roller speed skating</discipline>
+	<event>Women’s 300 m time trial</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.016129032258065">29.716</dataPoint>
+		<dataPoint pos="0.11451612903226">29.2292</dataPoint>
+		<dataPoint pos="0.31129032258065">28.7646</dataPoint>
+		<dataPoint pos="0.50806451612903">28.443</dataPoint>
+		<dataPoint pos="0.70483870967742">28.2212</dataPoint>
+		<dataPoint pos="0.90161290322581">27.934</dataPoint>
+		<dataPoint pos="0.98387096774194">27.670</dataPoint>
+	</dataPoints>
+</sport>

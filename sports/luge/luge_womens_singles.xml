@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Luge—Women’s singles</name>
+	<discipline>Luge</discipline>
+	<event>Women’s singles</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.037</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">54.189</dataPoint>
+		<dataPoint pos="0.059">50.06055</dataPoint>
+		<dataPoint pos="0.157">49.0224</dataPoint>
+		<dataPoint pos="0.255">48.271</dataPoint>
+		<dataPoint pos="0.353">48.0541</dataPoint>
+		<dataPoint pos="0.451">47.872</dataPoint>
+		<dataPoint pos="0.549">47.61235</dataPoint>
+		<dataPoint pos="0.647">47.4208</dataPoint>
+		<dataPoint pos="0.745">47.287</dataPoint>
+		<dataPoint pos="0.843">47.2323</dataPoint>
+		<dataPoint pos="0.941">46.9973</dataPoint>
+		<dataPoint pos="0.99">46.820</dataPoint>
+	</dataPoints>
+</sport>

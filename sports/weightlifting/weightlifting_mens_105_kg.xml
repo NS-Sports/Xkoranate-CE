@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Weightlifting—Men’s 105 kg</name>
+	<alphabetizedName>Weightlifting—Men’s 105 kg</alphabetizedName>
+	<discipline>Weightlifting</discipline>
+	<event>Men’s 105 kg</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.142857142857</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0263157894737">330</dataPoint>
+		<dataPoint pos="0.148026315789">350</dataPoint>
+		<dataPoint pos="0.391447368421">390</dataPoint>
+		<dataPoint pos="0.634868421053">406</dataPoint>
+		<dataPoint pos="0.878289473684">420</dataPoint>
+		<dataPoint pos="0.973684210526">436</dataPoint>
+	</dataPoints>
+</sport>

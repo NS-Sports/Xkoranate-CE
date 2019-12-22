@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bandy—xkoranate formula</name>
+	<discipline>Bandy</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+			<string>shootout</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>OT</string>
+			<string>pen.</string>
+		</list>
+		<int type="shootoutLength">5</int>
+		<double type="shootoutProb">0.7</double>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0075757575757576">0</dataPoint>
+		<dataPoint pos="0.069602272727273">0.9375</dataPoint>
+		<dataPoint pos="0.1936553030303">2</dataPoint>
+		<dataPoint pos="0.31770833333333">2</dataPoint>
+		<dataPoint pos="0.44176136363636">3</dataPoint>
+		<dataPoint pos="0.56581439393939">4</dataPoint>
+		<dataPoint pos="0.68986742424242">6.3125</dataPoint>
+		<dataPoint pos="0.81392045454545">9</dataPoint>
+		<dataPoint pos="0.93797348484848">14</dataPoint>
+		<dataPoint pos="0.99242424242424">18</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.0075757575757576">0</dataPoint>
+		<dataPoint pos="0.069602272727273">0.3125</dataPoint>
+		<dataPoint pos="0.1936553030303">0.6667</dataPoint>
+		<dataPoint pos="0.31770833333333">0.6667</dataPoint>
+		<dataPoint pos="0.44176136363636">1</dataPoint>
+		<dataPoint pos="0.56581439393939">1.3333</dataPoint>
+		<dataPoint pos="0.68986742424242">2.1042</dataPoint>
+		<dataPoint pos="0.81392045454545">3</dataPoint>
+		<dataPoint pos="0.93797348484848">4.6667</dataPoint>
+		<dataPoint pos="0.99242424242424">6</dataPoint>
+	</dataPoints>
+</sport>

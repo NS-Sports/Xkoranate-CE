@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Men’s parallel giant slalom—Elimination</name>
+	<alphabetizedName>Snowboarding—Men’s parallel giant slalom—Round 2</alphabetizedName>
+	<discipline>Snowboarding</discipline>
+	<event>Men’s parallel giant slalom</event>
+	<scorinator>Elimination</scorinator>
+	
+	<paradigm>pgs</paradigm>
+	<paradigmOptions>
+		<int type="displayDigits">2</int>
+		<int type="attempts">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02054794520548</double>
+			<double>0.054794520547945</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.003968253968254">10.28</dataPoint>
+		<dataPoint pos="0.049242424242424">2.5518181818182</dataPoint>
+		<dataPoint pos="0.13979076479076">0.75</dataPoint>
+		<dataPoint pos="0.23033910533911">0.56068181818182</dataPoint>
+		<dataPoint pos="0.32088744588745">0.36022727272727</dataPoint>
+		<dataPoint pos="0.41143578643579">0.18840909090909</dataPoint>
+		<dataPoint pos="0.50198412698413">0</dataPoint>
+		<dataPoint pos="0.59253246753247">-0.18840909090909</dataPoint>
+		<dataPoint pos="0.68308080808081">-0.36022727272727</dataPoint>
+		<dataPoint pos="0.77362914862915">-0.56068181818182</dataPoint>
+		<dataPoint pos="0.86417748917749">-0.75</dataPoint>
+		<dataPoint pos="0.95472582972583">-2.5518181818182</dataPoint>
+		<dataPoint pos="0.99603174603175">-10.28</dataPoint>
+	</dataPoints>
+</sport>

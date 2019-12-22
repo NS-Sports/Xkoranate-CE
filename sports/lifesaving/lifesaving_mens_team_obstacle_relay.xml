@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Men’s team—4×50 m obstacle relay</name>
+	<alphabetizedName>Lifesaving—Men’s team—Event 1</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Men’s team</event>
+	<scorinator>4×50 m obstacle relay</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02083333333333</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">104.68</dataPoint>
+		<dataPoint pos="0.20833333333333">103.65666666667</dataPoint>
+		<dataPoint pos="0.525">100.78</dataPoint>
+		<dataPoint pos="0.84166666666667">99.843333333333</dataPoint>
+		<dataPoint pos="0.95">98.86</dataPoint>
+	</dataPoints>
+</sport>

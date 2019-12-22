@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bobsleigh—Two-man</name>
+	<alphabetizedName>Bobsleigh—Men’s 2-man</alphabetizedName>
+	<discipline>Bobsleigh</discipline>
+	<event>Two-man</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.007600293647709</double>
+			<double>0.014768752429071</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0054945054945055">56.18</dataPoint>
+		<dataPoint pos="0.060744810744811">53.186666666667</dataPoint>
+		<dataPoint pos="0.17124542124542">52.846666666667</dataPoint>
+		<dataPoint pos="0.28174603174603">52.645555555556</dataPoint>
+		<dataPoint pos="0.39224664224664">52.45</dataPoint>
+		<dataPoint pos="0.50274725274725">52.4</dataPoint>
+		<dataPoint pos="0.61324786324786">52.234444444444</dataPoint>
+		<dataPoint pos="0.72374847374847">52.034444444444</dataPoint>
+		<dataPoint pos="0.83424908424908">51.913333333333</dataPoint>
+		<dataPoint pos="0.94474969474969">51.714444444444</dataPoint>
+		<dataPoint pos="0.99450549450549">51.57</dataPoint>
+	</dataPoints>
+</sport>

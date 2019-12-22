@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Women’s tournament—Tricks</name>
+	<alphabetizedName>Water skiing—Women’s tournament—Event 2</alphabetizedName>
+	<discipline>Water skiing</discipline>
+	<event>Women’s tournament</event>
+	<scorinator>Tricks</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">0</int>
+		<double type="roundingValue">10</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">890</dataPoint>
+		<dataPoint pos="0.146875">1763.75</dataPoint>
+		<dataPoint pos="0.390625">3203.75</dataPoint>
+		<dataPoint pos="0.634375">5330</dataPoint>
+		<dataPoint pos="0.878125">6433.75</dataPoint>
+		<dataPoint pos="0.975">6790</dataPoint>
+	</dataPoints>
+</sport>

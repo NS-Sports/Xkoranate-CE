@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Women’s pursuit 10 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Women’s pursuit 10 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<string type="lapped">LAP</string>
+		<double type="lappedValue">10930</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">10930</dataPoint>
+		<dataPoint pos="0.033333333333333">10930</dataPoint>
+		<dataPoint pos="0.033333333333334">2151.926449643946161</dataPoint>
+		<dataPoint pos="0.041124772313296">2144.7</dataPoint>
+		<dataPoint pos="0.124576177465522">2067.3</dataPoint>
+		<dataPoint pos="0.246701795472288">1971.9</dataPoint>
+		<dataPoint pos="0.383665105386418">1942.1</dataPoint>
+		<dataPoint pos="0.520628415300549">1912.2</dataPoint>
+		<dataPoint pos="0.657591725214679">1890.2</dataPoint>
+		<dataPoint pos="0.794555035128809">1864.6</dataPoint>
+		<dataPoint pos="0.93151834504294">1816.3</dataPoint>
+		<dataPoint pos="0.992076502732236">1760.2</dataPoint>
+	</dataPoints>
+</sport>

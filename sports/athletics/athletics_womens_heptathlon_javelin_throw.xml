@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s heptathlon—Javelin throw</name>
+	<alphabetizedName>Athletics—Women’s heptathlon—Event 6</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s heptathlon</event>
+	<scorinator>Javelin throw</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.104761904762</double>
+		</list>
+		<double type="decathlonA">15.9803</double>
+		<double type="decathlonB">3.8</double>
+		<double type="decathlonC">1.04</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00520833333333">30.09</dataPoint>
+		<dataPoint pos="0.060474537037">34.7116666667</dataPoint>
+		<dataPoint pos="0.171006944444">37.64</dataPoint>
+		<dataPoint pos="0.281539351852">39.07</dataPoint>
+		<dataPoint pos="0.392071759259">41.3183333333</dataPoint>
+		<dataPoint pos="0.502604166667">42.06</dataPoint>
+		<dataPoint pos="0.613136574074">42.9166666667</dataPoint>
+		<dataPoint pos="0.723668981481">44.4333333333</dataPoint>
+		<dataPoint pos="0.834201388889">47.295</dataPoint>
+		<dataPoint pos="0.944733796296">50.3183333333</dataPoint>
+		<dataPoint pos="0.994791666667">52.05</dataPoint>
+	</dataPoints>
+</sport>

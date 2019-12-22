@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Men’s biathlon sprint 10 km</name>
+	<alphabetizedName>Ad’ihani pentathlon—Men’s—Event 4</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Men’s</event>
+	<scorinator>Biathlon (10 km sprint)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+		<double type="decathlonA">0.007631</double>
+		<double type="decathlonB">3350</double>
+		<double type="decathlonC">1.583</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0056179775280899">1887.9</dataPoint>
+		<dataPoint pos="0.060861423220974">1751.2666666667</dataPoint>
+		<dataPoint pos="0.17134831460674">1714.7333333333</dataPoint>
+		<dataPoint pos="0.28183520599251">1678.5</dataPoint>
+		<dataPoint pos="0.39232209737828">1666.1555555556</dataPoint>
+		<dataPoint pos="0.50280898876404">1634.7</dataPoint>
+		<dataPoint pos="0.61329588014981">1614.5444444444</dataPoint>
+		<dataPoint pos="0.72378277153558">1598.9444444444</dataPoint>
+		<dataPoint pos="0.83426966292135">1558.0333333333</dataPoint>
+		<dataPoint pos="0.94475655430712">1525.5777777778</dataPoint>
+		<dataPoint pos="0.99438202247191">1477.8</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, trampoline—Women’s double mini—Qualification</name>
+	<alphabetizedName>Gymnastics, trampoline—Women’s double mini—Round 1</alphabetizedName>
+	<discipline>Gymnastics, trampoline</discipline>
+	<event>Women’s double mini</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.022727272727273">30.2</dataPoint>
+		<dataPoint pos="0.14488636363636">32.0375</dataPoint>
+		<dataPoint pos="0.38920454545455">33.1</dataPoint>
+		<dataPoint pos="0.63352272727273">33.775</dataPoint>
+		<dataPoint pos="0.87784090909091">34.4625</dataPoint>
+		<dataPoint pos="0.97727272727273">34.8</dataPoint>
+	</dataPoints>
+</sport>

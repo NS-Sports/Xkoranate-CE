@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Archery—Women’s individual</name>
+	<alphabetizedName>Archery, target—Women’s recurve individual</alphabetizedName>
+	<discipline>Archery, target</discipline>
+	<event>Women’s recurve individual</event>
+	<scorinator/> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>archery</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">3</int>
+		<!-- ranking round -->
+		<int type="rankingArrows">72</int>
+		<double type="rankingRankModifier">1.1</double>
+		<double type="rankingRankAdjustmentFactor">0.3</double>
+		<string type="sortOrder">descending</string>
+		
+		<!-- knockout rounds -->
+		<int type="knockoutArrows">12</int>
+		<double type="knockoutRankModifier">1.05</double>
+		<double type="knockoutRankAdjustmentFactor">0.3</double>
+		
+		<int type="maxScore">10</int> <!-- score above this is an X -->
+		<int type="arrowsPerTiebreak">1</int> <!-- each tiebreak round involves only one arrow -->
+	</paradigmOptions>
+	<dataPoints name="score">
+		<dataPoint pos="0.000649350649351">4</dataPoint>
+		<dataPoint pos="0.0191558441558">6</dataPoint>
+		<dataPoint pos="0.0561688311688">7</dataPoint>
+		<dataPoint pos="0.0931818181818">7</dataPoint>
+		<dataPoint pos="0.130194805195">8</dataPoint>
+		<dataPoint pos="0.352272727273">8</dataPoint>
+		<dataPoint pos="0.389285714286">9</dataPoint>
+		<dataPoint pos="0.759415584416">9</dataPoint>
+		<dataPoint pos="0.796428571429">10</dataPoint>
+		<dataPoint pos="0.870454545455">10</dataPoint>
+		<dataPoint pos="0.907467532468">11</dataPoint> <!-- X -->
+		<dataPoint pos="0.999350649351">11</dataPoint>
+	</dataPoints>
+</sport>

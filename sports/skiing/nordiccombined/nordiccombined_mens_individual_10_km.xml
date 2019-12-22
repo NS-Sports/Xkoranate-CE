@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Nordic combined—Men’s individual 10 km</name>
+	<alphabetizedName>Nordic combined—Men’s individual ~10 km</alphabetizedName>
+	<discipline>Nordic combined</discipline>
+	<event>Men’s individual 10 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0054347826086957">1641.6</dataPoint>
+		<dataPoint pos="0.060688405797101">1571.7777777778</dataPoint>
+		<dataPoint pos="0.17119565217391">1523.0166666667</dataPoint>
+		<dataPoint pos="0.28170289855072">1487.0722222222</dataPoint>
+		<dataPoint pos="0.39221014492754">1466.1666666667</dataPoint>
+		<dataPoint pos="0.50271739130435">1455.9</dataPoint>
+		<dataPoint pos="0.61322463768116">1442.2444444444</dataPoint>
+		<dataPoint pos="0.72373188405797">1425.1555555556</dataPoint>
+		<dataPoint pos="0.83423913043478">1391</dataPoint>
+		<dataPoint pos="0.94474637681159">1346.9444444444</dataPoint>
+		<dataPoint pos="0.9945652173913">1221.5</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Men’s relay 4×7.5 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Men’s relay 4×7.5 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.023809523809524">5715.5</dataPoint>
+		<dataPoint pos="0.14583333333333">5389.225</dataPoint>
+		<dataPoint pos="0.38988095238095">5210.2</dataPoint>
+		<dataPoint pos="0.63392857142857">5057.625</dataPoint>
+		<dataPoint pos="0.87797619047619">4948.175</dataPoint>
+		<dataPoint pos="0.97619047619048">4898.1</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 100 m backstroke—Heats</name>
+	<alphabetizedName>Swimming—Men’s backstroke 100 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 100 m backstroke</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0106382978723">64.82</dataPoint>
+		<dataPoint pos="0.093085106383">57.3333333333</dataPoint>
+		<dataPoint pos="0.257978723404">55.89</dataPoint>
+		<dataPoint pos="0.422872340426">55.1766666667</dataPoint>
+		<dataPoint pos="0.587765957447">54.8833333333</dataPoint>
+		<dataPoint pos="0.752659574468">54.21</dataPoint>
+		<dataPoint pos="0.917553191489">53.7233333333</dataPoint>
+		<dataPoint pos="0.989361702128">53.41</dataPoint>
+	</dataPoints>
+</sport>

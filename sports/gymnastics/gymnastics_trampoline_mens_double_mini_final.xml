@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, trampoline—Men’s double mini—Final</name>
+	<alphabetizedName>Gymnastics, trampoline—Men’s double mini—Round 2</alphabetizedName>
+	<discipline>Gymnastics, trampoline</discipline>
+	<event>Men’s double mini</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">33</dataPoint>
+		<dataPoint pos="0.146875">33.3375</dataPoint>
+		<dataPoint pos="0.390625">34.2375</dataPoint>
+		<dataPoint pos="0.634375">35.475</dataPoint>
+		<dataPoint pos="0.878125">36.5</dataPoint>
+		<dataPoint pos="0.975">36.6</dataPoint>
+	</dataPoints>
+</sport>

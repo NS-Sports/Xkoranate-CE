@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 200 m—Heats</name>
+	<alphabetizedName>Athletics—Women’s 00200 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 200 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00909090909091</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0104166666667">32.16</dataPoint>
+		<dataPoint pos="0.0928819444444">24.325</dataPoint>
+		<dataPoint pos="0.2578125">23.62</dataPoint>
+		<dataPoint pos="0.422743055556">23.4325</dataPoint>
+		<dataPoint pos="0.587673611111">23.2175</dataPoint>
+		<dataPoint pos="0.752604166667">23.045</dataPoint>
+		<dataPoint pos="0.917534722222">22.885</dataPoint>
+		<dataPoint pos="0.989583333333">22.71</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Short track speed skating—Men’s 1 000 m</name>
+	<alphabetizedName>Short track speed skating—Men’s 1000 m</alphabetizedName>
+	<discipline>Short track speed skating</discipline>
+	<event>Men’s 1 000 m</event>
+	<scorinator/>
+	
+	<paradigm>shorttrack</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">3</double>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.066037735849057</double>
+		</list>
+		<list type="advancementProbs">
+			<double>0.357142857142857</double>
+		</list>
+		<double type="spontaneousAdvancementProb">0.004716981132075</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0080645161290323">110.292</dataPoint>
+		<dataPoint pos="0.078917050691244">88.428928571429</dataPoint>
+		<dataPoint pos="0.22062211981567">86.812785714286</dataPoint>
+		<dataPoint pos="0.36232718894009">86.172857142857</dataPoint>
+		<dataPoint pos="0.50403225806452">85.8415</dataPoint>
+		<dataPoint pos="0.64573732718894">85.464857142857</dataPoint>
+		<dataPoint pos="0.78744239631336">85.061285714286</dataPoint>
+		<dataPoint pos="0.92914746543779">84.380642857143</dataPoint>
+		<dataPoint pos="0.99193548387097">83.747</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="advancer"> <!-- 90% chance that the finisher with the worst time is advanced, 10% that the second-worst is advanced -->
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.9">1</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

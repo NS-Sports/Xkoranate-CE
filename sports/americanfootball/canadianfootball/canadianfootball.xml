@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canadian football</name>
+	<discipline>Canadian football</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>footba11er</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<string type="attackStyle">normal</string>
+		<double type="meanAttacks">11.57</double>
+		<double type="stDevAttacks">4</double>
+		<double type="attacksTailCutoff">0.005</double>
+		<int type="maxAttacks">25</int>
+		<list type="pointValues">
+			<int>7</int>
+			<int>3</int>
+			<int>1</int>
+			<int>6</int>
+			<int>2</int>
+		</list>
+		<list type="pointProbs">
+			<double>0.44</double>
+			<double>0.36</double>
+			<double>0.12</double>
+			<double>0.04</double>
+			<double>0.04</double>
+		</list>
+		<string type="tiebreakers">goldengoal</string>
+		<string type="tiebreakerNames"/>
+	</paradigmOptions>
+</sport>

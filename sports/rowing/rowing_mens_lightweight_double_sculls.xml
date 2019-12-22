@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Men’s lightweight double sculls</name>
+	<alphabetizedName>Rowing—Men’s scull 2 lightweight</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Men’s lightweight double sculls</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00675675675676">432.17</dataPoint>
+		<dataPoint pos="0.0688344594595">411.329375</dataPoint>
+		<dataPoint pos="0.192989864865">403.559375</dataPoint>
+		<dataPoint pos="0.31714527027">399.7825</dataPoint>
+		<dataPoint pos="0.441300675676">393.593125</dataPoint>
+		<dataPoint pos="0.565456081081">389.594375</dataPoint>
+		<dataPoint pos="0.689611486486">385.250625</dataPoint>
+		<dataPoint pos="0.813766891892">379.435</dataPoint>
+		<dataPoint pos="0.937922297297">375.39125</dataPoint>
+		<dataPoint pos="0.993243243243">370.99</dataPoint>
+	</dataPoints>
+</sport>

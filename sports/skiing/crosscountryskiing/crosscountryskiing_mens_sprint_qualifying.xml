@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Men’s individual sprint classical—Qualifying</name>
+	<alphabetizedName>Cross-country skiing—Men’s individual sprint classical—Round 1</alphabetizedName>
+	<discipline>Cross-country skiing</discipline>
+	<event>Men’s individual sprint classical</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">2</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0044642857142857">296.2</dataPoint>
+		<dataPoint pos="0.054241071428571">237.2285</dataPoint>
+		<dataPoint pos="0.15379464285714">228.316</dataPoint>
+		<dataPoint pos="0.25334821428571">223.775</dataPoint>
+		<dataPoint pos="0.35290178571429">222.37</dataPoint>
+		<dataPoint pos="0.45245535714286">221.09</dataPoint>
+		<dataPoint pos="0.55200892857143">219.5715</dataPoint>
+		<dataPoint pos="0.6515625">218.5405</dataPoint>
+		<dataPoint pos="0.75111607142857">217.45</dataPoint>
+		<dataPoint pos="0.85066964285714">216.474</dataPoint>
+		<dataPoint pos="0.95022321428571">214.97</dataPoint>
+		<dataPoint pos="0.99553571428571">214.3</dataPoint>
+	</dataPoints>
+</sport>

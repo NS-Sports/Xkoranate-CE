@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Auto racing—Race</name>
+	<alphabetizedName>Auto racing—Round 2</alphabetizedName>
+	<discipline>Auto racing</discipline>
+	<event>Race</event>
+	<scorinator/>
+	
+	<paradigm>autoracing</paradigm>
+	<paradigmOptions>
+		<double type="randCoeff">0.6</double>
+		<double type="randOffset">0.6</double>
+		<double type="skillCoeff">0.3</double>
+		<double type="reliabilityCoeff">0.03</double>
+		<string type="unreliableText">DNF</string>
+		<double type="startingGridPenalty">2</double>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">5</int>
+		<int type="resultWidth">11</int>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—Shot put</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 03</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>Shot put</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.209090909091</double>
+		</list>
+		<double type="decathlonA">51.39</double>
+		<double type="decathlonB">1.5</double>
+		<double type="decathlonC">1.05</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00561797752809">11.42</dataPoint>
+		<dataPoint pos="0.060861423221">12.41</dataPoint>
+		<dataPoint pos="0.171348314607">13.18</dataPoint>
+		<dataPoint pos="0.281835205993">13.4844444444</dataPoint>
+		<dataPoint pos="0.392322097378">13.8333333333</dataPoint>
+		<dataPoint pos="0.502808988764">14.1</dataPoint>
+		<dataPoint pos="0.61329588015">14.5733333333</dataPoint>
+		<dataPoint pos="0.723782771536">14.8511111111</dataPoint>
+		<dataPoint pos="0.834269662921">15.4066666667</dataPoint>
+		<dataPoint pos="0.944756554307">15.8644444444</dataPoint>
+		<dataPoint pos="0.994382022472">16.53</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 400 m—Semifinals</name>
+	<alphabetizedName>Athletics—Women’s 00400 m—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 400 m</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0192307692308">54.18</dataPoint>
+		<dataPoint pos="0.117307692308">52.604</dataPoint>
+		<dataPoint pos="0.313461538462">51.87</dataPoint>
+		<dataPoint pos="0.509615384615">51.095</dataPoint>
+		<dataPoint pos="0.705769230769">50.621</dataPoint>
+		<dataPoint pos="0.901923076923">50.286</dataPoint>
+		<dataPoint pos="0.980769230769">49.90</dataPoint>
+	</dataPoints>
+</sport>

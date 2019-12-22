@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Nordic combined—Men’s individual large hill</name>
+	<discipline>Nordic combined</discipline>
+	<event>Men’s individual large hill</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.010416666666667">38</dataPoint>
+		<dataPoint pos="0.092881944444444">69.175</dataPoint>
+		<dataPoint pos="0.2578125">86.475</dataPoint>
+		<dataPoint pos="0.42274305555556">93.425</dataPoint>
+		<dataPoint pos="0.58767361111111">103.15</dataPoint>
+		<dataPoint pos="0.75260416666667">108.775</dataPoint>
+		<dataPoint pos="0.91753472222222">116.425</dataPoint>
+		<dataPoint pos="0.98958333333333">127</dataPoint>
+	</dataPoints>
+</sport>

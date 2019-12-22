@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="document-export">icons/document-export.png</file>
+        <file alias="document-import">icons/document-import.png</file>
+        <file alias="document-save">icons/document-save.png</file>
+        <file alias="document-save-as">icons/document-save-as.png</file>
+        <file alias="roll">icons/roll.png</file>
+        <file alias="xkoranate">icons/xkoranate.png</file>
+        <file alias="document-new">icons/document-new.png</file>
+        <file alias="table-generator">icons/table-generator.png</file>
+        <file alias="table-generator-refresh">icons/table-generator-refresh.png</file>
+        <file alias="add-all-participants">icons/add-all-participants.png</file>
+        <file alias="add-participant">icons/add-participant.png</file>
+        <file alias="add">icons/add.png</file>
+        <file alias="remove">icons/remove.png</file>
+        <file alias="document-open">icons/document-open.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 10 000 m</name>
+	<alphabetizedName>Athletics—Men’s 10000 m</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 10 000 m</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0724637681159</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0135135135135">1764.78</dataPoint>
+		<dataPoint pos="0.0957207207207">1736.625</dataPoint>
+		<dataPoint pos="0.260135135135">1694.175</dataPoint>
+		<dataPoint pos="0.42454954955">1684.995</dataPoint>
+		<dataPoint pos="0.588963963964">1672.63166667</dataPoint>
+		<dataPoint pos="0.753378378378">1646.305</dataPoint>
+		<dataPoint pos="0.917792792793">1624.11</dataPoint>
+		<dataPoint pos="0.986486486486">1621.17</dataPoint>
+	</dataPoints>
+</sport>

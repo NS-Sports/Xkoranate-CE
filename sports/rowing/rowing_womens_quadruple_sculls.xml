@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Women’s quadruple sculls</name>
+	<alphabetizedName>Rowing—Women’s scull 4</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Women’s quadruple sculls</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0208333333333">411.14</dataPoint>
+		<dataPoint pos="0.143229166667">401.4125</dataPoint>
+		<dataPoint pos="0.388020833333">388.185</dataPoint>
+		<dataPoint pos="0.6328125">380.00375</dataPoint>
+		<dataPoint pos="0.877604166667">375.76</dataPoint>
+		<dataPoint pos="0.979166666667">371.83</dataPoint>
+	</dataPoints>
+</sport>

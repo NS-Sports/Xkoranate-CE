@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller hockey—Match, xkoranate formula</name>
+	<discipline>Roller hockey</discipline>
+	<event>Match</event>
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+		<double type="goldenGoalProb">1</double>
+		<list type="tiebreakers">
+			<string>goldengoal</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>OT</string>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.015625">0</dataPoint>
+		<dataPoint pos="0.1140625">0.9</dataPoint>
+		<dataPoint pos="0.3109375">1</dataPoint>
+		<dataPoint pos="0.5078125">3</dataPoint>
+		<dataPoint pos="0.7046875">5</dataPoint>
+		<dataPoint pos="0.9015625">7.1</dataPoint>
+		<dataPoint pos="0.984375">9</dataPoint>
+	</dataPoints>
+</sport>

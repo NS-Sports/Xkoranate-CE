@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Men’s 300 m time trial</name>
+	<alphabetizedName>Roller speed skating—Men’s 00300 m time trial</alphabetizedName>
+	<discipline>Roller speed skating</discipline>
+	<event>Men’s 300 m time trial</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.017241379310345">27.194</dataPoint>
+		<dataPoint pos="0.11551724137931">27.0382</dataPoint>
+		<dataPoint pos="0.31206896551724">26.7264</dataPoint>
+		<dataPoint pos="0.50862068965517">26.49</dataPoint>
+		<dataPoint pos="0.7051724137931">26.3192</dataPoint>
+		<dataPoint pos="0.90172413793103">25.9262</dataPoint>
+		<dataPoint pos="0.98275862068966">25.555</dataPoint>
+	</dataPoints>
+</sport>

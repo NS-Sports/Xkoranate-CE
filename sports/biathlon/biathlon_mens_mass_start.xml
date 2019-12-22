@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Men’s mass start 15 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Men’s mass start 15 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.015625">2358.5</dataPoint>
+		<dataPoint pos="0.1140625">2269.54</dataPoint>
+		<dataPoint pos="0.3109375">2223.37</dataPoint>
+		<dataPoint pos="0.5078125">2192.9</dataPoint>
+		<dataPoint pos="0.7046875">2170.64</dataPoint>
+		<dataPoint pos="0.9015625">2160.67</dataPoint>
+		<dataPoint pos="0.984375">2135.7</dataPoint>
+	</dataPoints>
+</sport>

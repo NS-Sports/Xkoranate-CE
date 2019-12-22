@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Women’s individual sprint classical—Qualifying</name>
+	<alphabetizedName>Cross-country skiing—Women’s individual sprint classical—Round 1</alphabetizedName>
+	<discipline>Cross-country skiing</discipline>
+	<event>Women’s individual sprint classical</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">2</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0048076923076923">272.96</dataPoint>
+		<dataPoint pos="0.054567307692308">245.0875</dataPoint>
+		<dataPoint pos="0.15408653846154">233.8505</dataPoint>
+		<dataPoint pos="0.25360576923077">231</dataPoint>
+		<dataPoint pos="0.353125">228.5915</dataPoint>
+		<dataPoint pos="0.45264423076923">226.106</dataPoint>
+		<dataPoint pos="0.55216346153846">224.746</dataPoint>
+		<dataPoint pos="0.65168269230769">223.07</dataPoint>
+		<dataPoint pos="0.75120192307692">221.6</dataPoint>
+		<dataPoint pos="0.85072115384615">220.015</dataPoint>
+		<dataPoint pos="0.95024038461538">218.705</dataPoint>
+		<dataPoint pos="0.99519230769231">215.4</dataPoint>
+	</dataPoints>
+</sport>

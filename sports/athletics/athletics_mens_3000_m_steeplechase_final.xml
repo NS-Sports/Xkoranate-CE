@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 3 000 m steeplechase—Final</name>
+	<alphabetizedName>Athletics—Men’s 2steeplechase—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 3 000 m steeplechase</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0294117647059">542.06</dataPoint>
+		<dataPoint pos="0.150735294118">512.0525</dataPoint>
+		<dataPoint pos="0.393382352941">500.585</dataPoint>
+		<dataPoint pos="0.636029411765">496.365</dataPoint>
+		<dataPoint pos="0.878676470588">490.88</dataPoint>
+		<dataPoint pos="0.970588235294">490.34</dataPoint>
+	</dataPoints>
+</sport>

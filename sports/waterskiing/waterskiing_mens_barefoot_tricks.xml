@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Men’s barefoot—Tricks</name>
+	<alphabetizedName>Water skiing—Men’s barefoot—Event 3</alphabetizedName>
+	<discipline>Water skiing</discipline>
+	<event>Men’s barefoot</event>
+	<scorinator>Tricks</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">0</int>
+		<double type="roundingValue">50</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.020833333333333">435</dataPoint>
+		<dataPoint pos="0.14322916666667">1308.75</dataPoint>
+		<dataPoint pos="0.38802083333333">2276.25</dataPoint>
+		<dataPoint pos="0.6328125">4037.5</dataPoint>
+		<dataPoint pos="0.87760416666667">7950</dataPoint>
+		<dataPoint pos="0.97916666666667">9350</dataPoint>
+	</dataPoints>
+</sport>

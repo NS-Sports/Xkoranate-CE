@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boule lyonnaise—Women’s progressive throw</name>
+	<discipline>Boule lyonnaise</discipline>
+	<event>Women’s progressive throw</event>
+	<scorinator/>
+	
+	<paradigm>progressivethrow</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<double type="accuracyRoundingValue">0.000001</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	<dataPoints name="attempts">
+		<dataPoint pos="0.03125">38</dataPoint>
+		<dataPoint pos="0.19270833333333">42</dataPoint>
+		<dataPoint pos="0.515625">44.5</dataPoint>
+		<dataPoint pos="0.83854166666667">46.833333333333</dataPoint>
+		<dataPoint pos="0.96875">48</dataPoint>
+	</dataPoints>
+	<dataPoints name="accuracy">
+		<dataPoint pos="0.03125">0.4222222222</dataPoint>
+		<dataPoint pos="0.19270833333333">0.61111111111667</dataPoint>
+		<dataPoint pos="0.515625">0.6922705314</dataPoint>
+		<dataPoint pos="0.83854166666667">0.83964646463333</dataPoint>
+		<dataPoint pos="0.96875">0.8510638298</dataPoint>
+	</dataPoints>
+</sport>

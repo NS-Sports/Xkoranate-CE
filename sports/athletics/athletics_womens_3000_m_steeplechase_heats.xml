@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 3 000 m steeplechase—Heats</name>
+	<alphabetizedName>Athletics—Women’s 2steeplechase—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 3 000 m steeplechase</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0102040816327">636.77</dataPoint>
+		<dataPoint pos="0.0926870748299">604.61</dataPoint>
+		<dataPoint pos="0.257653061224">590.815</dataPoint>
+		<dataPoint pos="0.422619047619">583.886666667</dataPoint>
+		<dataPoint pos="0.587585034014">570.533333333</dataPoint>
+		<dataPoint pos="0.752551020408">568.885</dataPoint>
+		<dataPoint pos="0.917517006803">562.071666667</dataPoint>
+		<dataPoint pos="0.989795918367">555.17</dataPoint>
+	</dataPoints>
+</sport>

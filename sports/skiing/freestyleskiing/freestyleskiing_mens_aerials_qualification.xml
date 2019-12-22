@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Men’s aerials—Qualification</name>
+	<alphabetizedName>Freestyle skiing—Men’s aerials—Round 1</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Men’s aerials</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">80.53</dataPoint>
+		<dataPoint pos="0.080714285714286">82.205</dataPoint>
+		<dataPoint pos="0.22214285714286">100.61214285714</dataPoint>
+		<dataPoint pos="0.36357142857143">106.16642857143</dataPoint>
+		<dataPoint pos="0.505">110.945</dataPoint>
+		<dataPoint pos="0.64642857142857">115.97714285714</dataPoint>
+		<dataPoint pos="0.78785714285714">120.705</dataPoint>
+		<dataPoint pos="0.92928571428571">123.48571428571</dataPoint>
+		<dataPoint pos="0.99">125.89</dataPoint>
+	</dataPoints>
+</sport>

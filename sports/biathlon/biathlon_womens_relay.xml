@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Women’s relay 4×6 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Women’s relay 4×6 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.023809523809524">4736.2</dataPoint>
+		<dataPoint pos="0.14583333333333">4530</dataPoint>
+		<dataPoint pos="0.38988095238095">4379.675</dataPoint>
+		<dataPoint pos="0.63392857142857">4315.3</dataPoint>
+		<dataPoint pos="0.87797619047619">4218.575</dataPoint>
+		<dataPoint pos="0.97619047619048">4176.3</dataPoint>
+	</dataPoints>
+</sport>

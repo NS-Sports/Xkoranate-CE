@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Eventing—Jumping</name>
+	<alphabetizedName>Equestrian, eventing—Round 3</alphabetizedName>
+	<discipline>Equestrian, eventing</discipline>
+	<event>Jumping</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<double type="roundingValue">1</double>
+		<string type="sortOrder">ascending</string>
+		<list type="statuses">
+			<string>EL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0123456790123</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00609756097561">34</dataPoint>
+		<dataPoint pos="0.0613143631436">23.2222222222</dataPoint>
+		<dataPoint pos="0.17174796748">11</dataPoint>
+		<dataPoint pos="0.282181571816">7</dataPoint>
+		<dataPoint pos="0.392615176152">4.83333333333</dataPoint>
+		<dataPoint pos="0.503048780488">3</dataPoint>
+		<dataPoint pos="0.613482384824">3</dataPoint>
+		<dataPoint pos="0.72391598916">-0.99</dataPoint>
+		<dataPoint pos="0.993902439024">-0.99</dataPoint>
+	</dataPoints>
+</sport>

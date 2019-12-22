@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Karate—Kata</name>
+	<discipline>Karate</discipline>
+	<event>Kata</event>
+	<scorinator/>
+	
+	<paradigm>bestof</paradigm>
+	<paradigmOptions>
+		<int type="games">1</int>
+	</paradigmOptions>
+</sport>

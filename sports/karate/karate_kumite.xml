@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Karate—Kumite</name>
+	<discipline>Karate</discipline>
+	<event>Kumite</event>
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>goldengoal</string>
+			<string>decision</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string></string>
+			<string>+</string>
+		</list>
+		<double type="goldenGoalProb">0.7</double>
+		<int type="forceTieBreak">1</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0038461538461538">0</dataPoint>
+		<dataPoint pos="0.049125874125874">0</dataPoint>
+		<dataPoint pos="0.13968531468531">0</dataPoint>
+		<dataPoint pos="0.23024475524476">0</dataPoint>
+		<dataPoint pos="0.3208041958042">0</dataPoint>
+		<dataPoint pos="0.41136363636364">1</dataPoint>
+		<dataPoint pos="0.50192307692308">1</dataPoint>
+		<dataPoint pos="0.59248251748252">2</dataPoint>
+		<dataPoint pos="0.68304195804196">2</dataPoint>
+		<dataPoint pos="0.7736013986014">3</dataPoint>
+		<dataPoint pos="0.86416083916084">4</dataPoint>
+		<dataPoint pos="0.95472027972028">6</dataPoint>
+		<dataPoint pos="0.99615384615385">11</dataPoint>
+	</dataPoints>
+</sport>

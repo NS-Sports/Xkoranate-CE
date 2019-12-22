@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>American football—NSFS formula (IFAF overtime)</name>
+	<discipline>American football</discipline>
+	<event>NSFS2 formula</event>
+	<scorinator>IFAF overtime</scorinator>
+	
+	<paradigm>nsfs</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">7.5</double>
+		<double type="homeAdvantageIFAF">0.133333333333</double>
+		<list type="attackCoeffs">
+			<double>1</double>
+			<double>1</double>
+		</list>
+		<double type="etAttackCoeff">0.333333333333</double>
+		<int type="shootoutLength">5</int>
+		<double type="shootoutProb">0.65</double>
+		<list type="pointValues">
+			<int>6</int> <!-- first value can have a conversion -->
+			<int>3</int>
+		</list>
+		<list type="ifafPointProbs">
+			<double>0.437</double>
+			<double>0.282</double>
+		</list>
+		<list type="conversionValues">
+			<int>1</int>
+			<int>2</int> <!-- last conversion value will be chosen for third+ overtime, when IFAF rules are implemented -->
+		</list>
+		<list type="conversionSelection">
+			<double>0.95</double>
+			<double>0.05</double>
+		</list>
+		<list type="conversionSuccess">
+			<double>0.98</double>
+			<double>0.34</double>
+		</list>
+		<list type="tiebreakers">
+			<string>ifaf</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>OT</string>
+		</list>
+		
+		<!-- NSFS parameters -->
+		<double type="baseAttackCoeff">667.5</double>
+		<double type="rankDiffModifier">12</double>
+		<double type="rankCoeff">31.5</double>
+		<double type="rankScalar">0.5</double>
+		<double type="baseAttackSuccessThreshold">580</double>
+		<int type="baseAttacksSuperior">10</int>
+		<int type="baseAttacksInferior">10</int>
+		<double type="attackCoeffSuperior">10</double>
+		<double type="attackCoeffInferior">0</double>
+		<double type="NSFSStyleCoeffA">2.0991677816057</double>
+		<double type="NSFSStyleCoeffB">1.2442581729602</double>
+		<double type="NSFSStyleExponent">-0.42705203296846</double>
+		<double type="NSFSStyleOffset">0.072435335725325</double>
+	</paradigmOptions>
+	
+	<!-- the style modifier distribution is a bit wonky because negative modifiers are less likely to take effect -->
+	<dataPoints name="style">
+		<dataPoint pos="0">-2</dataPoint>
+		<dataPoint pos="0.4">-1</dataPoint>
+		<dataPoint pos="0.5">0</dataPoint>
+		<dataPoint pos="0.65">0</dataPoint>
+		<dataPoint pos="1">2</dataPoint>
+	</dataPoints>
+</sport>

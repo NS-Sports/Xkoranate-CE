@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 100 m—Semifinals</name>
+	<alphabetizedName>Athletics—Women’s 00100 m—Round 3</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 100 m</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0277777777778">11.49</dataPoint>
+		<dataPoint pos="0.149305555556">11.48125</dataPoint>
+		<dataPoint pos="0.392361111111">11.255</dataPoint>
+		<dataPoint pos="0.635416666667">11.16625</dataPoint>
+		<dataPoint pos="0.878472222222">11.03875</dataPoint>
+		<dataPoint pos="0.972222222222">10.98</dataPoint>
+	</dataPoints>
+</sport>

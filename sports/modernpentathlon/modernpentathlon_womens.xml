@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Modern pentathlon—Women’s</name>
+	<discipline>Modern pentathlon</discipline>
+	<event>Women’s</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<double type="roundingValue">4</double>
+		<double type="tiebreakerDigits">3</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0131578947368">3736</dataPoint>
+		<dataPoint pos="0.0953947368421">4869.66666667</dataPoint>
+		<dataPoint pos="0.259868421053">5183</dataPoint>
+		<dataPoint pos="0.424342105263">5290.33333333</dataPoint>
+		<dataPoint pos="0.588815789474">5380.33333333</dataPoint>
+		<dataPoint pos="0.753289473684">5482</dataPoint>
+		<dataPoint pos="0.917763157895">5642.66666667</dataPoint>
+		<dataPoint pos="0.986842105263">5792</dataPoint>
+	</dataPoints>
+</sport>

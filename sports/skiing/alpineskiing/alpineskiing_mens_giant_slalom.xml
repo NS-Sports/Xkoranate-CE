@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Alpine skiing—Men’s giant slalom</name>
+	<discipline>Alpine skiing</discipline>
+	<event>Men’s giant slalom</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.120531914893617</double>
+			<double>0.003333333333333</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0029239766081871">108.15</dataPoint>
+		<dataPoint pos="0.041273054430949">96.975384615385</dataPoint>
+		<dataPoint pos="0.11797121007647">92.424615384615</dataPoint>
+		<dataPoint pos="0.194669365722">90.317692307692</dataPoint>
+		<dataPoint pos="0.27136752136752">88.101538461538</dataPoint>
+		<dataPoint pos="0.34806567701305">86.136153846154</dataPoint>
+		<dataPoint pos="0.42476383265857">84.527692307692</dataPoint>
+		<dataPoint pos="0.50146198830409">83.61</dataPoint>
+		<dataPoint pos="0.57816014394962">81.97</dataPoint>
+		<dataPoint pos="0.65485829959514">81.44</dataPoint>
+		<dataPoint pos="0.73155645524067">81.002307692308</dataPoint>
+		<dataPoint pos="0.80825461088619">79.808461538462</dataPoint>
+		<dataPoint pos="0.88495276653171">78.700769230769</dataPoint>
+		<dataPoint pos="0.96165092217724">77.864615384615</dataPoint>
+		<dataPoint pos="0.99707602339181">77.27</dataPoint>
+	</dataPoints>
+</sport>

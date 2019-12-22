@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boxing—xkoranate formula</name>
+	<discipline>Boxing</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>decision</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>+</string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>KO</string>
+			<string>RET</string>
+			<string>RSC</string>
+			<string>RSCH</string>
+			<string>RSCI</string>
+			<string>RSCOS</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00387596899225</double>
+			<double>0.00387596899225</double>
+			<double>0.0116279069767</double>
+			<double>0.0193798449612</double>
+			<double>0.0193798449612</double>
+			<double>0.015503875969</double>
+			<double>0.00387596899225</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.000996015936255">0</dataPoint>
+		<dataPoint pos="0.0237006519377">1</dataPoint>
+		<dataPoint pos="0.0691099239406">2</dataPoint>
+		<dataPoint pos="0.114519195943">2</dataPoint>
+		<dataPoint pos="0.159928467946">3</dataPoint>
+		<dataPoint pos="0.205337739949">3</dataPoint>
+		<dataPoint pos="0.250747011952">4</dataPoint>
+		<dataPoint pos="0.296156283955">4</dataPoint>
+		<dataPoint pos="0.341565555958">5</dataPoint>
+		<dataPoint pos="0.386974827961">6</dataPoint>
+		<dataPoint pos="0.432384099964">7</dataPoint>
+		<dataPoint pos="0.477793371967">7</dataPoint>
+		<dataPoint pos="0.52320264397">8</dataPoint>
+		<dataPoint pos="0.568611915972">9</dataPoint>
+		<dataPoint pos="0.614021187975">9</dataPoint>
+		<dataPoint pos="0.659430459978">10</dataPoint>
+		<dataPoint pos="0.704839731981">10</dataPoint>
+		<dataPoint pos="0.750249003984">11</dataPoint>
+		<dataPoint pos="0.795658275987">12</dataPoint>
+		<dataPoint pos="0.84106754799">13</dataPoint>
+		<dataPoint pos="0.886476819993">14</dataPoint>
+		<dataPoint pos="0.931886091996">15</dataPoint>
+		<dataPoint pos="0.977295363999">19.6590909091</dataPoint>
+		<dataPoint pos="0.999003984064">23</dataPoint>
+	</dataPoints>
+</sport>

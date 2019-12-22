@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Golf</name>
+	<discipline>Golf</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>golfinator</paradigm>
+	<paradigmOptions>
+		<int type="holes">18</int>
+		<!-- it’s hard to tweak any parameters in any meaningful manner here -->
+	</paradigmOptions>
+</sport>

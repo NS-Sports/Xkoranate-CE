@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Women’s team—4×50 m obstacle relay</name>
+	<alphabetizedName>Lifesaving—Women’s team—Event 1</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Women’s team</event>
+	<scorinator>4×50 m obstacle relay</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02083333333333</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">124.45</dataPoint>
+		<dataPoint pos="0.20833333333333">118.27666666667</dataPoint>
+		<dataPoint pos="0.525">115.9</dataPoint>
+		<dataPoint pos="0.84166666666667">114.09333333333</dataPoint>
+		<dataPoint pos="0.95">110.49</dataPoint>
+	</dataPoints>
+</sport>

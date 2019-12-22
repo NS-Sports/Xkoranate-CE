@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Men’s aerials—Final</name>
+	<alphabetizedName>Freestyle skiing—Men’s aerials—Round 2</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Men’s aerials</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.019230769230769">86.95</dataPoint>
+		<dataPoint pos="0.11730769230769">98.743</dataPoint>
+		<dataPoint pos="0.31346153846154">115.369</dataPoint>
+		<dataPoint pos="0.50961538461538">119.03</dataPoint>
+		<dataPoint pos="0.70576923076923">121.405</dataPoint>
+		<dataPoint pos="0.90192307692308">128.383</dataPoint>
+		<dataPoint pos="0.98076923076923">129.27</dataPoint>
+	</dataPoints>
+</sport>

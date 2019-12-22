@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller skating, artistic—Long program</name>
+	<alphabetizedName>Roller skating, artistic—Event 2</alphabetizedName>
+	<discipline>Roller skating, artistic</discipline>
+	<event>Long program</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<double type="roundingValue">0.3</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.019230769230769">212.7</dataPoint>
+		<dataPoint pos="0.11730769230769">234.84</dataPoint>
+		<dataPoint pos="0.31346153846154">243.75</dataPoint>
+		<dataPoint pos="0.50961538461538">257.55</dataPoint>
+		<dataPoint pos="0.70576923076923">272.28</dataPoint>
+		<dataPoint pos="0.90192307692308">287.4</dataPoint>
+		<dataPoint pos="0.98076923076923">294.6</dataPoint>
+	</dataPoints>
+</sport>

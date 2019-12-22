@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling, track—Women’s omnium—Flying lap</name>
+	<alphabetizedName>Cycling, track—Women’s omnium—Event 1</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Women’s omnium</event>
+	<scorinator>Flying lap</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.019230769230769">16.837</dataPoint>
+		<dataPoint pos="0.11730769230769">15.4437</dataPoint>
+		<dataPoint pos="0.31346153846154">15.2811</dataPoint>
+		<dataPoint pos="0.50961538461538">15.071</dataPoint>
+		<dataPoint pos="0.70576923076923">14.9744</dataPoint>
+		<dataPoint pos="0.90192307692308">14.7911</dataPoint>
+		<dataPoint pos="0.98076923076923">14.469</dataPoint>
+	</dataPoints>
+</sport>

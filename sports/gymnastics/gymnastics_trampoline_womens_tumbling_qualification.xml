@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, trampoline—Women’s tumbling—Qualification</name>
+	<alphabetizedName>Gymnastics, trampoline—Women’s tumbling—Round 1</alphabetizedName>
+	<discipline>Gymnastics, trampoline</discipline>
+	<event>Women’s tumbling</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">24.2</dataPoint>
+		<dataPoint pos="0.146875">27.525</dataPoint>
+		<dataPoint pos="0.390625">30.025</dataPoint>
+		<dataPoint pos="0.634375">30.8625</dataPoint>
+		<dataPoint pos="0.878125">32.1</dataPoint>
+		<dataPoint pos="0.975">33.2</dataPoint>
+	</dataPoints>
+</sport>

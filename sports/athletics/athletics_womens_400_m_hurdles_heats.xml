@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 400 m hurdles—Heats</name>
+	<alphabetizedName>Athletics—Women’s 2hurdles 400 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 400 m hurdles</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00990099009901</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0172413793103">60.31</dataPoint>
+		<dataPoint pos="0.115517241379">57.882</dataPoint>
+		<dataPoint pos="0.312068965517">56.936</dataPoint>
+		<dataPoint pos="0.508620689655">56.07</dataPoint>
+		<dataPoint pos="0.705172413793">55.67</dataPoint>
+		<dataPoint pos="0.901724137931">55.186</dataPoint>
+		<dataPoint pos="0.98275862069">54.46</dataPoint>
+	</dataPoints>
+</sport>

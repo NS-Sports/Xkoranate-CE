@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Men’s coxless pairs</name>
+	<alphabetizedName>Rowing—Men’s sweep 2</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Men’s coxless pairs</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0106382978723">437.43</dataPoint>
+		<dataPoint pos="0.093085106383">432.006666667</dataPoint>
+		<dataPoint pos="0.257978723404">414.4</dataPoint>
+		<dataPoint pos="0.422872340426">408.343333333</dataPoint>
+		<dataPoint pos="0.587765957447">404.613333333</dataPoint>
+		<dataPoint pos="0.752659574468">398.96</dataPoint>
+		<dataPoint pos="0.917553191489">396.796666667</dataPoint>
+		<dataPoint pos="0.989361702128">394.02</dataPoint>
+	</dataPoints>
+</sport>

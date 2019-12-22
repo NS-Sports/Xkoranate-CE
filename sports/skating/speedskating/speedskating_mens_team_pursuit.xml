@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Speed skating—Men’s team pursuit</name>
+	<discipline>Speed skating</discipline>
+	<event>Men’s team pursuit</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.014897486772487</double>
+			<double>0.002314814814815</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.022727272727273">234.39</dataPoint>
+		<dataPoint pos="0.14488636363636">228.43125</dataPoint>
+		<dataPoint pos="0.38920454545455">224.25</dataPoint>
+		<dataPoint pos="0.63352272727273">223.15125</dataPoint>
+		<dataPoint pos="0.87784090909091">221.44875</dataPoint>
+		<dataPoint pos="0.97727272727273">219.95</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s javelin throw—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s javelin throw—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s javelin throw</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.268096514745</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00420168067227">40.15</dataPoint>
+		<dataPoint pos="0.0539915966387">47.102</dataPoint>
+		<dataPoint pos="0.153571428571">51.312</dataPoint>
+		<dataPoint pos="0.253151260504">53.24</dataPoint>
+		<dataPoint pos="0.352731092437">53.91</dataPoint>
+		<dataPoint pos="0.45231092437">54.794</dataPoint>
+		<dataPoint pos="0.551890756303">55.646</dataPoint>
+		<dataPoint pos="0.651470588235">56.618</dataPoint>
+		<dataPoint pos="0.751050420168">57.25</dataPoint>
+		<dataPoint pos="0.850630252101">59.228</dataPoint>
+		<dataPoint pos="0.950210084034">62.01</dataPoint>
+		<dataPoint pos="0.995798319328">67.69</dataPoint>
+	</dataPoints>
+</sport>

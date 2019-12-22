@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Women’s sprint 7.5 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Women’s sprint 7.5 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0055555555555556">1524.1</dataPoint>
+		<dataPoint pos="0.060802469135802">1437.2166666667</dataPoint>
+		<dataPoint pos="0.1712962962963">1391.65</dataPoint>
+		<dataPoint pos="0.28179012345679">1354.1833333333</dataPoint>
+		<dataPoint pos="0.39228395061728">1339.7166666667</dataPoint>
+		<dataPoint pos="0.50277777777778">1321.65</dataPoint>
+		<dataPoint pos="0.61327160493827">1307.8</dataPoint>
+		<dataPoint pos="0.72376543209877">1271.6833333333</dataPoint>
+		<dataPoint pos="0.83425925925926">1245.4</dataPoint>
+		<dataPoint pos="0.94475308641975">1222.8166666667</dataPoint>
+		<dataPoint pos="0.99444444444444">1195.6</dataPoint>
+	</dataPoints>
+</sport>

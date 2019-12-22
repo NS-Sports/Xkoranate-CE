@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Dressage—Grand prix special</name>
+	<alphabetizedName>Equestrian, dressage—Round 2</alphabetizedName>
+	<discipline>Equestrian, dressage</discipline>
+	<event>Grand prix special</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.04</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0185185185185">62.680</dataPoint>
+		<dataPoint pos="0.116666666667">65.2</dataPoint>
+		<dataPoint pos="0.312962962963">67.176</dataPoint>
+		<dataPoint pos="0.509259259259">68.96</dataPoint>
+		<dataPoint pos="0.705555555556">70.728</dataPoint>
+		<dataPoint pos="0.901851851852">72.496</dataPoint>
+		<dataPoint pos="0.981481481481">75.200</dataPoint>
+	</dataPoints>
+</sport>

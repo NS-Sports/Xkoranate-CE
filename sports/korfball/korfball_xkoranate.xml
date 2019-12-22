@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Korfball—xkoranate formula</name>
+	<discipline>Korfball</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>goldengoal</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>GG</string>
+		</list>
+		<double type="goldenGoalProb">1</double>
+		<int type="forceTieBreak">1</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00431034482759">1</dataPoint>
+		<dataPoint pos="0.0540948275862">6</dataPoint>
+		<dataPoint pos="0.153663793103">9</dataPoint>
+		<dataPoint pos="0.253232758621">10</dataPoint>
+		<dataPoint pos="0.352801724138">12</dataPoint>
+		<dataPoint pos="0.452370689655">13</dataPoint>
+		<dataPoint pos="0.551939655172">14</dataPoint>
+		<dataPoint pos="0.65150862069">16</dataPoint>
+		<dataPoint pos="0.751077586207">19</dataPoint>
+		<dataPoint pos="0.850646551724">22</dataPoint>
+		<dataPoint pos="0.950215517241">29.35</dataPoint>
+		<dataPoint pos="0.995689655172">42</dataPoint>
+	</dataPoints>
+</sport>

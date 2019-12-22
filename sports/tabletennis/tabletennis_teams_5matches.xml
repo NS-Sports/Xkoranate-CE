@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Table tennis—Teams—Five matches (knockout stage)</name>
+	<alphabetizedName>Table tennis—Teams—5 matches</alphabetizedName>
+	<discipline>Table tennis</discipline>
+	<event>Teams</event>
+	<scorinator>Five matches (knockout stage)</scorinator>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">5</int>
+		<int type="winPoints">3</int>
+		<int type="winMargin">1</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">3</int>
+		<int type="finalSetWinMargin">1</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">2.5</double>
+	</paradigmOptions>
+</sport>

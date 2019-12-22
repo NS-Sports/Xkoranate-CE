@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Women’s biathlon sprint 7.5 km</name>
+	<alphabetizedName>Ad’ihani pentathlon—Women’s—Event 4</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Women’s</event>
+	<scorinator>Biathlon (7.5 km sprint)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+		<double type="decathlonA">0.00812</double>
+		<double type="decathlonB">2900</double>
+		<double type="decathlonC">1.595</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0055555555555556">1554.1</dataPoint>
+		<dataPoint pos="0.060802469135802">1467.2166666667</dataPoint>
+		<dataPoint pos="0.1712962962963">1421.65</dataPoint>
+		<dataPoint pos="0.28179012345679">1384.1833333333</dataPoint>
+		<dataPoint pos="0.39228395061728">1369.7166666667</dataPoint>
+		<dataPoint pos="0.50277777777778">1351.65</dataPoint>
+		<dataPoint pos="0.61327160493827">1337.8</dataPoint>
+		<dataPoint pos="0.72376543209877">1301.6833333333</dataPoint>
+		<dataPoint pos="0.83425925925926">1275.4</dataPoint>
+		<dataPoint pos="0.94475308641975">1252.8166666667</dataPoint>
+		<dataPoint pos="0.99444444444444">1225.6</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Men’s sprint 10 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Men’s sprint 10 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0056179775280899">1857.9</dataPoint>
+		<dataPoint pos="0.060861423220974">1721.2666666667</dataPoint>
+		<dataPoint pos="0.17134831460674">1684.7333333333</dataPoint>
+		<dataPoint pos="0.28183520599251">1648.5</dataPoint>
+		<dataPoint pos="0.39232209737828">1636.1555555556</dataPoint>
+		<dataPoint pos="0.50280898876404">1604.7</dataPoint>
+		<dataPoint pos="0.61329588014981">1584.5444444444</dataPoint>
+		<dataPoint pos="0.72378277153558">1568.9444444444</dataPoint>
+		<dataPoint pos="0.83426966292135">1548.0333333333</dataPoint>
+		<dataPoint pos="0.94475655430712">1495.5777777778</dataPoint>
+		<dataPoint pos="0.99438202247191">1447.8</dataPoint>
+	</dataPoints>
+</sport>

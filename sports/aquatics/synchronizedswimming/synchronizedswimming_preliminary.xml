@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Synchronized swimming—Preliminary stages</name>
+	<alphabetizedName>Synchronized swimming—Round 1</alphabetizedName>
+	<discipline>Synchronized swimming</discipline>
+	<event>Preliminary stages</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.0833333333333</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00892857142857">39.750</dataPoint>
+		<dataPoint pos="0.0797193877551">40.417</dataPoint>
+		<dataPoint pos="0.221301020408">42.3932857143</dataPoint>
+		<dataPoint pos="0.362882653061">43.3042142857</dataPoint>
+		<dataPoint pos="0.504464285714">44.7085</dataPoint>
+		<dataPoint pos="0.646045918367">46.3697142857</dataPoint>
+		<dataPoint pos="0.78762755102">47.75</dataPoint>
+		<dataPoint pos="0.929209183673">48.9527857143</dataPoint>
+		<dataPoint pos="0.991071428571">49.500</dataPoint>
+	</dataPoints>
+</sport>

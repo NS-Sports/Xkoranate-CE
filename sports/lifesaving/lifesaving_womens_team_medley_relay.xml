@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Women’s team—4×50 m medley relay</name>
+	<alphabetizedName>Lifesaving—Women’s team—Event 3</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Women’s team</event>
+	<scorinator>4×50 m medley relay</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02083333333333</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">111.29</dataPoint>
+		<dataPoint pos="0.20833333333333">111.03666666667</dataPoint>
+		<dataPoint pos="0.525">106.23</dataPoint>
+		<dataPoint pos="0.84166666666667">102.59166666667</dataPoint>
+		<dataPoint pos="0.95">101.03</dataPoint>
+	</dataPoints>
+</sport>

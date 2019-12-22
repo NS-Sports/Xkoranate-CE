@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s heptathlon—Long jump</name>
+	<alphabetizedName>Athletics—Women’s heptathlon—Event 5</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s heptathlon</event>
+	<scorinator>Long jump</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.327272727273</double>
+		</list>
+		<double type="decathlonA">0.188807</double>
+		<double type="decathlonB">210</double>
+		<double type="decathlonC">1.41</double>
+		<double type="decathlonMultiplier">100</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00657894736842">4.95</dataPoint>
+		<dataPoint pos="0.0686677631579">5.665625</dataPoint>
+		<dataPoint pos="0.192845394737">5.790625</dataPoint>
+		<dataPoint pos="0.317023026316">5.898125</dataPoint>
+		<dataPoint pos="0.441200657895">5.979375</dataPoint>
+		<dataPoint pos="0.565378289474">6.040625</dataPoint>
+		<dataPoint pos="0.689555921053">6.111875</dataPoint>
+		<dataPoint pos="0.813733552632">6.18</dataPoint>
+		<dataPoint pos="0.937911184211">6.45</dataPoint>
+		<dataPoint pos="0.993421052632">6.63</dataPoint>
+	</dataPoints>
+</sport>

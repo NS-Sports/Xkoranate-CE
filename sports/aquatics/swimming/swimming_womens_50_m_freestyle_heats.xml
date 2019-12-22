@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 50 m freestyle—Heats</name>
+	<alphabetizedName>Swimming—Women’s freestyle 0050 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 50 m freestyle</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0054347826087">40.83</dataPoint>
+		<dataPoint pos="0.0606884057971">35.0844444444</dataPoint>
+		<dataPoint pos="0.171195652174">30.4516666667</dataPoint>
+		<dataPoint pos="0.281702898551">29.1488888889</dataPoint>
+		<dataPoint pos="0.392210144928">27.8138888889</dataPoint>
+		<dataPoint pos="0.502717391304">26.555</dataPoint>
+		<dataPoint pos="0.613224637681">25.8161111111</dataPoint>
+		<dataPoint pos="0.723731884058">25.4372222222</dataPoint>
+		<dataPoint pos="0.834239130435">25.0683333333</dataPoint>
+		<dataPoint pos="0.944746376812">24.8961111111</dataPoint>
+		<dataPoint pos="0.994565217391">24.2</dataPoint>
+	</dataPoints>
+</sport>

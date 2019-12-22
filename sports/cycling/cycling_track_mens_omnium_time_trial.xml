@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling, track—Men’s omnium—Time trial</name>
+	<alphabetizedName>Cycling, track—Men’s omnium—Event 6</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Men’s omnium</event>
+	<scorinator>Time trial</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.021739130434783">71.31</dataPoint>
+		<dataPoint pos="0.14402173913043">68.18</dataPoint>
+		<dataPoint pos="0.38858695652174">65.855</dataPoint>
+		<dataPoint pos="0.63315217391304">65.1</dataPoint>
+		<dataPoint pos="0.87771739130435">64.335</dataPoint>
+		<dataPoint pos="0.97826086956522">63.88</dataPoint>
+	</dataPoints>
+</sport>

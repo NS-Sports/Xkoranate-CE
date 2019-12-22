@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Chess—Four-game match</name>
+	<alphabetizedName>Chess—4 games</alphabetizedName>
+	<discipline>Chess</discipline>
+	<event>Four-game match</event>
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="results">
+			<string>2–2</string>
+			<string>2½–1½</string>
+			<string>3–1</string>
+			<string>3½–½</string>
+			<string>4–0</string>
+		</list>
+		<list type="reversedResults">
+			<string>2–2</string>
+			<string>1½–2½</string>
+			<string>1–3</string>
+			<string>½–3½</string>
+			<string>0–4</string>
+		</list>
+		<list type="winnerScores">
+			<double>2</double>
+			<double>2.5</double>
+			<double>3</double>
+			<double>3.5</double>
+			<double>4</double>
+		</list>
+		<list type="loserScores">
+			<double>2</double>
+			<double>1.5</double>
+			<double>1</double>
+			<double>0.5</double>
+			<double>0</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.248</double>
+			<double>0.414</double>
+			<double>0.237</double>
+			<double>0.085</double>
+			<double>0.016</double>
+		</list>
+	</paradigmOptions>
+</sport>

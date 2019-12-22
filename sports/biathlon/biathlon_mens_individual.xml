@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Biathlon—Men’s individual 20 km</name>
+	<discipline>Biathlon</discipline>
+	<event>Men’s individual 20 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.002</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0055555555555556">3672.9</dataPoint>
+		<dataPoint pos="0.060802469135802">3490.1</dataPoint>
+		<dataPoint pos="0.1712962962963">3392</dataPoint>
+		<dataPoint pos="0.28179012345679">3305.1833333333</dataPoint>
+		<dataPoint pos="0.39228395061728">3259.8</dataPoint>
+		<dataPoint pos="0.50277777777778">3202.5</dataPoint>
+		<dataPoint pos="0.61327160493827">3171.1833333333</dataPoint>
+		<dataPoint pos="0.72376543209877">3130.15</dataPoint>
+		<dataPoint pos="0.83425925925926">3060.05</dataPoint>
+		<dataPoint pos="0.94475308641975">2981.25</dataPoint>
+		<dataPoint pos="0.99444444444444">2902.5</dataPoint>
+	</dataPoints>
+</sport>

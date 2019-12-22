@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Women’s coxed eights</name>
+	<alphabetizedName>Rowing—Women’s sweep 8</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Women’s coxed eights</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">374.45</dataPoint>
+		<dataPoint pos="0.146875">374.16</dataPoint>
+		<dataPoint pos="0.390625">371.905</dataPoint>
+		<dataPoint pos="0.634375">367.97125</dataPoint>
+		<dataPoint pos="0.878125">366.61625</dataPoint>
+		<dataPoint pos="0.975">365.34</dataPoint>
+	</dataPoints>
+</sport>

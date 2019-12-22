@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 10 000 m marathon</name>
+	<alphabetizedName>Swimming—Women’s ~marathon 10000 m</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 10 000 m marathon</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.04</double>
+			<double>0.02</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0192307692308">7895.9</dataPoint>
+		<dataPoint pos="0.117307692308">7330.75</dataPoint>
+		<dataPoint pos="0.313461538462">7259.6</dataPoint>
+		<dataPoint pos="0.509615384615">7185.3</dataPoint>
+		<dataPoint pos="0.705769230769">7179.47</dataPoint>
+		<dataPoint pos="0.901923076923">7171.27</dataPoint>
+		<dataPoint pos="0.980769230769">7167.7</dataPoint>
+	</dataPoints>
+</sport>

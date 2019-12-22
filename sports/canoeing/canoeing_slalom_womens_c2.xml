@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Women’s slalom C-2</name>
+	<discipline>Canoeing, slalom</discipline>
+	<event>Women’s C-2</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00704225352113">284.67758</dataPoint>
+		<dataPoint pos="0.0691021126761">188.6586625</dataPoint>
+		<dataPoint pos="0.193221830986">150.7428175</dataPoint>
+		<dataPoint pos="0.317341549296">128.5020275</dataPoint>
+		<dataPoint pos="0.441461267606">123.1542675</dataPoint>
+		<dataPoint pos="0.565580985915">118.120915</dataPoint>
+		<dataPoint pos="0.689700704225">114.78423</dataPoint>
+		<dataPoint pos="0.813820422535">109.997305</dataPoint>
+		<dataPoint pos="0.937940140845">105.7060675</dataPoint>
+		<dataPoint pos="0.992957746479">104.06605</dataPoint>
+	</dataPoints>
+</sport>

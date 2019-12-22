@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Women’s road mass start</name>
+	<alphabetizedName>Cycling, road—Women’s mass start</alphabetizedName>
+	<discipline>Cycling, road</discipline>
+	<event>Women’s mass start</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">0</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.272727272727</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0078125">13931</dataPoint>
+		<dataPoint pos="0.0786830357143">13504</dataPoint>
+		<dataPoint pos="0.220424107143">13161.3571429</dataPoint>
+		<dataPoint pos="0.362165178571">12826.2857143</dataPoint>
+		<dataPoint pos="0.50390625">12797</dataPoint>
+		<dataPoint pos="0.645647321429">12775</dataPoint>
+		<dataPoint pos="0.787388392857">12765</dataPoint>
+		<dataPoint pos="0.929129464286">12756.6428571</dataPoint>
+		<dataPoint pos="0.9921875">12744</dataPoint>
+	</dataPoints>
+</sport>

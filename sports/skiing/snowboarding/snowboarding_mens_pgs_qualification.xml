@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Men’s parallel giant slalom—Qualification</name>
+	<alphabetizedName>Snowboarding—Men’s parallel giant slalom—Round 1</alphabetizedName>
+	<discipline>Snowboarding</discipline>
+	<event>Men’s parallel giant slalom</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<int type="attempts">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.017094017094017</double>
+			<double>0.008547008547009</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0084745762711864">56.49</dataPoint>
+		<dataPoint pos="0.079297820823245">41.82</dataPoint>
+		<dataPoint pos="0.22094430992736">40.38</dataPoint>
+		<dataPoint pos="0.36259079903148">39.87</dataPoint>
+		<dataPoint pos="0.50423728813559">39.29</dataPoint>
+		<dataPoint pos="0.64588377723971">39.02</dataPoint>
+		<dataPoint pos="0.78753026634383">38.77</dataPoint>
+		<dataPoint pos="0.92917675544794">38.24</dataPoint>
+		<dataPoint pos="0.99152542372881">37.64</dataPoint>
+	</dataPoints>
+</sport>

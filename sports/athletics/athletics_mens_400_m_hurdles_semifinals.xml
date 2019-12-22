@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 400 m hurdles—Semifinals</name>
+	<alphabetizedName>Athletics—Men’s 2hurdles 400 m—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 400 m hurdles</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00990099009901</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0277777777778">50.48</dataPoint>
+		<dataPoint pos="0.149305555556">49.88875</dataPoint>
+		<dataPoint pos="0.392361111111">49.18625</dataPoint>
+		<dataPoint pos="0.635416666667">48.645</dataPoint>
+		<dataPoint pos="0.878472222222">48.23875</dataPoint>
+		<dataPoint pos="0.972222222222">47.94</dataPoint>
+	</dataPoints>
+</sport>

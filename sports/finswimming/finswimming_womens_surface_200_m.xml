@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fin swimming—Women’s surface 200 m</name>
+	<discipline>Fin swimming</discipline>
+	<event>Women’s surface 200 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00512820512821</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.02">108.07</dataPoint>
+		<dataPoint pos="0.1425">99.1175</dataPoint>
+		<dataPoint pos="0.3875">96.145</dataPoint>
+		<dataPoint pos="0.6325">94.33</dataPoint>
+		<dataPoint pos="0.8775">92.7775</dataPoint>
+		<dataPoint pos="0.98">89.3</dataPoint>
+	</dataPoints>
+</sport>

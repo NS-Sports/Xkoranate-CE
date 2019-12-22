@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gaelic football—Footba11er formula</name>
+	<discipline>Gaelic football</discipline>
+	<event>Footba11er formula</event>
+	<scorinator/>
+	
+	<paradigm>footba11er</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<string type="attackStyle">normal</string>
+		<double type="meanAttacks">25.38</double>
+		<double type="stDevAttacks">3.67</double>
+		<double type="attacksTailCutoff">0.005</double>
+		<int type="maxAttacks">25</int>
+		<list type="pointValues">
+			<int>3</int>
+			<int>1</int>
+		</list>
+		<list type="pointProbs">
+			<double>0.08</double>
+			<double>0.92</double>
+		</list>
+		<string type="resultStyle">gaelic</string>
+		<string type="tiebreakers">goldengoal</string>
+		<string type="tiebreakerNames"/>
+	</paradigmOptions>
+</sport>

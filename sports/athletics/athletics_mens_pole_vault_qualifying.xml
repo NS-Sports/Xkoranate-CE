@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s pole vault—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s pole vault—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s pole vault</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.82</double>
+		<double type="depreciation">0.985</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">515</double>
+		<list type="heights">
+			<double>5.15</double>
+			<double>5.30</double>
+			<double>5.45</double>
+			<double>5.55</double>
+			<double>5.65</double>
+			<double>5.75</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

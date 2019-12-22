@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Women’s aerials—Qualification</name>
+	<alphabetizedName>Freestyle skiing—Women’s aerials—Round 1</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Women’s aerials</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.010416666666667">38.09</dataPoint>
+		<dataPoint pos="0.092881944444444">52.8</dataPoint>
+		<dataPoint pos="0.2578125">66.2025</dataPoint>
+		<dataPoint pos="0.42274305555556">77.64</dataPoint>
+		<dataPoint pos="0.58767361111111">85.3275</dataPoint>
+		<dataPoint pos="0.75260416666667">88.03</dataPoint>
+		<dataPoint pos="0.91753472222222">94.6</dataPoint>
+		<dataPoint pos="0.98958333333333">105.64</dataPoint>
+	</dataPoints>
+</sport>

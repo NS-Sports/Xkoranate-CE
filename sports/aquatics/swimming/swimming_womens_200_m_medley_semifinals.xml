@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 200 m individual medley—Semifinals</name>
+	<alphabetizedName>Swimming—Women’s medley individual 200 m—Round 2</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 200 m individual medley</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0277777777778">134.14</dataPoint>
+		<dataPoint pos="0.149305555556">133.4525</dataPoint>
+		<dataPoint pos="0.392361111111">132.29375</dataPoint>
+		<dataPoint pos="0.635416666667">132.0925</dataPoint>
+		<dataPoint pos="0.878472222222">130.86</dataPoint>
+		<dataPoint pos="0.972222222222">129.53</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Women’s skeet</name>
+	<discipline>Shooting</discipline>
+	<event>Women’s skeet</event>
+	<scorinator/>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">3</int>
+		<list type="qualifyingAttemptTypes">
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.015</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="finalAttempts">1</int>
+		<int type="finalDisplayDigits">0</int>
+		
+		<int type="shootoffDisplayDigits">0</int>
+		<double type="shootoffRankModifier">2</double>
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.0076923076923077">15.5</dataPoint>
+		<dataPoint pos="0.069711538461538">17.5</dataPoint>
+		<dataPoint pos="0.19375">20.5</dataPoint>
+		<dataPoint pos="0.31778846153846">20.5</dataPoint>
+		<dataPoint pos="0.44182692307692">21.5</dataPoint>
+		<dataPoint pos="0.56586538461538">22.5</dataPoint>
+		<dataPoint pos="0.81394230769231">22.5</dataPoint>
+		<dataPoint pos="0.93798076923077">23.625</dataPoint>
+		<dataPoint pos="0.99230769230769">24.5</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.3">0</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Speed skating—Men’s 1 500 m</name>
+	<alphabetizedName>Speed skating—Men’s 01500 m</alphabetizedName>
+	<discipline>Speed skating</discipline>
+	<event>Men’s 1 500 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.014897486772487</double>
+			<double>0.002314814814815</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.012820512820513">112.67</dataPoint>
+		<dataPoint pos="0.09508547008547">110.78</dataPoint>
+		<dataPoint pos="0.25961538461538">109.5</dataPoint>
+		<dataPoint pos="0.4241452991453">109</dataPoint>
+		<dataPoint pos="0.58867521367521">108.03</dataPoint>
+		<dataPoint pos="0.75320512820513">107.02</dataPoint>
+		<dataPoint pos="0.91773504273504">106.42</dataPoint>
+		<dataPoint pos="0.98717948717949">105.57</dataPoint>
+	</dataPoints>
+</sport>

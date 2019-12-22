@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s triple jump—Final</name>
+	<alphabetizedName>Athletics—Women’s triple jump—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s triple jump</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.301886792453</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0113636363636">11.29</dataPoint>
+		<dataPoint pos="0.09375">13.7033333333</dataPoint>
+		<dataPoint pos="0.258522727273">14.305</dataPoint>
+		<dataPoint pos="0.423295454545">14.6516666667</dataPoint>
+		<dataPoint pos="0.588068181818">14.77</dataPoint>
+		<dataPoint pos="0.752840909091">14.9525</dataPoint>
+		<dataPoint pos="0.917613636364">15.1816666667</dataPoint>
+		<dataPoint pos="0.988636363636">15.39</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boule lyonnaise—Women’s precision throw</name>
+	<discipline>Boule lyonnaise</discipline>
+	<event>Women’s precision throw</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.027777777777778">3</dataPoint>
+		<dataPoint pos="0.14930555555556">4</dataPoint>
+		<dataPoint pos="0.39236111111111">9.625</dataPoint>
+		<dataPoint pos="0.63541666666667">13.875</dataPoint>
+		<dataPoint pos="0.87847222222222">20.125</dataPoint>
+		<dataPoint pos="0.97222222222222">26</dataPoint>
+	</dataPoints>
+</sport>

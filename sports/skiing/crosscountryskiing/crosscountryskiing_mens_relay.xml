@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Men’s relay 4×10 km</name>
+	<discipline>Cross-country skiing</discipline>
+	<event>Men’s relay 4×10 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.03125">6701.2</dataPoint>
+		<dataPoint pos="0.19270833333333">6591.5166666667</dataPoint>
+		<dataPoint pos="0.515625">6423.95</dataPoint>
+		<dataPoint pos="0.83854166666667">6322.6333333333</dataPoint>
+		<dataPoint pos="0.96875">6305.4</dataPoint>
+	</dataPoints>
+</sport>

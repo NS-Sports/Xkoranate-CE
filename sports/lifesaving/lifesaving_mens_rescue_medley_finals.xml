@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Men’s 100 m rescue medley—Finals</name>
+	<alphabetizedName>Lifesaving—Men’s 100 m rescue medley—Round 2</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Men’s 100 m rescue medley</event>
+	<scorinator>Finals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0875</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.027777777777778">70.88</dataPoint>
+		<dataPoint pos="0.14930555555556">69.35875</dataPoint>
+		<dataPoint pos="0.39236111111111">67.805</dataPoint>
+		<dataPoint pos="0.63541666666667">65.7425</dataPoint>
+		<dataPoint pos="0.87847222222222">64.23125</dataPoint>
+		<dataPoint pos="0.97222222222222">61.29</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Alpine skiing—Women’s slalom</name>
+	<discipline>Alpine skiing</discipline>
+	<event>Women’s slalom</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.241335814722911</double>
+			<double>0.022539288668321</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0039370078740157">70.6</dataPoint>
+		<dataPoint pos="0.049212598425197">63.811818181818</dataPoint>
+		<dataPoint pos="0.13976377952756">60.344545454545</dataPoint>
+		<dataPoint pos="0.23031496062992">59.202727272727</dataPoint>
+		<dataPoint pos="0.32086614173228">57.557272727273</dataPoint>
+		<dataPoint pos="0.41141732283465">55.335454545455</dataPoint>
+		<dataPoint pos="0.50196850393701">54.14</dataPoint>
+		<dataPoint pos="0.59251968503937">53.82</dataPoint>
+		<dataPoint pos="0.68307086614173">53.189090909091</dataPoint>
+		<dataPoint pos="0.77362204724409">52.937272727273</dataPoint>
+		<dataPoint pos="0.86417322834646">52.274545454545</dataPoint>
+		<dataPoint pos="0.95472440944882">51.676363636364</dataPoint>
+		<dataPoint pos="0.99606299212598">50.75</dataPoint>
+	</dataPoints>
+</sport>

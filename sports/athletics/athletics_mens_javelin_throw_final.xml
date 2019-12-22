@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s javelin throw—Final</name>
+	<alphabetizedName>Athletics—Men’s javelin throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s javelin throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.268096514745</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0121951219512">73.9</dataPoint>
+		<dataPoint pos="0.094512195122">76.7516666667</dataPoint>
+		<dataPoint pos="0.259146341463">79.215</dataPoint>
+		<dataPoint pos="0.423780487805">80.6833333333</dataPoint>
+		<dataPoint pos="0.588414634146">82.3233333333</dataPoint>
+		<dataPoint pos="0.753048780488">83.69</dataPoint>
+		<dataPoint pos="0.917682926829">86.1183333333</dataPoint>
+		<dataPoint pos="0.987804878049">90.57</dataPoint>
+	</dataPoints>
+</sport>

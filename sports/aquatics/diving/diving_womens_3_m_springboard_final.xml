@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Diving—Women’s 3 m springboard—Final</name>
+	<alphabetizedName>Diving—Women’s 03 m springboard—Round 3</alphabetizedName>
+	<discipline>Diving</discipline>
+	<event>Women’s 3 m springboard</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.05</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0357142857143">269.25</dataPoint>
+		<dataPoint pos="0.196428571429">309.941666667</dataPoint>
+		<dataPoint pos="0.517857142857">336.575</dataPoint>
+		<dataPoint pos="0.839285714286">391.308333333</dataPoint>
+		<dataPoint pos="0.964285714286">415.35</dataPoint>
+	</dataPoints>
+</sport>

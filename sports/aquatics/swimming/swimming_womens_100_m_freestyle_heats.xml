@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 100 m freestyle—Heats</name>
+	<alphabetizedName>Swimming—Women’s freestyle 0100 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 100 m freestyle</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">74.77</dataPoint>
+		<dataPoint pos="0.0807142857143">57.7307142857</dataPoint>
+		<dataPoint pos="0.222142857143">56.4957142857</dataPoint>
+		<dataPoint pos="0.363571428571">55.9285714286</dataPoint>
+		<dataPoint pos="0.505">55.26</dataPoint>
+		<dataPoint pos="0.646428571429">54.8257142857</dataPoint>
+		<dataPoint pos="0.787857142857">54.1485714286</dataPoint>
+		<dataPoint pos="0.929285714286">53.8592857143</dataPoint>
+		<dataPoint pos="0.99">53.6</dataPoint>
+	</dataPoints>
+</sport>

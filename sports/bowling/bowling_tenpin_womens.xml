@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bowling, ten-pin—Women’s</name>
+	<discipline>Bowling, ten-pin</discipline>
+	<event>Women’s</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">3</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0009469696969697">127</dataPoint>
+		<dataPoint pos="0.023652720385675">145.93181818182</dataPoint>
+		<dataPoint pos="0.069064221763085">155.79545454545</dataPoint>
+		<dataPoint pos="0.1144757231405">162</dataPoint>
+		<dataPoint pos="0.15988722451791">169</dataPoint>
+		<dataPoint pos="0.20529872589532">173</dataPoint>
+		<dataPoint pos="0.25071022727273">178</dataPoint>
+		<dataPoint pos="0.29612172865014">181</dataPoint>
+		<dataPoint pos="0.34153323002755">183.97727272727</dataPoint>
+		<dataPoint pos="0.38694473140496">188.84090909091</dataPoint>
+		<dataPoint pos="0.43235623278237">191</dataPoint>
+		<dataPoint pos="0.47776773415978">194</dataPoint>
+		<dataPoint pos="0.52317923553719">198</dataPoint>
+		<dataPoint pos="0.5685907369146">200</dataPoint>
+		<dataPoint pos="0.61400223829201">202</dataPoint>
+		<dataPoint pos="0.65941373966942">205.02272727273</dataPoint>
+		<dataPoint pos="0.70482524104683">209</dataPoint>
+		<dataPoint pos="0.75023674242424">213</dataPoint>
+		<dataPoint pos="0.79564824380165">216</dataPoint>
+		<dataPoint pos="0.84105974517906">222.47727272727</dataPoint>
+		<dataPoint pos="0.88647124655647">228.34090909091</dataPoint>
+		<dataPoint pos="0.93188274793388">237</dataPoint>
+		<dataPoint pos="0.97729424931129">256.06818181818</dataPoint>
+		<dataPoint pos="0.99905303030303">300</dataPoint>
+		<dataPoint pos="1">300</dataPoint>
+	</dataPoints>
+</sport>

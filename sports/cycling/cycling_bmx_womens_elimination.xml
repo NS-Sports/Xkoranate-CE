@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Women’s BMX—Elimination</name>
+	<alphabetizedName>Cycling, BMX—Women’s—Round 2</alphabetizedName>
+	<discipline>Cycling, BMX</discipline>
+	<event>Women’s</event>
+	<scorinator>Elimination</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>REL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0597826086957</double>
+			<double>0.0054347826087</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00961538461538">137.714</dataPoint>
+		<dataPoint pos="0.0803571428571">50.307</dataPoint>
+		<dataPoint pos="0.221840659341">41.814</dataPoint>
+		<dataPoint pos="0.363324175824">39.954</dataPoint>
+		<dataPoint pos="0.504807692308">39.195</dataPoint>
+		<dataPoint pos="0.646291208791">38.682</dataPoint>
+		<dataPoint pos="0.787774725275">37.9795</dataPoint>
+		<dataPoint pos="0.929258241758">36.839</dataPoint>
+		<dataPoint pos="0.990384615385">35.976</dataPoint>
+	</dataPoints>
+</sport>

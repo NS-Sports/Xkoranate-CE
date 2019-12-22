@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Women’s ski cross—Qualification</name>
+	<alphabetizedName>Freestyle skiing—Women’s ski cross—Round 1</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Women’s ski cross</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.015151515151515</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.013513513513514">92.87</dataPoint>
+		<dataPoint pos="0.095720720720721">82.865</dataPoint>
+		<dataPoint pos="0.26013513513514">81.645</dataPoint>
+		<dataPoint pos="0.42454954954955">80.535</dataPoint>
+		<dataPoint pos="0.58896396396396">79.835</dataPoint>
+		<dataPoint pos="0.75337837837838">78.97</dataPoint>
+		<dataPoint pos="0.91779279279279">77.846666666667</dataPoint>
+		<dataPoint pos="0.98648648648649">77.15</dataPoint>
+	</dataPoints>
+</sport>

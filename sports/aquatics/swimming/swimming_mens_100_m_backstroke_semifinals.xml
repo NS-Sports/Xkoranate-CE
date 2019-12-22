@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 100 m backstroke—Semifinals</name>
+	<alphabetizedName>Swimming—Men’s backstroke 100 m—Round 2</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 100 m backstroke</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0277777777778">54.93</dataPoint>
+		<dataPoint pos="0.149305555556">54.61375</dataPoint>
+		<dataPoint pos="0.392361111111">53.96125</dataPoint>
+		<dataPoint pos="0.635416666667">53.66</dataPoint>
+		<dataPoint pos="0.878472222222">53.05125</dataPoint>
+		<dataPoint pos="0.972222222222">52.97</dataPoint>
+	</dataPoints>
+</sport>

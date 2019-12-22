@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Alpine skiing—Women’s downhill</name>
+	<discipline>Alpine skiing</discipline>
+	<event>Women’s downhill</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.099431818181818</double>
+			<double>0.019176136363636</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.012820512820513">129.27</dataPoint>
+		<dataPoint pos="0.09508547008547">117.47</dataPoint>
+		<dataPoint pos="0.25961538461538">112.87</dataPoint>
+		<dataPoint pos="0.4241452991453">108.77</dataPoint>
+		<dataPoint pos="0.58867521367521">107.88</dataPoint>
+		<dataPoint pos="0.75320512820513">106.93</dataPoint>
+		<dataPoint pos="0.91773504273504">105.68</dataPoint>
+		<dataPoint pos="0.98717948717949">104.19</dataPoint>
+	</dataPoints>
+</sport>

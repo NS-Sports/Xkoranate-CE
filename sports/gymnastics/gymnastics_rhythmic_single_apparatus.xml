@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, rhythmic—Single apparatus</name>
+	<alphabetizedName>Gymnastics, rhythmic—~Single apparatus</alphabetizedName>
+	<discipline>Gymnastics, rhythmic</discipline>
+	<event>Single apparatus</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.025</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.003968253968254">19.45</dataPoint>
+		<dataPoint pos="0.049242424242424">21.047727272727</dataPoint>
+		<dataPoint pos="0.13979076479076">22.032954545455</dataPoint>
+		<dataPoint pos="0.23033910533911">23</dataPoint>
+		<dataPoint pos="0.32088744588745">23.45</dataPoint>
+		<dataPoint pos="0.41143578643579">24</dataPoint>
+		<dataPoint pos="0.50198412698413">24.675</dataPoint>
+		<dataPoint pos="0.59253246753247">25.2</dataPoint>
+		<dataPoint pos="0.68308080808081">25.571590909091</dataPoint>
+		<dataPoint pos="0.77362914862915">26.106818181818</dataPoint>
+		<dataPoint pos="0.86417748917749">26.704545454545</dataPoint>
+		<dataPoint pos="0.95472582972583">27.785227272727</dataPoint>
+		<dataPoint pos="0.99603174603175">28.625</dataPoint>
+	</dataPoints>
+</sport>

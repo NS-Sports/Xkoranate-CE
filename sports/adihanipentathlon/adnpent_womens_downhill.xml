@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Women’s downhill alpine skiing</name>
+	<alphabetizedName>Ad’ihani pentathlon—Women’s—Event 1</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Women’s</event>
+	<scorinator>Alpine skiing (downhill)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.099431818181818</double>
+			<double>0.019176136363636</double>
+		</list>
+		<double type="decathlonA">0.144</double>
+		<double type="decathlonB">260</double>
+		<double type="decathlonC">1.81</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.012820512820513">139.27</dataPoint>
+		<dataPoint pos="0.09508547008547">137.47</dataPoint>
+		<dataPoint pos="0.25961538461538">132.87</dataPoint>
+		<dataPoint pos="0.4241452991453">128.77</dataPoint>
+		<dataPoint pos="0.58867521367521">127.88</dataPoint>
+		<dataPoint pos="0.75320512820513">126.93</dataPoint>
+		<dataPoint pos="0.91773504273504">125.68</dataPoint>
+		<dataPoint pos="0.98717948717949">124.19</dataPoint>
+	</dataPoints>
+</sport>

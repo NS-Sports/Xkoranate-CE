@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Kelssek -->
+<sport version="0.3">
+	<name>Netball—xkoranate formula</name>
+	<discipline>Netball</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>ET</string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00155279503106">9</dataPoint>
+		<dataPoint pos="0.0309188892948">17.7647058824</dataPoint>
+		<dataPoint pos="0.0896510778224">22</dataPoint>
+		<dataPoint pos="0.14838326635">29</dataPoint>
+		<dataPoint pos="0.207115454878">33</dataPoint>
+		<dataPoint pos="0.265847643405">36</dataPoint>
+		<dataPoint pos="0.324579831933">38</dataPoint>
+		<dataPoint pos="0.38331202046">40</dataPoint>
+		<dataPoint pos="0.442044208988">42.7352941176</dataPoint>
+		<dataPoint pos="0.500776397516">49</dataPoint>
+		<dataPoint pos="0.559508586043">52</dataPoint>
+		<dataPoint pos="0.618240774571">55</dataPoint>
+		<dataPoint pos="0.676972963098">58</dataPoint>
+		<dataPoint pos="0.735705151626">60</dataPoint>
+		<dataPoint pos="0.794437340153">62</dataPoint>
+		<dataPoint pos="0.853169528681">64.0882352941</dataPoint>
+		<dataPoint pos="0.911901717209">71</dataPoint>
+		<dataPoint pos="0.970633905736">79</dataPoint>
+		<dataPoint pos="0.998447204969">108</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.0357142857143">2</dataPoint>
+		<dataPoint pos="0.196428571429">3</dataPoint>
+		<dataPoint pos="0.517857142857">5</dataPoint>
+		<dataPoint pos="0.839285714286">7</dataPoint>
+		<dataPoint pos="0.964285714286">10</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Men’s single sculls</name>
+	<alphabetizedName>Rowing—Men’s scull 1</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Men’s single sculls</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00416666666667">541.27</dataPoint>
+		<dataPoint pos="0.0539583333333">477.767</dataPoint>
+		<dataPoint pos="0.153541666667">461.6155</dataPoint>
+		<dataPoint pos="0.253125">449.8225</dataPoint>
+		<dataPoint pos="0.352708333333">446.0675</dataPoint>
+		<dataPoint pos="0.452291666667">440.327</dataPoint>
+		<dataPoint pos="0.551875">436.523</dataPoint>
+		<dataPoint pos="0.651458333333">429.9675</dataPoint>
+		<dataPoint pos="0.751041666667">425.3</dataPoint>
+		<dataPoint pos="0.850625">421.1305</dataPoint>
+		<dataPoint pos="0.950208333333">413.182</dataPoint>
+		<dataPoint pos="0.995833333333">408.85</dataPoint>
+	</dataPoints>
+</sport>

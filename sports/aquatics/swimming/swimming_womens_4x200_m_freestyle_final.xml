@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 4×200 m freestyle relay—Final</name>
+	<alphabetizedName>Swimming—Women’s relay freestyle 4×200 m—Round 2</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 4×200 m freestyle relay</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0034965034965</double>
+			<double>0.027972027972</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">479.83</dataPoint>
+		<dataPoint pos="0.208333333333">477.221666667</dataPoint>
+		<dataPoint pos="0.525">470.21</dataPoint>
+		<dataPoint pos="0.841666666667">465.996666667</dataPoint>
+		<dataPoint pos="0.95">464.31</dataPoint>
+	</dataPoints>
+</sport>

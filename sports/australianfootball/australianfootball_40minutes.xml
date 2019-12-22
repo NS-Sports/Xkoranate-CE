@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Australian football—Two halves (40 minutes)</name>
+	<discipline>Australian football</discipline>
+	<event>Two halves (40 minutes)</event>
+	<scorinator/>
+	
+	<paradigm>footba11er</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<string type="attackStyle">normal</string>
+		<double type="meanAttacks">16.3</double>
+		<double type="stDevAttacks">4.7</double>
+		<double type="attacksTailCutoff">0.005</double>
+		<int type="maxAttacks">25</int>
+		<list type="pointValues">
+			<int>6</int>
+			<int>1</int>
+		</list>
+		<list type="pointProbs">
+			<double>0.52</double>
+			<double>0.48</double>
+		</list>
+		<string type="resultStyle">australian</string>
+		<string type="tiebreakers">goldengoal</string>
+		<string type="tiebreakerNames"/>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Nordic combined—Men’s individual normal hill</name>
+	<discipline>Nordic combined</discipline>
+	<event>Men’s individual normal hill</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<double type="roundingValue">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01063829787234">11.5</dataPoint>
+		<dataPoint pos="0.093085106382979">98.666666666667</dataPoint>
+		<dataPoint pos="0.25797872340426">108.5</dataPoint>
+		<dataPoint pos="0.42287234042553">114.16666666667</dataPoint>
+		<dataPoint pos="0.58776595744681">117.16666666667</dataPoint>
+		<dataPoint pos="0.75265957446809">119.5</dataPoint>
+		<dataPoint pos="0.91755319148936">124.16666666667</dataPoint>
+		<dataPoint pos="0.98936170212766">135.5</dataPoint>
+	</dataPoints>
+</sport>

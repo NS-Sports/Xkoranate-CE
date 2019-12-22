@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Men’s slalom C-1</name>
+	<discipline>Canoeing, slalom</discipline>
+	<event>Men’s C-1</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00925925925926">162.51</dataPoint>
+		<dataPoint pos="0.0800264550265">95.3971428571</dataPoint>
+		<dataPoint pos="0.221560846561">93.9014285714</dataPoint>
+		<dataPoint pos="0.363095238095">91.8757142857</dataPoint>
+		<dataPoint pos="0.50462962963">90.485</dataPoint>
+		<dataPoint pos="0.646164021164">89.0292857143</dataPoint>
+		<dataPoint pos="0.787698412698">87.4364285714</dataPoint>
+		<dataPoint pos="0.929232804233">85.3485714286</dataPoint>
+		<dataPoint pos="0.990740740741">82.16</dataPoint>
+	</dataPoints>
+</sport>

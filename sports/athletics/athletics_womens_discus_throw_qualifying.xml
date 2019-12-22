@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s discus throw—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s discus throw—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s discus throw</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.279874213836</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00649350649351">44.11</dataPoint>
+		<dataPoint pos="0.0685876623377">52.10375</dataPoint>
+		<dataPoint pos="0.192775974026">54.47125</dataPoint>
+		<dataPoint pos="0.316964285714">56.385</dataPoint>
+		<dataPoint pos="0.441152597403">57.75375</dataPoint>
+		<dataPoint pos="0.565340909091">58.48125</dataPoint>
+		<dataPoint pos="0.689529220779">59.435</dataPoint>
+		<dataPoint pos="0.813717532468">60.32125</dataPoint>
+		<dataPoint pos="0.937905844156">62.01625</dataPoint>
+		<dataPoint pos="0.993506493506">62.77</dataPoint>
+	</dataPoints>
+</sport>

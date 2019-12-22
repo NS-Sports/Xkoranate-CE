@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fencing—Individual foil</name>
+	<discipline>Fencing</discipline>
+	<event>Individual foil</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">15</int>
+		<double type="matchLength">540</double>
+		<double type="attackModifier">3.1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0.00724637681159">6.39</dataPoint>
+		<dataPoint pos="0.0692934782609">11.23125</dataPoint>
+		<dataPoint pos="0.193387681159">13.535</dataPoint>
+		<dataPoint pos="0.317481884058">16.24625</dataPoint>
+		<dataPoint pos="0.441576086957">18.71125</dataPoint>
+		<dataPoint pos="0.565670289855">21.575</dataPoint>
+		<dataPoint pos="0.689764492754">24.76375</dataPoint>
+		<dataPoint pos="0.813858695652">28.32375</dataPoint>
+		<dataPoint pos="0.937952898551">35.35625</dataPoint>
+		<dataPoint pos="0.992753623188">50.91</dataPoint>
+	</dataPoints>
+</sport>

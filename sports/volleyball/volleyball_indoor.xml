@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Volleyball—Indoor</name>
+	<discipline>Volleyball, indoor</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">5</int>
+		<int type="winPoints">25</int>
+		<int type="winMargin">2</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">15</int>
+		<int type="finalSetWinMargin">2</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">7</double>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Figure skating—Women’s—Free skate</name>
+	<alphabetizedName>Figure skating—Women’s—Round 2</alphabetizedName>
+	<discipline>Figure skating</discipline>
+	<event>Women’s</event>
+	<scorinator>Free skate</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.019230769230769">78.8</dataPoint>
+		<dataPoint pos="0.11730769230769">83.504</dataPoint>
+		<dataPoint pos="0.31346153846154">93.161</dataPoint>
+		<dataPoint pos="0.50961538461538">100.915</dataPoint>
+		<dataPoint pos="0.70576923076923">118.107</dataPoint>
+		<dataPoint pos="0.90192307692308">129.879</dataPoint>
+		<dataPoint pos="0.98076923076923">150.06</dataPoint>
+	</dataPoints>
+</sport>

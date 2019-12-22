@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Table tennis—Teams—Single match (group stage)</name>
+	<alphabetizedName>Table tennis—Teams—1 match</alphabetizedName>
+	<discipline>Table tennis</discipline>
+	<event>Teams</event>
+	<scorinator>Single match (group stage)</scorinator>
+	
+	<paradigm>bestof</paradigm>
+	<paradigmOptions>
+		<int type="games">5</int>
+		<double type="attackModifier">1.5</double>
+	</paradigmOptions>
+</sport>

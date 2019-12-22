@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s shot put—Final</name>
+	<alphabetizedName>Athletics—Men’s shot put—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s shot put</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.302395209581</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0128205128205">19.55</dataPoint>
+		<dataPoint pos="0.0950854700855">20.06</dataPoint>
+		<dataPoint pos="0.259615384615">20.39</dataPoint>
+		<dataPoint pos="0.424145299145">20.47</dataPoint>
+		<dataPoint pos="0.588675213675">20.63</dataPoint>
+		<dataPoint pos="0.753205128205">20.88</dataPoint>
+		<dataPoint pos="0.917735042735">21.05</dataPoint>
+		<dataPoint pos="0.987179487179">21.51</dataPoint>
+	</dataPoints>
+</sport>

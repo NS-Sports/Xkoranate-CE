@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s javelin throw—Final</name>
+	<alphabetizedName>Athletics—Women’s javelin throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s javelin throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.268096514745</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0116279069767">50.67</dataPoint>
+		<dataPoint pos="0.093992248062">53.09</dataPoint>
+		<dataPoint pos="0.258720930233">57</dataPoint>
+		<dataPoint pos="0.423449612403">58.7866666667</dataPoint>
+		<dataPoint pos="0.588178294574">62.0966666667</dataPoint>
+		<dataPoint pos="0.752906976744">65.03</dataPoint>
+		<dataPoint pos="0.917635658915">69.1733333333</dataPoint>
+		<dataPoint pos="0.988372093023">71.42</dataPoint>
+	</dataPoints>
+</sport>

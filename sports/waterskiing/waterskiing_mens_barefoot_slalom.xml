@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Men’s barefoot—Slalom</name>
+	<alphabetizedName>Water skiing—Men’s barefoot—Event 1</alphabetizedName>
+	<discipline>Water skiing</discipline>
+	<event>Men’s barefoot</event>
+	<scorinator>Slalom</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">1</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.02">1.6</dataPoint>
+		<dataPoint pos="0.1425">9.675</dataPoint>
+		<dataPoint pos="0.3875">11.275</dataPoint>
+		<dataPoint pos="0.6325">13.025</dataPoint>
+		<dataPoint pos="0.8775">17.475</dataPoint>
+		<dataPoint pos="0.98">18.8</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Women’s mountain bike</name>
+	<alphabetizedName>Cycling, mountain biking—Women’s</alphabetizedName>
+	<discipline>Cycling, mountain biking</discipline>
+	<event>Women’s</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">0</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.133333333333</double>
+		</list>
+		<string type="lapped">LAP</string>
+		<double type="lappedValue">10930</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">10930</dataPoint>
+		<dataPoint pos="0.307692307692">10930</dataPoint>
+		<dataPoint pos="0.307692307693">7402.02564103</dataPoint>
+		<dataPoint pos="0.325">7345</dataPoint>
+		<dataPoint pos="0.409375">7067</dataPoint>
+		<dataPoint pos="0.578125">6712.75</dataPoint>
+		<dataPoint pos="0.746875">6640.375</dataPoint>
+		<dataPoint pos="0.915625">6389.125</dataPoint>
+		<dataPoint pos="0.982692307692">6311</dataPoint>
+	</dataPoints>
+</sport>

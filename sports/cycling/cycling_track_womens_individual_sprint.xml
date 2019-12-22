@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Women’s track individual sprint</name>
+	<alphabetizedName>Cycling, track—Women’s individual sprint</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Women’s individual sprint</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0357142857143">12.134</dataPoint>
+		<dataPoint pos="0.196428571429">11.5348333333</dataPoint>
+		<dataPoint pos="0.517857142857">11.3685</dataPoint>
+		<dataPoint pos="0.839285714286">11.1343333333</dataPoint>
+		<dataPoint pos="0.964285714286">10.963</dataPoint>
+	</dataPoints>
+</sport>

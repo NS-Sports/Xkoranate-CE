@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Wushu—Taolu</name>
+	<discipline>Wushu</discipline>
+	<event>Taolu</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">3</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0073529411764706">8.52</dataPoint>
+		<dataPoint pos="0.069393382352941">9.350625</dataPoint>
+		<dataPoint pos="0.19347426470588">9.5</dataPoint>
+		<dataPoint pos="0.31755514705882">9.633125</dataPoint>
+		<dataPoint pos="0.44163602941176">9.71</dataPoint>
+		<dataPoint pos="0.56571691176471">9.745625</dataPoint>
+		<dataPoint pos="0.68979779411765">9.77</dataPoint>
+		<dataPoint pos="0.81387867647059">9.8</dataPoint>
+		<dataPoint pos="0.93795955882353">9.88</dataPoint>
+		<dataPoint pos="0.99264705882353">9.89</dataPoint>
+	</dataPoints>
+</sport>

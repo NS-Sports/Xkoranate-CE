@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Women’s 500 m sprint</name>
+	<alphabetizedName>Roller speed skating—Women’s 00500 m sprint</alphabetizedName>
+	<discipline>Roller speed skating</discipline>
+	<event>Women’s 500 m sprint</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02666666666667</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.013513513513514">72.505</dataPoint>
+		<dataPoint pos="0.095720720720721">50.049333333333</dataPoint>
+		<dataPoint pos="0.26013513513514">49.377</dataPoint>
+		<dataPoint pos="0.42454954954955">48.655166666667</dataPoint>
+		<dataPoint pos="0.58896396396396">48.061</dataPoint>
+		<dataPoint pos="0.75337837837838">47.695</dataPoint>
+		<dataPoint pos="0.91779279279279">47.142666666667</dataPoint>
+		<dataPoint pos="0.98648648648649">46.980</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s long jump—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s long jump—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s long jump</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.389534883721</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00704225352113">4.27</dataPoint>
+		<dataPoint pos="0.0691021126761">5.895</dataPoint>
+		<dataPoint pos="0.193221830986">6.165</dataPoint>
+		<dataPoint pos="0.317341549296">6.3075</dataPoint>
+		<dataPoint pos="0.441461267606">6.395</dataPoint>
+		<dataPoint pos="0.565580985915">6.4325</dataPoint>
+		<dataPoint pos="0.689700704225">6.48</dataPoint>
+		<dataPoint pos="0.813820422535">6.5925</dataPoint>
+		<dataPoint pos="0.937940140845">6.68</dataPoint>
+		<dataPoint pos="0.992957746479">6.87</dataPoint>
+	</dataPoints>
+</sport>

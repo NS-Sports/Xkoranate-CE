@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Men’s normal hill ski jump</name>
+	<alphabetizedName>Ad’ihani pentathlon—Men’s—Event 2</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Men’s</event>
+	<scorinator>Ski jumping (normal hill)</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<double type="roundingValue">0.5</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.010600706713781</double>
+		</list>
+		<double type="decathlonA">71.85</double>
+		<double type="decathlonB">40</double>
+		<double type="decathlonC">0.6</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0037878787878788">86.5</dataPoint>
+		<dataPoint pos="0.049070247933884">94.86363636364</dataPoint>
+		<dataPoint pos="0.1396349862259">100</dataPoint>
+		<dataPoint pos="0.23019972451791">103.65909090909</dataPoint>
+		<dataPoint pos="0.32076446280992">105</dataPoint>
+		<dataPoint pos="0.41132920110193">106.5</dataPoint>
+		<dataPoint pos="0.50189393939394">109.25</dataPoint>
+		<dataPoint pos="0.59245867768595">111</dataPoint>
+		<dataPoint pos="0.68302341597796">111.5</dataPoint>
+		<dataPoint pos="0.77358815426997">113.84090909091</dataPoint>
+		<dataPoint pos="0.86415289256198">117.5</dataPoint>
+		<dataPoint pos="0.95471763085399">119.06818181818</dataPoint>
+		<dataPoint pos="0.99621212121212">124</dataPoint>
+	</dataPoints>
+</sport>

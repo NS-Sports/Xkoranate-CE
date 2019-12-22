@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Table tennis—Singles</name>
+	<discipline>Table tennis</discipline>
+	<event>Singles</event>
+	<scorinator/> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">7</int>
+		<int type="winPoints">11</int>
+		<int type="winMargin">2</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">11</int>
+		<int type="finalSetWinMargin">2</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">5.5</double>
+	</paradigmOptions>
+</sport>

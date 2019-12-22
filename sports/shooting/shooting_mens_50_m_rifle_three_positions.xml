@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Men’s 50 m rifle three positions</name>
+	<discipline>Shooting</discipline>
+	<event>Men’s 50 m rifle three positions</event>
+	<scorinator/>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">12</int>
+		<list type="qualifyingAttemptTypes">
+			<string>qualifyingScoreProne</string>
+			<string>qualifyingScoreProne</string>
+			<string>qualifyingScoreProne</string>
+			<string>qualifyingScoreProne</string>
+			<string>qualifyingScoreStanding</string>
+			<string>qualifyingScoreStanding</string>
+			<string>qualifyingScoreStanding</string>
+			<string>qualifyingScoreStanding</string>
+			<string>qualifyingScoreKneeling</string>
+			<string>qualifyingScoreKneeling</string>
+			<string>qualifyingScoreKneeling</string>
+			<string>qualifyingScoreKneeling</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.06</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="finalAttempts">1</int>
+		<int type="finalDisplayDigits">1</int>
+		
+		<int type="shootoffDisplayDigits">1</int>
+		
+		<string type="useBestGroups">true</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="qualifyingScoreProne">
+		<dataPoint pos="0.0025252525252525">94.5</dataPoint>
+		<dataPoint pos="0.038149350649351">95.5</dataPoint>
+		<dataPoint pos="0.10939754689755">96.5</dataPoint>
+		<dataPoint pos="0.18064574314574">96.5</dataPoint>
+		<dataPoint pos="0.25189393939394">97.5</dataPoint>
+		<dataPoint pos="0.32314213564214">97.5</dataPoint>
+		<dataPoint pos="0.39439033189033">98.5</dataPoint>
+		<dataPoint pos="0.67938311688312">98.5</dataPoint>
+		<dataPoint pos="0.75063131313131">98.75</dataPoint>
+		<dataPoint pos="0.82187950937951">99.5</dataPoint>
+		<dataPoint pos="0.99747474747475">99.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="qualifyingScoreStanding">
+		<dataPoint pos="0.0025252525252525">84.5</dataPoint>
+		<dataPoint pos="0.038149350649351">90.5</dataPoint>
+		<dataPoint pos="0.10939754689755">91.5</dataPoint>
+		<dataPoint pos="0.18064574314574">91.5</dataPoint>
+		<dataPoint pos="0.25189393939394">92.5</dataPoint>
+		<dataPoint pos="0.32314213564214">93.5</dataPoint>
+		<dataPoint pos="0.39439033189033">93.5</dataPoint>
+		<dataPoint pos="0.46563852813853">94.5</dataPoint>
+		<dataPoint pos="0.53688672438672">94.5</dataPoint>
+		<dataPoint pos="0.60813492063492">95.5</dataPoint>
+		<dataPoint pos="0.75063131313131">95.5</dataPoint>
+		<dataPoint pos="0.82187950937951">96.5</dataPoint>
+		<dataPoint pos="0.89312770562771">97.5</dataPoint>
+		<dataPoint pos="0.9643759018759">98.5</dataPoint>
+		<dataPoint pos="0.99747474747475">98.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="qualifyingScoreKneeling">
+		<dataPoint pos="0.0025252525252525">87.5</dataPoint>
+		<dataPoint pos="0.038149350649351">91.5</dataPoint>
+		<dataPoint pos="0.10939754689755">93.392857142857</dataPoint>
+		<dataPoint pos="0.18064574314574">94.5</dataPoint>
+		<dataPoint pos="0.25189393939394">94.5</dataPoint>
+		<dataPoint pos="0.32314213564214">95.5</dataPoint>
+		<dataPoint pos="0.39439033189033">95.5</dataPoint>
+		<dataPoint pos="0.46563852813853">96.5</dataPoint>
+		<dataPoint pos="0.60813492063492">96.5</dataPoint>
+		<dataPoint pos="0.67938311688312">97.5</dataPoint>
+		<dataPoint pos="0.82187950937951">97.5</dataPoint>
+		<dataPoint pos="0.89312770562771">98.5</dataPoint>
+		<dataPoint pos="0.9643759018759">98.5</dataPoint>
+		<dataPoint pos="0.99747474747475">99.5</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.05">94.45</dataPoint>
+		<dataPoint pos="0.20833333333333">95.083333333333</dataPoint>
+		<dataPoint pos="0.525">96.75</dataPoint>
+		<dataPoint pos="0.84166666666667">98.35</dataPoint>
+		<dataPoint pos="0.95">99.45</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0.0060975609756098">4.35</dataPoint>
+		<dataPoint pos="0.061314363143631">8.0277777777778</dataPoint>
+		<dataPoint pos="0.17174796747967">9.1666666666667</dataPoint>
+		<dataPoint pos="0.28218157181572">9.4444444444444</dataPoint>
+		<dataPoint pos="0.39261517615176">9.75</dataPoint>
+		<dataPoint pos="0.5030487804878">9.95</dataPoint>
+		<dataPoint pos="0.61348238482385">9.977777777778</dataPoint>
+		<dataPoint pos="0.72391598915989">10.055555555556</dataPoint>
+		<dataPoint pos="0.83434959349594">10.233333333333</dataPoint>
+		<dataPoint pos="0.94478319783198">10.45</dataPoint>
+		<dataPoint pos="0.99390243902439">10.75</dataPoint>
+	</dataPoints>
+</sport>

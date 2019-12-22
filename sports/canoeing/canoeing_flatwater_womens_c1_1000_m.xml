@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Women’s flatwater C-1 1 000 m</name>
+	<alphabetizedName>Canoeing, flatwater—Women’s C-1 1000 m</alphabetizedName>
+	<discipline>Canoeing, flatwater</discipline>
+	<event>Women’s C-1 1 000 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0104166666667">324.23996</dataPoint>
+		<dataPoint pos="0.0928819444444">279.3674235</dataPoint>
+		<dataPoint pos="0.2578125">270.3916215</dataPoint>
+		<dataPoint pos="0.422743055556">267.8869655</dataPoint>
+		<dataPoint pos="0.587673611111">266.0484915</dataPoint>
+		<dataPoint pos="0.752604166667">261.8677875</dataPoint>
+		<dataPoint pos="0.917534722222">258.7605075</dataPoint>
+		<dataPoint pos="0.989583333333">256.265856</dataPoint>
+	</dataPoints>
+</sport>

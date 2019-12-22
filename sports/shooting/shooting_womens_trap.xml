@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Women’s trap</name>
+	<discipline>Shooting</discipline>
+	<event>Women’s trap</event>
+	<scorinator/>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">3</int>
+		<list type="qualifyingAttemptTypes">
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.015</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="finalAttempts">1</int>
+		<int type="finalDisplayDigits">0</int>
+		
+		<int type="shootoffDisplayDigits">0</int>
+		<double type="shootoffRankModifier">2</double>
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.0073529411764706">13.5</dataPoint>
+		<dataPoint pos="0.069393382352941">16.5</dataPoint>
+		<dataPoint pos="0.19347426470588">17.5</dataPoint>
+		<dataPoint pos="0.31755514705882">19.5</dataPoint>
+		<dataPoint pos="0.44163602941176">20.5</dataPoint>
+		<dataPoint pos="0.56571691176471">21.5</dataPoint>
+		<dataPoint pos="0.68979779411765">21.5</dataPoint>
+		<dataPoint pos="0.81387867647059">22.5</dataPoint>
+		<dataPoint pos="0.93795955882353">23.5</dataPoint>
+		<dataPoint pos="0.99264705882353">24.5</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.3">0</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

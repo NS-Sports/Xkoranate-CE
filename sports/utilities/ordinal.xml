@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>~Utilities—1-2-3 Easy Scorinator</name>
+	<alphabetizedName>~Utilities—Ordinal ranking</alphabetizedName>
+	<discipline>Utilities</discipline>
+	<event>Ordinal ranking</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>ordinal</paradigm>
+	<paradigmOptions>
+		<double type="attackModifier">1</double>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fencing—Individual épée</name>
+	<alphabetizedName>Fencing—Individual epee</alphabetizedName>
+	<discipline>Fencing</discipline>
+	<event>Individual épée</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">15</int>
+		<double type="matchLength">540</double>
+		<double type="attackModifier">3.1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0.00735294117647">6.36</dataPoint>
+		<dataPoint pos="0.0693933823529">10.663125</dataPoint>
+		<dataPoint pos="0.193474264706">13.53125</dataPoint>
+		<dataPoint pos="0.317555147059">15.445625</dataPoint>
+		<dataPoint pos="0.441636029412">16.78</dataPoint>
+		<dataPoint pos="0.565716911765">17.825625</dataPoint>
+		<dataPoint pos="0.689797794118">19.110625</dataPoint>
+		<dataPoint pos="0.813878676471">20.329375</dataPoint>
+		<dataPoint pos="0.937959558824">24.31375</dataPoint>
+		<dataPoint pos="0.992647058824">39.73</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s hammer throw—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s hammer throw—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s hammer throw</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.321637426901</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00862068965517">69.03</dataPoint>
+		<dataPoint pos="0.0794334975369">69.8321428571</dataPoint>
+		<dataPoint pos="0.2210591133">71.1607142857</dataPoint>
+		<dataPoint pos="0.362684729064">72.0464285714</dataPoint>
+		<dataPoint pos="0.504310344828">73.775</dataPoint>
+		<dataPoint pos="0.645935960591">74.5542857143</dataPoint>
+		<dataPoint pos="0.787561576355">76.3714285714</dataPoint>
+		<dataPoint pos="0.929187192118">78.2385714286</dataPoint>
+		<dataPoint pos="0.991379310345">80.07</dataPoint>
+	</dataPoints>
+</sport>

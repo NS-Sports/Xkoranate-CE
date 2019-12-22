@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Pétanque</name>
+	<discipline>Pétanque</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>bestof</paradigm>
+	<paradigmOptions>
+		<int type="games">25</int>
+		<double type="attackModifier">2.5</double>
+	</paradigmOptions>
+</sport>

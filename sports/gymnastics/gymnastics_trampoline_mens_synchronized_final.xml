@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, trampoline—Men’s synchronized—Qualification routine 2 and final</name>
+	<discipline>Gymnastics, trampoline</discipline>
+	<event>Men’s synchronized</event>
+	<scorinator>Qualification routine 2 and final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.1</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.022727272727273">33.6</dataPoint>
+		<dataPoint pos="0.14488636363636">46</dataPoint>
+		<dataPoint pos="0.38920454545455">48.225</dataPoint>
+		<dataPoint pos="0.63352272727273">49.275</dataPoint>
+		<dataPoint pos="0.87784090909091">49.85</dataPoint>
+		<dataPoint pos="0.97727272727273">51.1</dataPoint>
+	</dataPoints>
+</sport>

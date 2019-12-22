@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Short track speed skating—Women’s 5 000 m relay</name>
+	<alphabetizedName>Short track speed skating—Women’s 5000 m relay</alphabetizedName>
+	<discipline>Short track speed skating</discipline>
+	<event>Women’s 5 000 m relay</event>
+	<scorinator/>
+	
+	<paradigm>shorttrack</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">3</double>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.066037735849057</double>
+		</list>
+		<list type="advancementProbs">
+			<double>0.357142857142857</double>
+		</list>
+		<double type="spontaneousAdvancementProb">0.004716981132075</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.029411764705882">268.745</dataPoint>
+		<dataPoint pos="0.15073529411765">259.90675</dataPoint>
+		<dataPoint pos="0.39338235294118">256.42</dataPoint>
+		<dataPoint pos="0.63602941176471">253.83425</dataPoint>
+		<dataPoint pos="0.87867647058824">249.052</dataPoint>
+		<dataPoint pos="0.97058823529412">246.61</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="advancer"> <!-- 90% chance that the finisher with the worst time is advanced, 10% that the second-worst is advanced -->
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.9">1</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

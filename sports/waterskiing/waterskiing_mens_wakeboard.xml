@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Men’s wakeboard</name>
+	<discipline>Water skiing</discipline>
+	<event>Men’s wakeboard</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">1</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0096153846153846">8.3</dataPoint>
+		<dataPoint pos="0.080357142857143">23.4</dataPoint>
+		<dataPoint pos="0.22184065934066">36.35</dataPoint>
+		<dataPoint pos="0.36332417582418">50.05</dataPoint>
+		<dataPoint pos="0.50480769230769">53.95</dataPoint>
+		<dataPoint pos="0.64629120879121">61.8</dataPoint>
+		<dataPoint pos="0.78777472527473">69.45</dataPoint>
+		<dataPoint pos="0.92925824175824">79.6</dataPoint>
+		<dataPoint pos="0.99038461538462">87</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s hammer throw—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s hammer throw—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s hammer throw</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.321637426901</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0049504950495">48.59</dataPoint>
+		<dataPoint pos="0.054702970297">60.266</dataPoint>
+		<dataPoint pos="0.154207920792">62.211</dataPoint>
+		<dataPoint pos="0.253712871287">63.19</dataPoint>
+		<dataPoint pos="0.353217821782">64.818</dataPoint>
+		<dataPoint pos="0.452722772277">65.781</dataPoint>
+		<dataPoint pos="0.552227722772">66.666</dataPoint>
+		<dataPoint pos="0.651732673267">67.306</dataPoint>
+		<dataPoint pos="0.751237623762">68.215</dataPoint>
+		<dataPoint pos="0.850742574257">69.776</dataPoint>
+		<dataPoint pos="0.950247524752">71.865</dataPoint>
+		<dataPoint pos="0.99504950495">73.92</dataPoint>
+	</dataPoints>
+</sport>

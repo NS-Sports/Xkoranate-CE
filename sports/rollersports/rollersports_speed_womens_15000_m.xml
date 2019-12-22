@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Women’s 15 000 m elimination—Final</name>
+	<alphabetizedName>Roller speed skating—Women’s 15 000 m elimination—~Final</alphabetizedName>
+	<discipline>Roller speed skating</discipline>
+	<event>Women’s 15 000 m elimination</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>eliminationrace</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+		<int type="laps">75</int>
+		<int type="finishers">5</int>
+		<int type="firstElimination">12</int>
+		<int type="lastElimination">72</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">22.55</dataPoint>
+		<dataPoint pos="0.55">21.35</dataPoint>
+	</dataPoints>
+</sport>

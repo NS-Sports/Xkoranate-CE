@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 200 m butterfly—Heats</name>
+	<alphabetizedName>Swimming—Men’s butterfly 200 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 200 m butterfly</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0108695652174">123.44</dataPoint>
+		<dataPoint pos="0.0932971014493">121.99</dataPoint>
+		<dataPoint pos="0.258152173913">120.52</dataPoint>
+		<dataPoint pos="0.423007246377">117.77</dataPoint>
+		<dataPoint pos="0.587862318841">116.649166667</dataPoint>
+		<dataPoint pos="0.752717391304">115.925</dataPoint>
+		<dataPoint pos="0.917572463768">115.1475</dataPoint>
+		<dataPoint pos="0.989130434783">113.7</dataPoint>
+	</dataPoints>
+</sport>

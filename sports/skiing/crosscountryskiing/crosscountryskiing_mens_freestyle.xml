@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Men’s freestyle 15 km</name>
+	<discipline>Cross-country skiing</discipline>
+	<event>Men’s freestyle 15 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0051546391752577">2971.4</dataPoint>
+		<dataPoint pos="0.060423825887743">2603.9555555556</dataPoint>
+		<dataPoint pos="0.17096219931271">2398.4</dataPoint>
+		<dataPoint pos="0.28150057273769">2273.9</dataPoint>
+		<dataPoint pos="0.39203894616266">2201.5444444444</dataPoint>
+		<dataPoint pos="0.50257731958763">2158.2</dataPoint>
+		<dataPoint pos="0.6131156930126">2133.9222222222</dataPoint>
+		<dataPoint pos="0.72365406643757">2107.2111111111</dataPoint>
+		<dataPoint pos="0.83419243986254">2091.5666666667</dataPoint>
+		<dataPoint pos="0.94473081328751">2067.6444444444</dataPoint>
+		<dataPoint pos="0.99484536082474">2016.3</dataPoint>
+	</dataPoints>
+</sport>

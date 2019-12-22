@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s hammer throw—Final</name>
+	<alphabetizedName>Athletics—Men’s hammer throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s hammer throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.321637426901</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0121951219512">72.97</dataPoint>
+		<dataPoint pos="0.094512195122">75.57</dataPoint>
+		<dataPoint pos="0.259146341463">76.705</dataPoint>
+		<dataPoint pos="0.423780487805">77.9533333333</dataPoint>
+		<dataPoint pos="0.588414634146">79.045</dataPoint>
+		<dataPoint pos="0.753048780488">80.025</dataPoint>
+		<dataPoint pos="0.917682926829">80.84</dataPoint>
+		<dataPoint pos="0.987804878049">82.02</dataPoint>
+	</dataPoints>
+</sport>

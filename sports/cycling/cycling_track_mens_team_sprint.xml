@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Men’s track team sprint</name>
+	<alphabetizedName>Cycling, track—Men’s team sprint</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Men’s team sprint</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0185185185185">46.266</dataPoint>
+		<dataPoint pos="0.116666666667">45.6648</dataPoint>
+		<dataPoint pos="0.312962962963">44.808</dataPoint>
+		<dataPoint pos="0.509259259259">44.213</dataPoint>
+		<dataPoint pos="0.705555555556">44.0156</dataPoint>
+		<dataPoint pos="0.901851851852">43.2932</dataPoint>
+		<dataPoint pos="0.981481481481">42.950</dataPoint>
+	</dataPoints>
+</sport>

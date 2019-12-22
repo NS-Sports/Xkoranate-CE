@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Weightlifting—Women’s 48 kg</name>
+	<alphabetizedName>Weightlifting—Women’s 48 kg</alphabetizedName>
+	<discipline>Weightlifting</discipline>
+	<event>Women’s 48 kg</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.142857142857</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0384615384615">150</dataPoint>
+		<dataPoint pos="0.198717948718">169.333333333</dataPoint>
+		<dataPoint pos="0.519230769231">185</dataPoint>
+		<dataPoint pos="0.839743589744">197</dataPoint>
+		<dataPoint pos="0.961538461538">212</dataPoint>
+	</dataPoints>
+</sport>

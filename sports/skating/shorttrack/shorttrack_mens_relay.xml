@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Short track speed skating—Men’s 5 000 m relay</name>
+	<alphabetizedName>Short track speed skating—Men’s 5000 m relay</alphabetizedName>
+	<discipline>Short track speed skating</discipline>
+	<event>Men’s 5 000 m relay</event>
+	<scorinator/>
+	
+	<paradigm>shorttrack</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">3</double>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.066037735849057</double>
+		</list>
+		<list type="advancementProbs">
+			<double>0.357142857142857</double>
+		</list>
+		<double type="spontaneousAdvancementProb">0.004716981132075</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.03125">411.566</dataPoint>
+		<dataPoint pos="0.19270833333333">410.53483333333</dataPoint>
+		<dataPoint pos="0.515625">405.4995</dataPoint>
+		<dataPoint pos="0.83854166666667">403.90816666667</dataPoint>
+		<dataPoint pos="0.96875">403.601</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="advancer"> <!-- 90% chance that the finisher with the worst time is advanced, 10% that the second-worst is advanced -->
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.9">1</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

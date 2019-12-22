@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Dressage—Grand prix test</name>
+	<alphabetizedName>Equestrian, dressage—Round 1</alphabetizedName>
+	<discipline>Equestrian, dressage</discipline>
+	<event>Grand prix test</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.0416666666667</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0104166666667">57.333</dataPoint>
+		<dataPoint pos="0.0928819444444">60.1565</dataPoint>
+		<dataPoint pos="0.2578125">62.6565</dataPoint>
+		<dataPoint pos="0.422743055556">65.01025</dataPoint>
+		<dataPoint pos="0.587673611111">66.88525</dataPoint>
+		<dataPoint pos="0.752604166667">69.15625</dataPoint>
+		<dataPoint pos="0.917534722222">70.9375</dataPoint>
+		<dataPoint pos="0.989583333333">76.417</dataPoint>
+	</dataPoints>
+</sport>

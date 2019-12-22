@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>American football—NSFS3 formula (IFAF overtime)</name>
+	<discipline>American football</discipline>
+	<event>NSFS3 formula</event>
+	<scorinator>IFAF overtime</scorinator>
+	
+	<paradigm>nsfs-gridiron</paradigm>
+	<paradigmOptions>
+		<string type="resultStyle">periods</string>
+		<int type="resultWidth">2</int>
+		<list type="pointValues">
+			<int>6</int> <!-- first value can have a conversion -->
+			<int>3</int>
+		</list>
+		<list type="scoringProbs">
+			<double>0.196</double>
+			<double>0.242</double>
+		</list>
+		<list type="scoringCoeffs">
+			<double>0.108</double>
+			<double>0.066</double>
+		</list>
+		<double type="turnoverBase">0.141</double>
+		<double type="turnoverCoeff">-0.068</double>
+		<int type="conversionValue">1</int>
+		<double type="conversionProb">0.975</double>
+		<list type="tiebreakers">
+			<string>ifaf</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>OT</string>
+		</list>
+		<list type="ifafPointProbs">
+			<double>0.437</double>
+			<double>0.282</double>
+		</list>
+		<int type="otConversionValue">2</int> <!-- used from third overtime onward -->
+		<double type="otConversionProb">0.38</double>
+		<int type="periods">4</int>
+		<double type="attacksBase">2.75</double>
+		<double type="attacksCoeff">1.5</double>
+	</paradigmOptions>
+</sport>

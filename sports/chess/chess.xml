@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Chess—Single game</name>
+	<alphabetizedName>Chess—1 game</alphabetizedName>
+	<discipline>Chess</discipline>
+	<event>Single game</event>
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="results">
+			<string>½–½</string>
+			<string>1–0</string>
+		</list>
+		<list type="reversedResults">
+			<string>½–½</string>
+			<string>0–1</string>
+		</list>
+		<list type="winnerScores">
+			<double>0.5</double>
+			<double>1</double>
+		</list>
+		<list type="loserScores">
+			<double>0.5</double>
+			<double>0</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.4</double>
+			<double>0.6</double>
+		</list>
+		<double type="mandatoryHomeAdvantage">0.08</double>
+	</paradigmOptions>
+</sport>

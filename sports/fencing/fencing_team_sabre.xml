@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fencing—Team sabre</name>
+	<discipline>Fencing</discipline>
+	<event>Team sabre</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">45</int>
+		<double type="matchLength">1620</double>
+		<double type="attackModifier">6.2</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0.0192307692308">2.38</dataPoint>
+		<dataPoint pos="0.117307692308">2.786</dataPoint>
+		<dataPoint pos="0.313461538462">3.404</dataPoint>
+		<dataPoint pos="0.509615384615">3.465</dataPoint>
+		<dataPoint pos="0.705769230769">3.73</dataPoint>
+		<dataPoint pos="0.901923076923">4.039</dataPoint>
+		<dataPoint pos="0.980769230769">4.46</dataPoint>
+	</dataPoints>
+</sport>

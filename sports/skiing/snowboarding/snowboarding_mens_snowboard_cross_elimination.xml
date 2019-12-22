@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Men’s snowboard cross—Elimination</name>
+	<alphabetizedName>Snowboarding—Men’s snowboard cross—Round 2</alphabetizedName>
+	<discipline>Snowboarding</discipline>
+	<event>Men’s snowboard cross</event>
+	<scorinator>Elimination</scorinator>
+	
+	<paradigm>ordinal</paradigm>
+	<paradigmOptions>
+		<double type="attackModifier">1</double>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rugball—NSFS formula</name>
+	<discipline>Rugball</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>nsfs</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">7.5</double>
+		<double type="homeAdvantageGG">0.133333333333</double>
+		<double type="etAttackCoeff">0.333333333333</double>
+		<double type="goldenGoalProb">0.4</double>
+		<double type="shootoutProb">0.65</double>
+		<double type="shootoutLength">5</double>
+		<double type="pointValues">1</double>
+		<double type="attackCoeffs">1</double>
+		<list type="tiebreakers">
+			<string>extratime</string>
+			<string>shootout</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>AET</string>
+			<string>pen.</string>
+		</list>
+		
+		<!-- NSFS parameters -->
+		<double type="baseAttackCoeff">667.5</double>
+		<double type="rankDiffModifier">12</double>
+		<double type="rankCoeff">31.5</double>
+		<double type="rankScalar">0.5</double>
+		<double type="baseAttackSuccessThreshold">580</double>
+		<int type="baseAttacksSuperior">35</int>
+		<int type="baseAttacksInferior">35</int>
+		<double type="attackCoeffSuperior">30</double>
+		<double type="attackCoeffInferior">0</double>
+		<double type="NSFSStyleCoeffA">2.0991677816057</double>
+		<double type="NSFSStyleCoeffB">1.2442581729602</double>
+		<double type="NSFSStyleExponent">-0.42705203296846</double>
+		<double type="NSFSStyleOffset">0.072435335725325</double>
+		<string type="tableHeaderGoalsFor">GF</string>
+		<string type="tableHeaderGoalsAgainst">GA</string>
+		<string type="tableHeaderGoalDifference">GD</string>
+	</paradigmOptions>
+	
+	<!-- the style modifier distribution is a bit wonky because negative modifiers are less likely to take effect -->
+	<dataPoints name="style">
+		<dataPoint pos="0">-3</dataPoint>
+		<dataPoint pos="0.4">-1</dataPoint>
+		<dataPoint pos="0.5">0</dataPoint>
+		<dataPoint pos="0.65">0</dataPoint>
+		<dataPoint pos="1">3</dataPoint>
+	</dataPoints>
+</sport>

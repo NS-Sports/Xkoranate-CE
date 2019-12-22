@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics—Rhythmic individual—Qualifying</name>
+	<alphabetizedName>Gymnastics, rhythmic—Individual all-around—Round 1</alphabetizedName>
+	<discipline>Gymnastics, rhythmic</discipline>
+	<event>Individual all-around</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.025</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0192307692308">49.050</dataPoint>
+		<dataPoint pos="0.117307692308">59.21</dataPoint>
+		<dataPoint pos="0.313461538462">64.12</dataPoint>
+		<dataPoint pos="0.509615384615">66.05</dataPoint>
+		<dataPoint pos="0.705769230769">67.985</dataPoint>
+		<dataPoint pos="0.901923076923">72.2625</dataPoint>
+		<dataPoint pos="0.980769230769">74.075</dataPoint>
+	</dataPoints>
+</sport>

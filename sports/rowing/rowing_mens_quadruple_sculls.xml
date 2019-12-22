@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Men’s quadruple sculls</name>
+	<alphabetizedName>Rowing—Men’s scull 4</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Men’s quadruple sculls</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0116279069767">372.64</dataPoint>
+		<dataPoint pos="0.093992248062">364.536666667</dataPoint>
+		<dataPoint pos="0.258720930233">356.38</dataPoint>
+		<dataPoint pos="0.423449612403">351.746666667</dataPoint>
+		<dataPoint pos="0.588178294574">347.806666667</dataPoint>
+		<dataPoint pos="0.752906976744">343.73</dataPoint>
+		<dataPoint pos="0.917635658915">339.49</dataPoint>
+		<dataPoint pos="0.988372093023">336.20</dataPoint>
+	</dataPoints>
+</sport>

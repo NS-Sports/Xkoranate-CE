@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cricket—One-day international</name>
+	<discipline>Cricket</discipline>
+	<event>One-day international</event>
+	<scorinator/>
+	
+	<paradigm>howzzat</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<double type="styleCoeff">0.04</double>
+		<int type="maxOvers">50</int>
+		<int type="ballsPerOver">6</int>
+		<int type="maxWickets">10</int>
+		<list type="meanRunRate">
+			<double>3.52</double>
+			<double>4.33</double>
+			<double>4.88</double>
+			<double>5.47</double>
+			<double>6.55</double>
+		</list>
+		<list type="stDevRunRate">
+			<double>0.39</double>
+			<double>0.17</double>
+			<double>0.21</double>
+			<double>0.17</double>
+			<double>0.69</double>
+		</list>
+		<list type="meanWicketRate">
+			<double>23.63</double>
+			<double>29.31</double>
+			<double>35.45</double>
+			<double>47.37</double>
+			<double>96.6</double>
+		</list>
+		<list type="stDevWicketRate">
+			<double>3.96</double>
+			<double>0.92</double>
+			<double>2.24</double>
+			<double>4.5</double>
+			<double>21</double>
+		</list>
+	</paradigmOptions>
+</sport>

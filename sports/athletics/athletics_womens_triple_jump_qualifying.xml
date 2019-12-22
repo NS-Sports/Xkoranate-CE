@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s triple jump—Qualifying</name>
+	<alphabetizedName>Athletics—Women’s triple jump—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s triple jump</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.301886792453</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0078125">11.29</dataPoint>
+		<dataPoint pos="0.0786830357143">12.8778571429</dataPoint>
+		<dataPoint pos="0.220424107143">13.3807142857</dataPoint>
+		<dataPoint pos="0.362165178571">13.5657142857</dataPoint>
+		<dataPoint pos="0.50390625">13.82</dataPoint>
+		<dataPoint pos="0.645647321429">14.01</dataPoint>
+		<dataPoint pos="0.787388392857">14.1771428571</dataPoint>
+		<dataPoint pos="0.929129464286">14.5321428571</dataPoint>
+		<dataPoint pos="0.9921875">14.99</dataPoint>
+	</dataPoints>
+</sport>

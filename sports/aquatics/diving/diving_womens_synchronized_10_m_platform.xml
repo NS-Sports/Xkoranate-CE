@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Diving—Women’s synchronized 10 m platform</name>
+	<alphabetizedName>Diving—Women’s synchronized 10 m platform</alphabetizedName>
+	<discipline>Diving</discipline>
+	<event>Women’s synchronized 10 m platform</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">303.48</dataPoint>
+		<dataPoint pos="0.208333333333">306.275</dataPoint>
+		<dataPoint pos="0.525">309.705</dataPoint>
+		<dataPoint pos="0.841666666667">334.31</dataPoint>
+		<dataPoint pos="0.95">363.54</dataPoint>
+	</dataPoints>
+</sport>

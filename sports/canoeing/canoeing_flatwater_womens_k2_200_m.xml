@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Women’s flatwater K-2 200 m</name>
+	<alphabetizedName>Canoeing, flatwater—Women’s K-2 0200 m</alphabetizedName>
+	<discipline>Canoeing, flatwater</discipline>
+	<event>Women’s K-2 200 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0135135135135">43.058</dataPoint>
+		<dataPoint pos="0.0957207207207">42.979</dataPoint>
+		<dataPoint pos="0.260135135135">42.792</dataPoint>
+		<dataPoint pos="0.42454954955">42.389</dataPoint>
+		<dataPoint pos="0.588963963964">41.954</dataPoint>
+		<dataPoint pos="0.753378378378">41.56</dataPoint>
+		<dataPoint pos="0.917792792793">40.863</dataPoint>
+		<dataPoint pos="0.986486486486">40.523</dataPoint>
+	</dataPoints>
+</sport>

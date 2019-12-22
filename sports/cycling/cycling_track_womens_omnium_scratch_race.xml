@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling, track—Women’s omnium—Scratch race</name>
+	<alphabetizedName>Cycling, track—Women’s omnium—Event 5</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Women’s omnium</event>
+	<scorinator>Scratch race</scorinator>
+	
+	<paradigm>pointsrace</paradigm>
+	<paradigmOptions>
+		<int type="maxPoints">176</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.111111111111</double>
+		</list>
+		<string type="usePoints">false</string>
+	</paradigmOptions>
+	
+	<dataPoints name="laps">
+		<dataPoint pos="0">-1</dataPoint>
+		<dataPoint pos="0.5">-1</dataPoint>
+		<dataPoint pos="0.500001">0</dataPoint>
+		<dataPoint pos="1">0</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 1 500 m—Heats</name>
+	<alphabetizedName>Athletics—Women’s 01500 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 1 500 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0142857142857">305.76</dataPoint>
+		<dataPoint pos="0.112857142857">258.456</dataPoint>
+		<dataPoint pos="0.31">254.804</dataPoint>
+		<dataPoint pos="0.507142857143">249.7</dataPoint>
+		<dataPoint pos="0.704285714286">246.664</dataPoint>
+		<dataPoint pos="0.901428571429">244.044</dataPoint>
+		<dataPoint pos="0.985714285714">243.02</dataPoint>
+	</dataPoints>
+</sport>

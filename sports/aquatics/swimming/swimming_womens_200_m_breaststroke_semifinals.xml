@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 200 m breaststroke—Semifinals</name>
+	<alphabetizedName>Swimming—Women’s breaststroke 200 m—Round 2</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 200 m breaststroke</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0263157894737">149.64</dataPoint>
+		<dataPoint pos="0.148026315789">148.28</dataPoint>
+		<dataPoint pos="0.391447368421">146.71</dataPoint>
+		<dataPoint pos="0.634868421053">144</dataPoint>
+		<dataPoint pos="0.878289473684">143.04</dataPoint>
+		<dataPoint pos="0.973684210526">142.17</dataPoint>
+	</dataPoints>
+</sport>

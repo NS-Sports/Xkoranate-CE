@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—1 500 m</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 10</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>1 500 m</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+		<double type="decathlonA">0.03768</double>
+		<double type="decathlonB">480</double>
+		<double type="decathlonC">1.85</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0178571428571">320.26</dataPoint>
+		<dataPoint pos="0.116071428571">306.63</dataPoint>
+		<dataPoint pos="0.3125">289.615</dataPoint>
+		<dataPoint pos="0.508928571429">281.8</dataPoint>
+		<dataPoint pos="0.705357142857">275.135</dataPoint>
+		<dataPoint pos="0.901785714286">269.055</dataPoint>
+		<dataPoint pos="0.982142857143">266.77</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Racquetball</name>
+	<discipline>Racquetball</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">3</int>
+		<int type="winPoints">15</int>
+		<int type="winMargin">1</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">11</int>
+		<int type="finalSetWinMargin">1</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">5.5</double>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 400 m—Heats</name>
+	<alphabetizedName>Athletics—Women’s 00400 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 400 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00961538461538">66.19</dataPoint>
+		<dataPoint pos="0.0803571428571">56.49</dataPoint>
+		<dataPoint pos="0.221840659341">53.34</dataPoint>
+		<dataPoint pos="0.363324175824">52.875</dataPoint>
+		<dataPoint pos="0.504807692308">52.39</dataPoint>
+		<dataPoint pos="0.646291208791">51.59</dataPoint>
+		<dataPoint pos="0.787774725275">51.355</dataPoint>
+		<dataPoint pos="0.929258241758">50.89</dataPoint>
+		<dataPoint pos="0.990384615385">50.54</dataPoint>
+	</dataPoints>
+</sport>

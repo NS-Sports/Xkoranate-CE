@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Diving—Men’s synchronized 3 m springboard</name>
+	<alphabetizedName>Diving—Men’s synchronized 03 m springboard</alphabetizedName>
+	<discipline>Diving</discipline>
+	<event>Men’s synchronized 3 m springboard</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">393.8</dataPoint>
+		<dataPoint pos="0.208333333333">402.44</dataPoint>
+		<dataPoint pos="0.525">410.01</dataPoint>
+		<dataPoint pos="0.841666666667">420.825</dataPoint>
+		<dataPoint pos="0.95">469.08</dataPoint>
+	</dataPoints>
+</sport>

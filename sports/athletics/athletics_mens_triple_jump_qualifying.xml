@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s triple jump—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s triple jump—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s triple jump</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.301886792453</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00641025641026">13.79</dataPoint>
+		<dataPoint pos="0.0685096153846">15.18625</dataPoint>
+		<dataPoint pos="0.192708333333">15.901875</dataPoint>
+		<dataPoint pos="0.316907051282">16.183125</dataPoint>
+		<dataPoint pos="0.441105769231">16.474375</dataPoint>
+		<dataPoint pos="0.565304487179">16.691875</dataPoint>
+		<dataPoint pos="0.689503205128">16.855625</dataPoint>
+		<dataPoint pos="0.813701923077">17.06</dataPoint>
+		<dataPoint pos="0.937900641026">17.23625</dataPoint>
+		<dataPoint pos="0.99358974359">17.44</dataPoint>
+	</dataPoints>
+</sport>

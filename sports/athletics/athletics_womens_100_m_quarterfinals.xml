@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 100 m—Quarterfinals</name>
+	<alphabetizedName>Athletics—Women’s 00100 m—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 100 m</event>
+	<scorinator>Quarterfinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0119047619048">11.73</dataPoint>
+		<dataPoint pos="0.094246031746">11.6875</dataPoint>
+		<dataPoint pos="0.258928571429">11.5725</dataPoint>
+		<dataPoint pos="0.423611111111">11.47</dataPoint>
+		<dataPoint pos="0.588293650794">11.385</dataPoint>
+		<dataPoint pos="0.752976190476">11.2225</dataPoint>
+		<dataPoint pos="0.917658730159">11.0925</dataPoint>
+		<dataPoint pos="0.988095238095">11.00</dataPoint>
+	</dataPoints>
+</sport>

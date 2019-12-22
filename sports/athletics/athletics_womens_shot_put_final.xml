@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s shot put—Final</name>
+	<alphabetizedName>Athletics—Women’s shot put—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s shot put</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.302395209581</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00877192982456">16.97</dataPoint>
+		<dataPoint pos="0.0795739348371">17.74</dataPoint>
+		<dataPoint pos="0.221177944862">18.1585714286</dataPoint>
+		<dataPoint pos="0.362781954887">18.4428571429</dataPoint>
+		<dataPoint pos="0.504385964912">18.81</dataPoint>
+		<dataPoint pos="0.645989974937">19.01</dataPoint>
+		<dataPoint pos="0.787593984962">19.42</dataPoint>
+		<dataPoint pos="0.929197994987">20.2628571429</dataPoint>
+		<dataPoint pos="0.991228070175">20.56</dataPoint>
+	</dataPoints>
+</sport>

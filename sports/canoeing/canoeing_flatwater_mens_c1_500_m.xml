@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Men’s flatwater C-1 500 m</name>
+	<alphabetizedName>Canoeing, flatwater—Men’s C-1 0500 m</alphabetizedName>
+	<discipline>Canoeing, flatwater</discipline>
+	<event>Men’s C-1 500 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00980392156863">137.940</dataPoint>
+		<dataPoint pos="0.0805322128852">129.946857143</dataPoint>
+		<dataPoint pos="0.221988795518">116.261142857</dataPoint>
+		<dataPoint pos="0.363445378151">113.719428571</dataPoint>
+		<dataPoint pos="0.504901960784">111.535</dataPoint>
+		<dataPoint pos="0.646358543417">110.063428571</dataPoint>
+		<dataPoint pos="0.78781512605">109.199142857</dataPoint>
+		<dataPoint pos="0.929271708683">108.487428571</dataPoint>
+		<dataPoint pos="0.990196078431">107.140</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Men’s ski cross—Elimination</name>
+	<alphabetizedName>Freestyle skiing—Men’s ski cross—Round 2</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Men’s ski cross</event>
+	<scorinator>Elimination</scorinator>
+	
+	<paradigm>ordinal</paradigm>
+	<paradigmOptions>
+		<double type="attackModifier">1</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.09375</double>
+		</list>
+		<list type="statusSortOrder">
+			<int>1</int>
+		</list>
+	</paradigmOptions>
+</sport>

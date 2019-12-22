@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 20 km walk</name>
+	<alphabetizedName>Athletics—Women’s 2walk 20 km</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 20 km walk</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">0</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.020202020202</double>
+			<double>0.0505050505051</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0111111111111">6253</dataPoint>
+		<dataPoint pos="0.0935185185185">5851</dataPoint>
+		<dataPoint pos="0.258333333333">5703</dataPoint>
+		<dataPoint pos="0.423148148148">5540</dataPoint>
+		<dataPoint pos="0.587962962963">5457.5</dataPoint>
+		<dataPoint pos="0.752777777778">5307</dataPoint>
+		<dataPoint pos="0.917592592593">5241</dataPoint>
+		<dataPoint pos="0.988888888889">5191</dataPoint>
+	</dataPoints>
+</sport>

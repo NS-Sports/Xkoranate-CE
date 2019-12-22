@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 200 m—Heats</name>
+	<alphabetizedName>Athletics—Men’s 00200 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 200 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00909090909091</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0078125">23.39</dataPoint>
+		<dataPoint pos="0.0786830357143">21.7571428571</dataPoint>
+		<dataPoint pos="0.220424107143">21.2571428571</dataPoint>
+		<dataPoint pos="0.362165178571">21.0107142857</dataPoint>
+		<dataPoint pos="0.50390625">20.895</dataPoint>
+		<dataPoint pos="0.645647321429">20.7778571429</dataPoint>
+		<dataPoint pos="0.787388392857">20.6107142857</dataPoint>
+		<dataPoint pos="0.929129464286">20.5335714286</dataPoint>
+		<dataPoint pos="0.9921875">20.25</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Archery, field—Men’s compound individual—Marked targets</name>
+	<alphabetizedName>Archery, field—Men’s compound individual—~Marked targets</alphabetizedName>
+	<discipline>Archery, field</discipline>
+	<event>Men’s compound individual</event>
+	<scorinator>Marked targets</scorinator>
+	
+	<paradigm>archery</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">3</int>
+		<!-- ranking round -->
+		<int type="rankingArrows">72</int>
+		<double type="rankingRankModifier">1.75</double>
+		<double type="rankingRankAdjustmentFactor">0.3</double>
+		<string type="sortOrder">descending</string>
+		
+		<!-- knockout rounds -->
+		<int type="knockoutArrows">12</int>
+		<double type="knockoutRankModifier">1.75</double>
+		<double type="knockoutRankAdjustmentFactor">0.3</double>
+		
+		<int type="maxScore">5</int> <!-- score above this is an X -->
+		<string type="scorePointForX">true</string> <!-- in field archery, an X scores six points rather than five -->
+		<int type="arrowsPerTiebreak">1</int> <!-- each tiebreak round involves only one arrow -->
+	</paradigmOptions>
+	<dataPoints name="score">
+		<dataPoint pos="0">3</dataPoint>
+		<dataPoint pos="0.012">4</dataPoint>
+		<dataPoint pos="0.118">5</dataPoint>
+		<dataPoint pos="0.6">6</dataPoint>
+		<dataPoint pos="1">6</dataPoint>
+	</dataPoints>
+</sport>

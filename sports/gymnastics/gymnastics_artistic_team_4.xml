@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics—Artistic team—Four apparatuses</name>
+	<alphabetizedName>Gymnastics, artistic—Team—4 apparatuses</alphabetizedName>
+	<discipline>Gymnastics, artistic</discipline>
+	<event>Team</event>
+	<scorinator>Four apparatuses</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.025</double>
+		<string type="sortOrder">descending</string>
+		<int type="attempts">4</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00609756097561">41.875</dataPoint>
+		<dataPoint pos="0.0613143631436">42.9444444444</dataPoint>
+		<dataPoint pos="0.17174796748">43.7041666667</dataPoint>
+		<dataPoint pos="0.282181571816">44.6138888889</dataPoint>
+		<dataPoint pos="0.392615176152">45.2611111111</dataPoint>
+		<dataPoint pos="0.503048780488">45.65</dataPoint>
+		<dataPoint pos="0.613482384824">46.1888888889</dataPoint>
+		<dataPoint pos="0.72391598916">46.7569444444</dataPoint>
+		<dataPoint pos="0.834349593496">47.1166666667</dataPoint>
+		<dataPoint pos="0.944783197832">48.6902777778</dataPoint>
+		<dataPoint pos="0.993902439024">49.625</dataPoint>
+	</dataPoints>
+</sport>

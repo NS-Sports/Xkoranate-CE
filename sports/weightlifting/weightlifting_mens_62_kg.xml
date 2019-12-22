@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Weightlifting—Men’s 62 kg</name>
+	<alphabetizedName>Weightlifting—Men’s 062 kg</alphabetizedName>
+	<discipline>Weightlifting</discipline>
+	<event>Men’s 62 kg</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">0</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.142857142857</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0357142857143">266</dataPoint>
+		<dataPoint pos="0.196428571429">277.5</dataPoint>
+		<dataPoint pos="0.517857142857">291</dataPoint>
+		<dataPoint pos="0.839285714286">299.166666667</dataPoint>
+		<dataPoint pos="0.964285714286">319</dataPoint>
+	</dataPoints>
+</sport>

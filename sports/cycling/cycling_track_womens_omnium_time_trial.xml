@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling, track—Women’s omnium—Time trial</name>
+	<alphabetizedName>Cycling, track—Women’s omnium—Event 6</alphabetizedName>
+	<discipline>Cycling, track</discipline>
+	<event>Women’s omnium</event>
+	<scorinator>Time trial</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.020833333333333">38.961</dataPoint>
+		<dataPoint pos="0.14322916666667">38.70675</dataPoint>
+		<dataPoint pos="0.38802083333333">37.10025</dataPoint>
+		<dataPoint pos="0.6328125">36.676625</dataPoint>
+		<dataPoint pos="0.87760416666667">36.181125</dataPoint>
+		<dataPoint pos="0.97916666666667">35.799</dataPoint>
+	</dataPoints>
+</sport>

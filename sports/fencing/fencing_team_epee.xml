@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fencing—Team épée</name>
+	<alphabetizedName>Fencing—Team epee</alphabetizedName>
+	<discipline>Fencing</discipline>
+	<event>Team épée</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">45</int>
+		<double type="matchLength">1620</double>
+		<double type="attackModifier">5.7</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0.0333333333333">12.51</dataPoint>
+		<dataPoint pos="0.194444444444">14.56</dataPoint>
+		<dataPoint pos="0.516666666667">17.68</dataPoint>
+		<dataPoint pos="0.838888888889">20.25</dataPoint>
+		<dataPoint pos="0.966666666667">24.92</dataPoint>
+	</dataPoints>
+</sport>

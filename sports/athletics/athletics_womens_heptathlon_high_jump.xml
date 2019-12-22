@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s heptathlon—High jump</name>
+	<alphabetizedName>Athletics—Women’s heptathlon—Event 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s heptathlon</event>
+	<scorinator>High jump</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.80</double>
+		<double type="depreciation">0.955</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">162</double>
+		<list type="heights">
+			<double>1.50</double>
+			<double>1.53</double>
+			<double>1.56</double>
+			<double>1.59</double>
+			<double>1.62</double>
+			<double>1.65</double>
+			<double>1.68</double>
+			<double>1.71</double>
+			<double>1.74</double>
+			<double>1.77</double>
+			<double>1.80</double>
+			<double>1.83</double>
+			<double>1.86</double>
+			<double>1.89</double>
+			<double>1.92</double>
+			<double>1.95</double>
+			<double>1.98</double>
+			<double>2.01</double>
+			<double>2.04</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<double type="decathlonA">1.84523</double>
+		<double type="decathlonB">75</double>
+		<double type="decathlonC">1.348</double>
+		<double type="decathlonMultiplier">100</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

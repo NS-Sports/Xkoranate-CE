@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s high jump—Final</name>
+	<alphabetizedName>Athletics—Women’s high jump—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s high jump</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.78</double>
+		<double type="depreciation">0.95</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">180</double>
+		<list type="heights">
+			<double>1.85</double>
+			<double>1.89</double>
+			<double>1.93</double>
+			<double>1.96</double>
+			<double>1.99</double>
+			<double>2.01</double>
+			<double>2.03</double>
+			<double>2.05</double>
+			<double>2.07</double>
+			<double>2.09</double>
+			<double>2.11</double>
+			<double>2.13</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

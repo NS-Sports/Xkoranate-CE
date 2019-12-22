@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Ski jumping—Men’s individual large hill</name>
+	<discipline>Ski jumping</discipline>
+	<event>Men’s individual large hill</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">1</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.010600706713781</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0037878787878788">47.4</dataPoint>
+		<dataPoint pos="0.049070247933884">71.477272727273</dataPoint>
+		<dataPoint pos="0.1396349862259">80.731818181818</dataPoint>
+		<dataPoint pos="0.23019972451791">94.359090909091</dataPoint>
+		<dataPoint pos="0.32076446280992">100.21818181818</dataPoint>
+		<dataPoint pos="0.41132920110193">106.08636363636</dataPoint>
+		<dataPoint pos="0.50189393939394">110.2</dataPoint>
+		<dataPoint pos="0.59245867768595">114.50454545455</dataPoint>
+		<dataPoint pos="0.68302341597796">121.19545454545</dataPoint>
+		<dataPoint pos="0.77358815426997">124.85</dataPoint>
+		<dataPoint pos="0.86415289256198">131.64090909091</dataPoint>
+		<dataPoint pos="0.95471763085399">138</dataPoint>
+		<dataPoint pos="0.99621212121212">144.7</dataPoint>
+	</dataPoints>
+</sport>

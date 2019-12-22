@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Men’s 1 500 m freestyle—Heats</name>
+	<alphabetizedName>Swimming—Men’s freestyle 1500 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Men’s 1 500 m freestyle</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0135135135135">988.79</dataPoint>
+		<dataPoint pos="0.0957207207207">943.305</dataPoint>
+		<dataPoint pos="0.260135135135">920.06</dataPoint>
+		<dataPoint pos="0.42454954955">912.223333333</dataPoint>
+		<dataPoint pos="0.588963963964">904.941666667</dataPoint>
+		<dataPoint pos="0.753378378378">890.87</dataPoint>
+		<dataPoint pos="0.917792792793">881.081666667</dataPoint>
+		<dataPoint pos="0.986486486486">878.39</dataPoint>
+	</dataPoints>
+</sport>

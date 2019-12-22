@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Women’s tournament—Jumping</name>
+	<alphabetizedName>Water skiing—Women’s tournament—Event 3</alphabetizedName>
+	<discipline>Water skiing</discipline>
+	<event>Women’s tournament</event>
+	<scorinator>Jumping</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">1</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">30</dataPoint>
+		<dataPoint pos="0.146875">37.9125</dataPoint>
+		<dataPoint pos="0.390625">40.6375</dataPoint>
+		<dataPoint pos="0.634375">41.8375</dataPoint>
+		<dataPoint pos="0.878125">45.0625</dataPoint>
+		<dataPoint pos="0.975">46.3</dataPoint>
+	</dataPoints>
+</sport>

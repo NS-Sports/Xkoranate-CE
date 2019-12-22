@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Wrestling—xkoranate formula</name>
+	<discipline>Wrestling</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="winnerScores">
+			<double>3</double>
+			<double>3</double>
+			<double>4</double>
+			<double>4</double>
+			<double>5</double>
+		</list>
+		<list type="loserScores">
+			<double>1</double>
+			<double>0</double>
+			<double>1</double>
+			<double>0</double>
+			<double>0</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.7</double>
+			<double>0.2</double>
+			<double>0.01</double>
+			<double>0.03</double>
+			<double>0.06</double>
+		</list>
+	</paradigmOptions>
+</sport>

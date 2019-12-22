@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Men’s skeet</name>
+	<discipline>Shooting</discipline>
+	<event>Men’s skeet</event>
+	<scorinator/>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">5</int>
+		<list type="qualifyingAttemptTypes">
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.015</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="finalAttempts">1</int>
+		<int type="finalDisplayDigits">0</int>
+		
+		<int type="shootoffDisplayDigits">0</int>
+		<double type="shootoffRankModifier">2</double>
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.0023474178403756">10.5</dataPoint>
+		<dataPoint pos="0.037977867203219">18.5</dataPoint>
+		<dataPoint pos="0.10923876592891">20.5</dataPoint>
+		<dataPoint pos="0.18049966465459">20.5</dataPoint>
+		<dataPoint pos="0.25176056338028">21.5</dataPoint>
+		<dataPoint pos="0.39428236083166">21.5</dataPoint>
+		<dataPoint pos="0.46554325955734">22.5</dataPoint>
+		<dataPoint pos="0.60806505700872">22.5</dataPoint>
+		<dataPoint pos="0.67932595573441">23.5</dataPoint>
+		<dataPoint pos="0.89310865191147">23.5</dataPoint>
+		<dataPoint pos="0.96436955063716">24.5</dataPoint>
+		<dataPoint pos="0.99765258215962">24.5</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.3">0</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

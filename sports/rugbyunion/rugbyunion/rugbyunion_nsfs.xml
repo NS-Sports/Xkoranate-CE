@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rugby union—NSFS fomula</name>
+	<discipline>Rugby union</discipline>
+	<event>NSFS2 formula</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>nsfs</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">7.5</double>
+		<list type="attackCoeffs">
+			<double>1</double>
+			<double>1</double>
+		</list>
+		<double type="etAttackCoeff">0.333333333333</double>
+		<int type="shootoutLength">5</int>
+		<list type="pointValues">
+			<int>5</int> <!-- first value can have a conversion -->
+			<int>3</int>
+		</list>
+		<int type="conversionValues">2</int>
+		<int type="conversionSelection">1</int>
+		<double type="conversionSuccess">0.75</double>
+		<list type="tiebreakers">
+			<string>extratime</string>
+			<string>shootout</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>AET</string>
+			<string>pen.</string>
+		</list>
+		
+		<!-- NSFS parameters -->
+		<double type="baseAttackCoeff">667.5</double>
+		<double type="rankDiffModifier">12</double>
+		<double type="rankCoeff">31.5</double>
+		<double type="rankScalar">0.5</double>
+		<double type="baseAttackSuccessThreshold">580</double>
+		<int type="baseAttacksSuperior">10</int>
+		<int type="baseAttacksInferior">10</int>
+		<double type="attackCoeffSuperior">10</double>
+		<double type="attackCoeffInferior">0</double>
+		<double type="NSFSStyleCoeffA">2.0991677816057</double>
+		<double type="NSFSStyleCoeffB">1.2442581729602</double>
+		<double type="NSFSStyleExponent">-0.42705203296846</double>
+		<double type="NSFSStyleOffset">0.072435335725325</double>
+	</paradigmOptions>
+	
+	<!-- the style modifier distribution is a bit wonky because negative modifiers are less likely to take effect -->
+	<dataPoints name="style">
+		<dataPoint pos="0">-2</dataPoint>
+		<dataPoint pos="0.4">-1</dataPoint>
+		<dataPoint pos="0.5">0</dataPoint>
+		<dataPoint pos="0.65">0</dataPoint>
+		<dataPoint pos="1">2</dataPoint>
+	</dataPoints>
+</sport>

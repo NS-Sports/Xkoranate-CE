@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s 100 m—Heats</name>
+	<alphabetizedName>Athletics—Women’s 00100 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s 100 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00574712643678">14.80</dataPoint>
+		<dataPoint pos="0.0609833971903">13.7733333333</dataPoint>
+		<dataPoint pos="0.171455938697">13.07</dataPoint>
+		<dataPoint pos="0.281928480204">12.4833333333</dataPoint>
+		<dataPoint pos="0.392401021711">11.9</dataPoint>
+		<dataPoint pos="0.502873563218">11.67</dataPoint>
+		<dataPoint pos="0.613346104725">11.5833333333</dataPoint>
+		<dataPoint pos="0.723818646232">11.4533333333</dataPoint>
+		<dataPoint pos="0.834291187739">11.37</dataPoint>
+		<dataPoint pos="0.944763729246">11.2733333333</dataPoint>
+		<dataPoint pos="0.994252873563">11.13</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Alpine skiing—Women’s super-G</name>
+	<discipline>Alpine skiing</discipline>
+	<event>Women’s super-G</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.254412659768716</double>
+			<double>0.024193548387097</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0125">91.43</dataPoint>
+		<dataPoint pos="0.094791666666667">88.655</dataPoint>
+		<dataPoint pos="0.259375">86.1525</dataPoint>
+		<dataPoint pos="0.42395833333333">84.214166666667</dataPoint>
+		<dataPoint pos="0.58854166666667">82.545833333333</dataPoint>
+		<dataPoint pos="0.753125">81.8225</dataPoint>
+		<dataPoint pos="0.91770833333333">81.0025</dataPoint>
+		<dataPoint pos="0.9875">80.14</dataPoint>
+	</dataPoints>
+</sport>

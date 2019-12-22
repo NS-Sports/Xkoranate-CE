@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Women’s double sculls</name>
+	<alphabetizedName>Rowing—Women’s scull 2</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Women’s double sculls</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0166666666667">450.25</dataPoint>
+		<dataPoint pos="0.115">445.048</dataPoint>
+		<dataPoint pos="0.311666666667">435.59</dataPoint>
+		<dataPoint pos="0.508333333333">428.325</dataPoint>
+		<dataPoint pos="0.705">424.547</dataPoint>
+		<dataPoint pos="0.901666666667">420.177</dataPoint>
+		<dataPoint pos="0.983333333333">414.92</dataPoint>
+	</dataPoints>
+</sport>

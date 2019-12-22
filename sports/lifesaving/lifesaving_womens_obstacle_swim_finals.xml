@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Women’s 200 m obstacle swim—Finals</name>
+	<alphabetizedName>Lifesaving—Women’s 200 m obstacle swim—Round 2</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Women’s 200 m obstacle swim</event>
+	<scorinator>Finals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00632911392405</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.029411764705882">144.76</dataPoint>
+		<dataPoint pos="0.15073529411765">139.3375</dataPoint>
+		<dataPoint pos="0.39338235294118">136.52</dataPoint>
+		<dataPoint pos="0.63602941176471">133.5375</dataPoint>
+		<dataPoint pos="0.87867647058824">125.5775</dataPoint>
+		<dataPoint pos="0.97058823529412">121.88</dataPoint>
+	</dataPoints>
+</sport>

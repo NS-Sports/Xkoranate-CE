@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Pesäpallo—xkoranate formula</name>
+	<discipline>Pesäpallo</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="winnerScores">
+			<double>1</double>
+			<double>2</double>
+			<double>2</double>
+		</list>
+		<list type="loserScores">
+			<double>0</double>
+			<double>1</double>
+			<double>0</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.1</double>
+			<double>0.15</double>
+			<double>0.65</double>
+		</list>
+	</paradigmOptions>
+</sport>

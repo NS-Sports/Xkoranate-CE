@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s long jump—Final</name>
+	<alphabetizedName>Athletics—Men’s long jump—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s long jump</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.389534883721</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00485436893204">5.2</dataPoint>
+		<dataPoint pos="0.0546116504854">7.34</dataPoint>
+		<dataPoint pos="0.154126213592">7.58</dataPoint>
+		<dataPoint pos="0.253640776699">7.65</dataPoint>
+		<dataPoint pos="0.353155339806">7.77</dataPoint>
+		<dataPoint pos="0.452669902913">7.82</dataPoint>
+		<dataPoint pos="0.552184466019">7.9</dataPoint>
+		<dataPoint pos="0.651699029126">7.94</dataPoint>
+		<dataPoint pos="0.751213592233">8.03</dataPoint>
+		<dataPoint pos="0.85072815534">8.08</dataPoint>
+		<dataPoint pos="0.950242718447">8.2</dataPoint>
+		<dataPoint pos="0.995145631068">8.34</dataPoint>
+	</dataPoints>
+</sport>

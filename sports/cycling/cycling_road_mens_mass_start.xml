@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Men’s road mass start</name>
+	<alphabetizedName>Cycling, road—Men’s mass start</alphabetizedName>
+	<discipline>Cycling, road</discipline>
+	<event>Men’s mass start</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">0</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.272727272727</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0054347826087">25707</dataPoint>
+		<dataPoint pos="0.0883152173913">24341.9166667</dataPoint>
+		<dataPoint pos="0.254076086957">23792</dataPoint>
+		<dataPoint pos="0.419836956522">23662</dataPoint>
+		<dataPoint pos="0.585597826087">23185</dataPoint>
+		<dataPoint pos="0.751358695652">23177</dataPoint>
+		<dataPoint pos="0.917119565217">23042.6666667</dataPoint>
+		<dataPoint pos="0.994565217391">23029</dataPoint>
+	</dataPoints>
+</sport>

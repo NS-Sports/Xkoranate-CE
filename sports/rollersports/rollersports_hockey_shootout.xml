@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller hockey—Penalty shootout, xkoranate formula</name>
+	<discipline>Roller hockey</discipline>
+	<event>Penalty shootout</event>
+	<scorinator/>
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<int type="shootoutLength">4</int>
+		<double type="shootoutProb">0.65</double>
+		<list type="tiebreakers">
+			<string>shootout</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string>pen.</string>
+		</list>
+		<int type="forceTieBreak">1</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="1">0</dataPoint>
+	</dataPoints>
+</sport>

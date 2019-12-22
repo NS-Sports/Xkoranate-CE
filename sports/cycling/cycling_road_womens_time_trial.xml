@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Women’s road time trial</name>
+	<alphabetizedName>Cycling, road—Women’s time trial</alphabetizedName>
+	<discipline>Cycling, road</discipline>
+	<event>Women’s time trial</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0185185185185">2451.61</dataPoint>
+		<dataPoint pos="0.116666666667">2334.602</dataPoint>
+		<dataPoint pos="0.312962962963">2264.318</dataPoint>
+		<dataPoint pos="0.509259259259">2210.62</dataPoint>
+		<dataPoint pos="0.705555555556">2188.126</dataPoint>
+		<dataPoint pos="0.901851851852">2151.642</dataPoint>
+		<dataPoint pos="0.981481481481">2091.72</dataPoint>
+	</dataPoints>
+</sport>

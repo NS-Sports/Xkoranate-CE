@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Women’s tournament—Slalom</name>
+	<alphabetizedName>Water skiing—Women’s tournament—Event 1</alphabetizedName>
+	<discipline>Water skiing</discipline>
+	<event>Women’s tournament</event>
+	<scorinator>Slalom</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">1</int>
+		<double type="roundingValue">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.025">9.5</dataPoint>
+		<dataPoint pos="0.146875">21.5625</dataPoint>
+		<dataPoint pos="0.390625">22.1875</dataPoint>
+		<dataPoint pos="0.634375">25.625</dataPoint>
+		<dataPoint pos="0.878125">29</dataPoint>
+		<dataPoint pos="0.975">31</dataPoint>
+	</dataPoints>
+</sport>

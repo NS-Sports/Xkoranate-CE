@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boule lyonnaise—Women’s precision throw (second tiebreaker)</name>
+	<discipline>Boule lyonnaise</discipline>
+	<event>Men’s precision throw (second tiebreaker)</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.27">1</dataPoint>
+		<dataPoint pos="0.6058">3</dataPoint>
+		<dataPoint pos="0.8423">6</dataPoint>
+		<dataPoint pos="0.9369">9</dataPoint>
+		<dataPoint pos="0.9868">14</dataPoint>
+		<dataPoint pos="0.9947">17</dataPoint>
+		<dataPoint pos="0.9985">21</dataPoint>
+		<dataPoint pos="0.99955">25</dataPoint>
+		<dataPoint pos="0.99982">28</dataPoint>
+		<dataPoint pos="0.999948">32</dataPoint>
+		<dataPoint pos="0.999989">37</dataPoint>
+	</dataPoints>
+</sport>

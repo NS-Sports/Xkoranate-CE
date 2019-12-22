@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 400 m hurdles—Heats</name>
+	<alphabetizedName>Athletics—Men’s 2hurdles 400 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 400 m hurdles</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00990099009901</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0185185185185">55.14</dataPoint>
+		<dataPoint pos="0.116666666667">51.322</dataPoint>
+		<dataPoint pos="0.312962962963">49.71</dataPoint>
+		<dataPoint pos="0.509259259259">49.5</dataPoint>
+		<dataPoint pos="0.705555555556">49.192</dataPoint>
+		<dataPoint pos="0.901851851852">48.86</dataPoint>
+		<dataPoint pos="0.981481481481">48.65</dataPoint>
+	</dataPoints>
+</sport>

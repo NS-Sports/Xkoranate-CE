@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Men’s moguls—Qualification</name>
+	<alphabetizedName>Freestyle skiing—Men’s moguls—Round 1</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Men’s moguls</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>RNS</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.03</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.016129032258065">11.56</dataPoint>
+		<dataPoint pos="0.11451612903226">21.646</dataPoint>
+		<dataPoint pos="0.31129032258065">22.898</dataPoint>
+		<dataPoint pos="0.50806451612903">23.52</dataPoint>
+		<dataPoint pos="0.70483870967742">24.144</dataPoint>
+		<dataPoint pos="0.90161290322581">25.036</dataPoint>
+		<dataPoint pos="0.98387096774194">25.93</dataPoint>
+	</dataPoints>
+</sport>

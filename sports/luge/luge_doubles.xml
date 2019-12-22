@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Luge—Doubles</name>
+	<alphabetizedName>Luge—~Doubles</alphabetizedName>
+	<discipline>Luge</discipline>
+	<event>Doubles</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.05</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01">50.968</dataPoint>
+		<dataPoint pos="0.0916666666667">49.526</dataPoint>
+		<dataPoint pos="0.255">48.412</dataPoint>
+		<dataPoint pos="0.418333333333">47.857</dataPoint>
+		<dataPoint pos="0.581666666667">47.722</dataPoint>
+		<dataPoint pos="0.745">47.556</dataPoint>
+		<dataPoint pos="0.908333333333">47.198</dataPoint>
+		<dataPoint pos="0.99">47.028</dataPoint>
+	</dataPoints>
+</sport>

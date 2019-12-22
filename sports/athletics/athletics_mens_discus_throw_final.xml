@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s discus throw—Final</name>
+	<alphabetizedName>Athletics—Men’s discus throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s discus throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.279874213836</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0102040816327">59.34</dataPoint>
+		<dataPoint pos="0.0926870748299">60.6683333333</dataPoint>
+		<dataPoint pos="0.257653061224">62.37</dataPoint>
+		<dataPoint pos="0.422619047619">63.94</dataPoint>
+		<dataPoint pos="0.587585034014">64.585</dataPoint>
+		<dataPoint pos="0.752551020408">65.83</dataPoint>
+		<dataPoint pos="0.917517006803">67.105</dataPoint>
+		<dataPoint pos="0.989795918367">68.82</dataPoint>
+	</dataPoints>
+</sport>

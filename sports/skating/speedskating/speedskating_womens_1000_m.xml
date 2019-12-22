@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Speed skating—Women’s 1 000 m</name>
+	<alphabetizedName>Speed skating—Women’s 01000 m</alphabetizedName>
+	<discipline>Speed skating</discipline>
+	<event>Women’s 1 000 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.014897486772487</double>
+			<double>0.002314814814815</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.013513513513514">79.53</dataPoint>
+		<dataPoint pos="0.095720720720721">79.138333333333</dataPoint>
+		<dataPoint pos="0.26013513513514">78.445</dataPoint>
+		<dataPoint pos="0.42454954954955">78.166666666667</dataPoint>
+		<dataPoint pos="0.58896396396396">77.816666666667</dataPoint>
+		<dataPoint pos="0.75337837837838">77.4</dataPoint>
+		<dataPoint pos="0.91779279279279">76.77</dataPoint>
+		<dataPoint pos="0.98648648648649">76.56</dataPoint>
+	</dataPoints>
+</sport>

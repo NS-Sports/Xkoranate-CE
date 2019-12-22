@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Figure skating—Pairs—Short program</name>
+	<alphabetizedName>Figure skating—~Pairs—Round 1</alphabetizedName>
+	<discipline>Figure skating</discipline>
+	<event>Pairs</event>
+	<scorinator>Short program</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.022727272727273">39.3</dataPoint>
+		<dataPoint pos="0.14488636363636">43.41</dataPoint>
+		<dataPoint pos="0.38920454545455">55.49</dataPoint>
+		<dataPoint pos="0.63352272727273">63.2775</dataPoint>
+		<dataPoint pos="0.87784090909091">73.1625</dataPoint>
+		<dataPoint pos="0.97727272727273">76.66</dataPoint>
+	</dataPoints>
+</sport>

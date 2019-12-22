@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle skiing—Women’s moguls—Final</name>
+	<alphabetizedName>Freestyle skiing—Women’s moguls—Round 2</alphabetizedName>
+	<discipline>Freestyle skiing</discipline>
+	<event>Women’s moguls</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>RNS</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.03</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.022727272727273">4.36</dataPoint>
+		<dataPoint pos="0.14488636363636">15.0375</dataPoint>
+		<dataPoint pos="0.38920454545455">21.1575</dataPoint>
+		<dataPoint pos="0.63352272727273">23.155</dataPoint>
+		<dataPoint pos="0.87784090909091">25.14875</dataPoint>
+		<dataPoint pos="0.97727272727273">26.63</dataPoint>
+	</dataPoints>
+</sport>

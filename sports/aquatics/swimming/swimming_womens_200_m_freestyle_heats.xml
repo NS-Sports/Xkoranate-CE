@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 200 m freestyle—Heats</name>
+	<alphabetizedName>Swimming—Women’s freestyle 0200 m—Round 1</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 200 m freestyle</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0104166666667">125.71</dataPoint>
+		<dataPoint pos="0.0928819444444">123.75</dataPoint>
+		<dataPoint pos="0.2578125">122.0275</dataPoint>
+		<dataPoint pos="0.422743055556">120.5725</dataPoint>
+		<dataPoint pos="0.587673611111">119.67</dataPoint>
+		<dataPoint pos="0.752604166667">117.965</dataPoint>
+		<dataPoint pos="0.917534722222">117.2375</dataPoint>
+		<dataPoint pos="0.989583333333">115.45</dataPoint>
+	</dataPoints>
+</sport>

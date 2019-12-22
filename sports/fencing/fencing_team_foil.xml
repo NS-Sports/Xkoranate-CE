@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fencing—Team foil</name>
+	<discipline>Fencing</discipline>
+	<event>Team foil</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">45</int>
+		<double type="matchLength">1620</double>
+		<double type="attackModifier">5.7</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0.0357142857143">13.39</dataPoint>
+		<dataPoint pos="0.196428571429">17.1233333333</dataPoint>
+		<dataPoint pos="0.517857142857">26.345</dataPoint>
+		<dataPoint pos="0.839285714286">30.82</dataPoint>
+		<dataPoint pos="0.964285714286">41.54</dataPoint>
+	</dataPoints>
+</sport>

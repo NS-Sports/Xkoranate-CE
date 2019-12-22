@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s triple jump—Final</name>
+	<alphabetizedName>Athletics—Men’s triple jump—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s triple jump</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.301886792453</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0104166666667">13.79</dataPoint>
+		<dataPoint pos="0.0928819444444">16.1925</dataPoint>
+		<dataPoint pos="0.2578125">16.49</dataPoint>
+		<dataPoint pos="0.422743055556">16.7775</dataPoint>
+		<dataPoint pos="0.587673611111">17.095</dataPoint>
+		<dataPoint pos="0.752604166667">17.26</dataPoint>
+		<dataPoint pos="0.917534722222">17.53</dataPoint>
+		<dataPoint pos="0.989583333333">17.67</dataPoint>
+	</dataPoints>
+</sport>

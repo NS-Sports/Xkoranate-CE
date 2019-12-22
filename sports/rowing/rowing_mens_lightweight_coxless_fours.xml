@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Men’s lightweight coxless fours</name>
+	<alphabetizedName>Rowing—Men’s sweep 4 lightweight</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Men’s lightweight coxless fours</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0121951219512">397.50</dataPoint>
+		<dataPoint pos="0.094512195122">380.875</dataPoint>
+		<dataPoint pos="0.259146341463">370.23</dataPoint>
+		<dataPoint pos="0.423780487805">366.116666667</dataPoint>
+		<dataPoint pos="0.588414634146">356.313333333</dataPoint>
+		<dataPoint pos="0.753048780488">352.125</dataPoint>
+		<dataPoint pos="0.917682926829">350.126666667</dataPoint>
+		<dataPoint pos="0.987804878049">347.76</dataPoint>
+	</dataPoints>
+</sport>

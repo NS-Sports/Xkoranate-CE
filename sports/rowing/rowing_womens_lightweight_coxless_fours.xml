@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rowing—Women’s lightweight coxless fours</name>
+	<alphabetizedName>Rowing—Women’s sweep 4 lightweight</alphabetizedName>
+	<discipline>Rowing</discipline>
+	<event>Women’s lightweight coxless fours</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0172413793103">412.9956</dataPoint>
+		<dataPoint pos="0.115517241379">410.56234</dataPoint>
+		<dataPoint pos="0.312068965517">404.84498</dataPoint>
+		<dataPoint pos="0.508620689655">402.5114</dataPoint>
+		<dataPoint pos="0.705172413793">399.01548</dataPoint>
+		<dataPoint pos="0.901724137931">394.11158</dataPoint>
+		<dataPoint pos="0.98275862069">392.134</dataPoint>
+	</dataPoints>
+</sport>

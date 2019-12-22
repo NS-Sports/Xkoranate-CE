@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 400 m—Heats</name>
+	<alphabetizedName>Athletics—Men’s 00400 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 400 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00877192982456">53.11</dataPoint>
+		<dataPoint pos="0.0795739348371">47.8385714286</dataPoint>
+		<dataPoint pos="0.221177944862">46.42</dataPoint>
+		<dataPoint pos="0.362781954887">46.2428571429</dataPoint>
+		<dataPoint pos="0.504385964912">45.67</dataPoint>
+		<dataPoint pos="0.645989974937">45.3871428571</dataPoint>
+		<dataPoint pos="0.787593984962">45.2071428571</dataPoint>
+		<dataPoint pos="0.929197994987">44.9328571429</dataPoint>
+		<dataPoint pos="0.991228070175">44.79</dataPoint>
+	</dataPoints>
+</sport>

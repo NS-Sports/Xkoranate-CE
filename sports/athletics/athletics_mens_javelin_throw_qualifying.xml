@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s javelin throw—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s javelin throw—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s javelin throw</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.268096514745</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00641025641026">58.04</dataPoint>
+		<dataPoint pos="0.0685096153846">66.345</dataPoint>
+		<dataPoint pos="0.192708333333">69.571875</dataPoint>
+		<dataPoint pos="0.316907051282">71.385</dataPoint>
+		<dataPoint pos="0.441105769231">73.411875</dataPoint>
+		<dataPoint pos="0.565304487179">75.569375</dataPoint>
+		<dataPoint pos="0.689503205128">76.8775</dataPoint>
+		<dataPoint pos="0.813701923077">79.1175</dataPoint>
+		<dataPoint pos="0.937900641026">80.66375</dataPoint>
+		<dataPoint pos="0.99358974359">83.51</dataPoint>
+	</dataPoints>
+</sport>

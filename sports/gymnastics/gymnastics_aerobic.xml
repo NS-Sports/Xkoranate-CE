@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Gymnastics, aerobic</name>
+	<discipline>Gymnastics, aerobic</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<double type="roundingValue">0.025</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0070422535211268">14.275</dataPoint>
+		<dataPoint pos="0.069102112676056">17.96575</dataPoint>
+		<dataPoint pos="0.19322183098592">19.25975</dataPoint>
+		<dataPoint pos="0.31734154929577">19.51425</dataPoint>
+		<dataPoint pos="0.44146126760563">19.975</dataPoint>
+		<dataPoint pos="0.56558098591549">20.1585</dataPoint>
+		<dataPoint pos="0.68970070422535">20.35</dataPoint>
+		<dataPoint pos="0.81382042253521">20.673</dataPoint>
+		<dataPoint pos="0.93794014084507">21.125</dataPoint>
+		<dataPoint pos="0.99295774647887">21.55</dataPoint>
+	</dataPoints>
+</sport>

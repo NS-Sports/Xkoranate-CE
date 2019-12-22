@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fin swimming—Women’s surface relay 4×100 m</name>
+	<discipline>Fin swimming</discipline>
+	<event>Women’s surface relay 4×100 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00512820512821</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0625">169.45</dataPoint>
+		<dataPoint pos="0.296875">167.2225</dataPoint>
+		<dataPoint pos="0.765625">162.6525</dataPoint>
+		<dataPoint pos="0.9375">157.81</dataPoint>
+	</dataPoints>
+</sport>

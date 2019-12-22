@@ -1,0 +1,18 @@
+xkoranate 0.3.2 — a multi-sport scorinator
+© 2008–2011 Commerce Heights <thirdgeek@gmail.com>
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+Includes icons from the KDE Oxygen icon theme (as well as derivates thereof), released under the GNU Lesser General Public License.
+Includes portions of Qt 4.7.3 <http://qt.nokia.com>, © 2011 Nokia Corporation. The complete corresponding source code can be found at <http://qt.nokia.com/downloads>.
+Includes code based upon NSFootySim 2.0.7.2 and 3.0.1 <http://ten93.com/nsfs/nsfs3.html>, © 2004–2010 Vephrall and Dancougar, released under the GNU General Public License.
+Includes code based upon Footba11er 1.03, Golfinator 1.00, and Howzzat 1a by The Babbage Islands, incorporated with permission.
+Includes code based upon Liventia’s auto racing scorinator, incorporated with permission.
+Includes sport files contributed by The Babbage Islands, Kelssek, and Liventia.
+
+The complete corresponding source code can be found at <http://www.thirdgeek.com/ns/xkoranate/>.

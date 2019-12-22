@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Kemelilui</name>
+	<discipline>Kemelilui</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>fencing</paradigm>
+	<paradigmOptions>
+		<int type="winPoints">15</int>
+		<double type="matchLength">540</double>
+		<double type="attackModifier">1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="pointRate">
+		<dataPoint pos="0">15</dataPoint>
+		<dataPoint pos="0.5">40</dataPoint>
+		<dataPoint pos="1">135</dataPoint>
+	</dataPoints>
+</sport>

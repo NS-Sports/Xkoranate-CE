@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Rugby union sevens</name>
+	<alphabetizedName>Rugby union—Sevens</alphabetizedName>
+	<discipline>Rugby union sevens</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>footba11er</paradigm>
+	<paradigmOptions>
+		<double type="homeAdvantage">0.065</double>
+		<double type="skillCoeff">0.6</double>
+		<double type="skillOffset">0.2</double>
+		<string type="attackStyle">normal</string>
+		<double type="meanAttacks">5.63</double>
+		<double type="stDevAttacks">2.1</double>
+		<double type="attacksTailCutoff">0.005</double>
+		<int type="maxAttacks">25</int>
+		<list type="pointValues">
+			<int>7</int>
+			<int>5</int>
+		</list>
+		<list type="pointProbs">
+			<double>0.64</double>
+			<double>0.36</double>
+		</list>
+		<string type="tiebreakers">goldengoal</string>
+		<string type="tiebreakerNames"/>
+	</paradigmOptions>
+</sport>

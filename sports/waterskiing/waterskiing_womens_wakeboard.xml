@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Water skiing—Women’s wakeboard</name>
+	<discipline>Water skiing</discipline>
+	<event>Women’s wakeboard</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">4</int>
+		<int type="displayDigits">1</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.020833333333333">29.7</dataPoint>
+		<dataPoint pos="0.14322916666667">31.975</dataPoint>
+		<dataPoint pos="0.38802083333333">44.3375</dataPoint>
+		<dataPoint pos="0.6328125">51.225</dataPoint>
+		<dataPoint pos="0.87760416666667">76.3625</dataPoint>
+		<dataPoint pos="0.97916666666667">78.6</dataPoint>
+	</dataPoints>
+</sport>

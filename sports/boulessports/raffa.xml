@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Raffa</name>
+	<discipline>Raffa</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>bestof</paradigm>
+	<paradigmOptions>
+		<int type="games">29</int>
+		<double type="attackModifier">3</double>
+	</paradigmOptions>
+</sport>

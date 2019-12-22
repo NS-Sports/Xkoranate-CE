@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s hammer throw—Final</name>
+	<alphabetizedName>Athletics—Women’s hammer throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s hammer throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.321637426901</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0125">51.72</dataPoint>
+		<dataPoint pos="0.0947916666667">67.6766666667</dataPoint>
+		<dataPoint pos="0.259375">70.0225</dataPoint>
+		<dataPoint pos="0.423958333333">70.9183333333</dataPoint>
+		<dataPoint pos="0.588541666667">72.3641666667</dataPoint>
+		<dataPoint pos="0.753125">73.475</dataPoint>
+		<dataPoint pos="0.917708333333">74.3933333333</dataPoint>
+		<dataPoint pos="0.9875">76.34</dataPoint>
+	</dataPoints>
+</sport>

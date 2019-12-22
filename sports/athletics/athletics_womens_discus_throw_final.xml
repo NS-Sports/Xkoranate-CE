@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s discus throw—Final</name>
+	<alphabetizedName>Athletics—Women’s discus throw—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s discus throw</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<int type="furtherAttempts">3</int> <!-- total of six attempts -->
+		<int type="furtherAttemptCutoff">8</int> <!-- only the top eight get to take the last three attempts -->
+		<string type="totalType">best</string>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.279874213836</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0119047619048">56.41</dataPoint>
+		<dataPoint pos="0.094246031746">58.09</dataPoint>
+		<dataPoint pos="0.258928571429">59.78</dataPoint>
+		<dataPoint pos="0.423611111111">60.46</dataPoint>
+		<dataPoint pos="0.588293650794">60.7625</dataPoint>
+		<dataPoint pos="0.752976190476">61.8425</dataPoint>
+		<dataPoint pos="0.917658730159">62.5275</dataPoint>
+		<dataPoint pos="0.988095238095">64.74</dataPoint>
+	</dataPoints>
+</sport>

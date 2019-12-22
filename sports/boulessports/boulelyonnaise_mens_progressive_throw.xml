@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Boule lyonnaise—Men’s progressive throw</name>
+	<discipline>Boule lyonnaise</discipline>
+	<event>Men’s progressive throw</event>
+	<scorinator/>
+	
+	<paradigm>progressivethrow</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<double type="accuracyRoundingValue">0.000001</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	<dataPoints name="attempts">
+		<dataPoint pos="0.03125">44</dataPoint>
+		<dataPoint pos="0.19270833333333">46.166666666667</dataPoint>
+		<dataPoint pos="0.515625">48</dataPoint>
+		<dataPoint pos="0.83854166666667">48</dataPoint>
+		<dataPoint pos="0.96875">50</dataPoint>
+	</dataPoints>
+	<dataPoints name="accuracy">
+		<dataPoint pos="0.03125">0.3617021277</dataPoint>
+		<dataPoint pos="0.19270833333333">0.68774703555</dataPoint>
+		<dataPoint pos="0.515625">0.80208333335</dataPoint>
+		<dataPoint pos="0.83854166666667">0.87619047618333</dataPoint>
+		<dataPoint pos="0.96875">0.914893617</dataPoint>
+	</dataPoints>
+</sport>

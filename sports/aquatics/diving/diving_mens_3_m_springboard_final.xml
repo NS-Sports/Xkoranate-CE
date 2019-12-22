@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Diving—Men’s 3 m springboard—Final</name>
+	<alphabetizedName>Diving—Men’s 03 m springboard—Round 3</alphabetizedName>
+	<discipline>Diving</discipline>
+	<event>Men’s 3 m springboard</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.05</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0357142857143">425.9</dataPoint>
+		<dataPoint pos="0.196428571429">452.583333333</dataPoint>
+		<dataPoint pos="0.517857142857">467.3</dataPoint>
+		<dataPoint pos="0.839285714286">531.191666667</dataPoint>
+		<dataPoint pos="0.964285714286">572.9</dataPoint>
+	</dataPoints>
+</sport>

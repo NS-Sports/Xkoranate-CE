@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cycling—Men’s BMX—Elimination</name>
+	<alphabetizedName>Cycling, BMX—Men’s—Round 2</alphabetizedName>
+	<discipline>Cycling, BMX</discipline>
+	<event>Men’s</event>
+	<scorinator>Elimination</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>REL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0597826086957</double>
+			<double>0.0054347826087</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00403225806452">139.223</dataPoint>
+		<dataPoint pos="0.0493035190616">66.447</dataPoint>
+		<dataPoint pos="0.139846041056">53.4965</dataPoint>
+		<dataPoint pos="0.23038856305">42.9945</dataPoint>
+		<dataPoint pos="0.320931085044">40.8355</dataPoint>
+		<dataPoint pos="0.411473607038">38.773</dataPoint>
+		<dataPoint pos="0.502016129032">37.8065</dataPoint>
+		<dataPoint pos="0.592558651026">37.3235</dataPoint>
+		<dataPoint pos="0.683101173021">37.008</dataPoint>
+		<dataPoint pos="0.773643695015">36.711</dataPoint>
+		<dataPoint pos="0.864186217009">36.462</dataPoint>
+		<dataPoint pos="0.954728739003">36.146</dataPoint>
+		<dataPoint pos="0.995967741935">35.878</dataPoint>
+	</dataPoints>
+</sport>

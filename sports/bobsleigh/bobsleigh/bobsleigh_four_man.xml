@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bobsleigh—Four-man</name>
+	<alphabetizedName>Bobsleigh—Men’s 4-man</alphabetizedName>
+	<discipline>Bobsleigh</discipline>
+	<event>Four-man</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.007600293647709</double>
+			<double>0.014768752429071</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0055555555555556">55.25</dataPoint>
+		<dataPoint pos="0.060802469135802">53.193333333333</dataPoint>
+		<dataPoint pos="0.1712962962963">52.555</dataPoint>
+		<dataPoint pos="0.28179012345679">52.273333333333</dataPoint>
+		<dataPoint pos="0.39228395061728">51.966666666667</dataPoint>
+		<dataPoint pos="0.50277777777778">51.735</dataPoint>
+		<dataPoint pos="0.61327160493827">51.57</dataPoint>
+		<dataPoint pos="0.72376543209877">51.425</dataPoint>
+		<dataPoint pos="0.83425925925926">51.295</dataPoint>
+		<dataPoint pos="0.94475308641975">51.128333333333</dataPoint>
+		<dataPoint pos="0.99444444444444">50.86</dataPoint>
+	</dataPoints>
+</sport>

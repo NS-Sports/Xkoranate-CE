@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Canoeing—Men’s flatwater K-4 1 000 m</name>
+	<alphabetizedName>Canoeing, flatwater—Men’s K-4 1000 m</alphabetizedName>
+	<discipline>Canoeing, flatwater</discipline>
+	<event>Men’s K-4 1 000 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.02">186.811</dataPoint>
+		<dataPoint pos="0.1425">181.98325</dataPoint>
+		<dataPoint pos="0.3875">179.938</dataPoint>
+		<dataPoint pos="0.6325">178.871</dataPoint>
+		<dataPoint pos="0.8775">177.03</dataPoint>
+		<dataPoint pos="0.98">175.714</dataPoint>
+	</dataPoints>
+</sport>

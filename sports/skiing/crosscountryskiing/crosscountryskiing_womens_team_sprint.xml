@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Women’s team sprint freestyle</name>
+	<discipline>Cross-country skiing</discipline>
+	<event>Women’s team sprint freestyle</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">1</double>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.03125</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.016666666666667">1204.6</dataPoint>
+		<dataPoint pos="0.115">1197.58</dataPoint>
+		<dataPoint pos="0.31166666666667">1139.08</dataPoint>
+		<dataPoint pos="0.50833333333333">1131.7</dataPoint>
+		<dataPoint pos="0.705">1123.56</dataPoint>
+		<dataPoint pos="0.90166666666667">1092.25</dataPoint>
+		<dataPoint pos="0.98333333333333">1083.7</dataPoint>
+	</dataPoints>
+</sport>

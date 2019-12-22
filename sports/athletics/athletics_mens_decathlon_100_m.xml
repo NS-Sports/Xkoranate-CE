@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—100 m</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 01</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>100 m</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+		<double type="decathlonA">25.4347</double>
+		<double type="decathlonB">18</double>
+		<double type="decathlonC">1.81</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0119047619048">11.87</dataPoint>
+		<dataPoint pos="0.094246031746">11.5375</dataPoint>
+		<dataPoint pos="0.258928571429">11.2825</dataPoint>
+		<dataPoint pos="0.423611111111">11.1575</dataPoint>
+		<dataPoint pos="0.588293650794">11.0625</dataPoint>
+		<dataPoint pos="0.752976190476">10.915</dataPoint>
+		<dataPoint pos="0.917658730159">10.67</dataPoint>
+		<dataPoint pos="0.988095238095">10.44</dataPoint>
+	</dataPoints>
+</sport>

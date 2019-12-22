@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Men’s 1 000 m sprint</name>
+	<alphabetizedName>Roller speed skating—Men’s 01000 m sprint</alphabetizedName>
+	<discipline>Roller speed skating</discipline>
+	<event>Men’s 1 000 m sprint</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.01136363636364</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.01063829787234">106.645</dataPoint>
+		<dataPoint pos="0.093085106382979">94.819666666667</dataPoint>
+		<dataPoint pos="0.25797872340426">93.031</dataPoint>
+		<dataPoint pos="0.42287234042553">92.454666666667</dataPoint>
+		<dataPoint pos="0.58776595744681">91.928333333333</dataPoint>
+		<dataPoint pos="0.75265957446809">91.142</dataPoint>
+		<dataPoint pos="0.91755319148936">90.067666666667</dataPoint>
+		<dataPoint pos="0.98936170212766">89.660</dataPoint>
+	</dataPoints>
+</sport>

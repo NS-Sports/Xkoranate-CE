@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File contributed by Ad’ihan -->
+<sport version="0.3">
+	<name>Ad’ihani pentathlon—Men’s speed skating 1000 m</name>
+	<alphabetizedName>Ad’ihani pentathlon—Men’s—Event 3</alphabetizedName>
+	<discipline>Ad’ihani pentathlon</discipline>
+	<event>Men’s</event>
+	<scorinator>Speed skating (1000 m)</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<int type="tiebreakerDigits">3</int>
+		<list type="statuses">
+			<string>DSQ</string>
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.014897486772487</double>
+			<double>0.002314814814815</double>
+		</list>
+		<double type="decathlonA">0.22</double>
+		<double type="decathlonB">180</double>
+		<double type="decathlonC">1.827</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0125">82.78</dataPoint>
+		<dataPoint pos="0.094791666666667">82.305833333333</dataPoint>
+		<dataPoint pos="0.259375">81.4125</dataPoint>
+		<dataPoint pos="0.42395833333333">80.845416666667</dataPoint>
+		<dataPoint pos="0.58854166666667">80.475</dataPoint>
+		<dataPoint pos="0.753125">80.1175</dataPoint>
+		<dataPoint pos="0.91770833333333">79.4525</dataPoint>
+		<dataPoint pos="0.9875">78.94</dataPoint>
+	</dataPoints>
+</sport>

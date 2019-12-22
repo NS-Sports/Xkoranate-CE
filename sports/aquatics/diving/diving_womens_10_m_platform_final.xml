@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Diving—Women’s 10 m platform—Final</name>
+	<alphabetizedName>Diving—Women’s 10 m platform—Round 3</alphabetizedName>
+	<discipline>Diving</discipline>
+	<event>Women’s 10 m platform</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<double type="roundingValue">0.05</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0357142857143">285.85</dataPoint>
+		<dataPoint pos="0.196428571429">302.3</dataPoint>
+		<dataPoint pos="0.517857142857">335.125</dataPoint>
+		<dataPoint pos="0.839285714286">431.091666667</dataPoint>
+		<dataPoint pos="0.964285714286">447.7</dataPoint>
+	</dataPoints>
+</sport>

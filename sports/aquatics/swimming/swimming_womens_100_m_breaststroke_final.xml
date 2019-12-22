@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Swimming—Women’s 100 m breaststroke—Final</name>
+	<alphabetizedName>Swimming—Women’s breaststroke 100 m—Round 3</alphabetizedName>
+	<discipline>Swimming</discipline>
+	<event>Women’s 100 m breaststroke</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.000559284116331</double>
+			<double>0.00223713646532</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.05">68.43</dataPoint>
+		<dataPoint pos="0.208333333333">68.005</dataPoint>
+		<dataPoint pos="0.525">67.525</dataPoint>
+		<dataPoint pos="0.841666666667">66.8316666667</dataPoint>
+		<dataPoint pos="0.95">65.17</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Lifesaving—Men’s 100 m manikin carry with fins—Preliminaries</name>
+	<alphabetizedName>Lifesaving—Men’s 100 m manikin carry with fins—Round 1</alphabetizedName>
+	<discipline>Lifesaving</discipline>
+	<event>Men’s 100 m manikin carry with fins</event>
+	<scorinator>Preliminaries</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.06493506493506</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.023809523809524">60.75</dataPoint>
+		<dataPoint pos="0.14583333333333">57.22</dataPoint>
+		<dataPoint pos="0.38988095238095">55.3275</dataPoint>
+		<dataPoint pos="0.63392857142857">53.0525</dataPoint>
+		<dataPoint pos="0.87797619047619">50.8075</dataPoint>
+		<dataPoint pos="0.97619047619048">48.95</dataPoint>
+	</dataPoints>
+</sport>

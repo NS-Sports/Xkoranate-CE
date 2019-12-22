@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s decathlon—Discus throw</name>
+	<alphabetizedName>Athletics—Men’s decathlon—Event 07</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s decathlon</event>
+	<scorinator>Discus throw</scorinator>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="attempts">3</int>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>X</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.310344827586</double>
+		</list>
+		<double type="decathlonA">12.91</double>
+		<double type="decathlonB">4</double>
+		<double type="decathlonC">1.1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00806451612903">34.51</dataPoint>
+		<dataPoint pos="0.0789170506912">37.8071428571</dataPoint>
+		<dataPoint pos="0.220622119816">39.9757142857</dataPoint>
+		<dataPoint pos="0.36232718894">42.4621428571</dataPoint>
+		<dataPoint pos="0.504032258065">44.335</dataPoint>
+		<dataPoint pos="0.645737327189">45.2685714286</dataPoint>
+		<dataPoint pos="0.787442396313">46.9914285714</dataPoint>
+		<dataPoint pos="0.929147465438">49.8921428571</dataPoint>
+		<dataPoint pos="0.991935483871">53.79</dataPoint>
+	</dataPoints>
+</sport>

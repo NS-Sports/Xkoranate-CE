@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Bowling, ten-pin—Mixed doubles</name>
+	<alphabetizedName>Bowling, ten-pin—~Mixed doubles</alphabetizedName>
+	<discipline>Bowling, ten-pin</discipline>
+	<event>Mixed doubles</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">3</int>
+		<int type="displayDigits">0</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0034246575342466">294</dataPoint>
+		<dataPoint pos="0.044948630136986">317.95833333333</dataPoint>
+		<dataPoint pos="0.12799657534247">346.75</dataPoint>
+		<dataPoint pos="0.21104452054795">358.79166666667</dataPoint>
+		<dataPoint pos="0.29409246575342">372</dataPoint>
+		<dataPoint pos="0.3771404109589">384.625</dataPoint>
+		<dataPoint pos="0.46018835616438">395</dataPoint>
+		<dataPoint pos="0.54323630136986">403.375</dataPoint>
+		<dataPoint pos="0.62628424657534">411.375</dataPoint>
+		<dataPoint pos="0.70933219178082">418</dataPoint>
+		<dataPoint pos="0.7923801369863">427.20833333333</dataPoint>
+		<dataPoint pos="0.87542808219178">440</dataPoint>
+		<dataPoint pos="0.95847602739726">469.04166666667</dataPoint>
+		<dataPoint pos="0.99657534246575">489</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Cross-country skiing—Women’s relay 4×5 km</name>
+	<discipline>Cross-country skiing</discipline>
+	<event>Women’s relay 4×5 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+		<double type="interheatTiebreakerDigits">1</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.027777777777778">3605</dataPoint>
+		<dataPoint pos="0.14930555555556">3568.425</dataPoint>
+		<dataPoint pos="0.39236111111111">3505.2125</dataPoint>
+		<dataPoint pos="0.63541666666667">3390.15</dataPoint>
+		<dataPoint pos="0.87847222222222">3349.175</dataPoint>
+		<dataPoint pos="0.97222222222222">3319.5</dataPoint>
+	</dataPoints>
+</sport>

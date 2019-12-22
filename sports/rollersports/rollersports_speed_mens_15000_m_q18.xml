@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Roller speed skating—Men’s 15 000 m elimination—Qualifying (18 finishers)</name>
+	<discipline>Roller speed skating</discipline>
+	<event>Men’s 15 000 m elimination</event>
+	<scorinator>Qualifying (18 finishers)</scorinator>
+	
+	<paradigm>eliminationrace</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">9</int>
+		<int type="displayDigits">3</int>
+		<int type="tiebreakerDigits">3</int>
+		<int type="laps">75</int>
+		<int type="finishers">18</int>
+		<int type="firstElimination">12</int>
+		<int type="lastElimination">72</int>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0">20.55</dataPoint>
+		<dataPoint pos="0.55">19.35</dataPoint>
+	</dataPoints>
+</sport>

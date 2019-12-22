@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 800 m—Heats</name>
+	<alphabetizedName>Athletics—Men’s 00800 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 800 m</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0121951219512</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00833333333333">117.48</dataPoint>
+		<dataPoint pos="0.0791666666667">110.662857143</dataPoint>
+		<dataPoint pos="0.220833333333">108.616428571</dataPoint>
+		<dataPoint pos="0.3625">107.879285714</dataPoint>
+		<dataPoint pos="0.504166666667">107.47</dataPoint>
+		<dataPoint pos="0.645833333333">106.94</dataPoint>
+		<dataPoint pos="0.7875">106.052857143</dataPoint>
+		<dataPoint pos="0.929166666667">105.722142857</dataPoint>
+		<dataPoint pos="0.991666666667">104.90</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Sailing—Match race</name>
+	<discipline>Sailing</discipline>
+	<event>Match race</event>
+	<scorinator/>
+	
+	<paradigm>bestof</paradigm>
+	<paradigmOptions>
+		<int type="games">1</int>
+	</paradigmOptions>
+</sport>

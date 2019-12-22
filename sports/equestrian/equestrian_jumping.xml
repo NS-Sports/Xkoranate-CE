@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Equestrian—Jumping</name>
+	<discipline>Equestrian, jumping</discipline>
+	<event/> <!-- only one scorinator is available for this sport -->
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">2</int>
+		<int type="displayDigits">0</int>
+		<double type="roundingValue">1</double>
+		<string type="sortOrder">ascending</string>
+		<list type="statuses">
+			<string>EL</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.016</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00201612903226">71</dataPoint>
+		<dataPoint pos="0.0352822580645">31.8333333333</dataPoint>
+		<dataPoint pos="0.101814516129">19</dataPoint>
+		<dataPoint pos="0.168346774194">15</dataPoint>
+		<dataPoint pos="0.234879032258">12</dataPoint>
+		<dataPoint pos="0.301411290323">10.5</dataPoint>
+		<dataPoint pos="0.367943548387">8</dataPoint>
+		<dataPoint pos="0.434475806452">7</dataPoint>
+		<dataPoint pos="0.501008064516">5</dataPoint>
+		<dataPoint pos="0.567540322581">3</dataPoint>
+		<dataPoint pos="0.70060483871">3</dataPoint>
+		<dataPoint pos="0.767137096774">1.33333333333</dataPoint>
+		<dataPoint pos="0.833669354839">0</dataPoint>
+		<dataPoint pos="0.900201612903">-0.99</dataPoint>
+		<dataPoint pos="0.997983870968">-0.99</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Powerlifting—Women’s lightweight</name>
+	<alphabetizedName>Powerlifting—Women’s 1</alphabetizedName>
+	<discipline>Powerlifting</discipline>
+	<event>Women’s lightweight</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<double type="displayDigits">2</double>
+		<string type="sortOrder">descending</string>
+		<list type="statuses">
+			<string>DSQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.11392405063291</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.045454545454545">494.62</dataPoint>
+		<dataPoint pos="0.20454545454545">535.53666666667</dataPoint>
+		<dataPoint pos="0.52272727272727">571.06</dataPoint>
+		<dataPoint pos="0.84090909090909">630.06666666667</dataPoint>
+		<dataPoint pos="0.95454545454545">668.27</dataPoint>
+	</dataPoints>
+</sport>

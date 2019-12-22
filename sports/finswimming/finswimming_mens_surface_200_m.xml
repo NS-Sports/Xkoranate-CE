@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Fin swimming—Men’s surface 200 m</name>
+	<discipline>Fin swimming</discipline>
+	<event>Men’s surface 200 m</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<list type="statuses">
+			<string>DNF</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00512820512821</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.019230769230769">95.03</dataPoint>
+		<dataPoint pos="0.11730769230769">90.186</dataPoint>
+		<dataPoint pos="0.31346153846154">86.665</dataPoint>
+		<dataPoint pos="0.50961538461538">86.28</dataPoint>
+		<dataPoint pos="0.70576923076923">85.489</dataPoint>
+		<dataPoint pos="0.90192307692308">83.444</dataPoint>
+		<dataPoint pos="0.98076923076923">82.1</dataPoint>
+	</dataPoints>
+</sport>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Women’s pole vault—Final</name>
+	<alphabetizedName>Athletics—Women’s pole vault—Round 2</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Women’s pole vault</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.8</double>
+		<double type="depreciation">0.985</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">400</double>
+		<list type="heights">
+			<double>4.30</double>
+			<double>4.45</double>
+			<double>4.55</double>
+			<double>4.65</double>
+			<double>4.70</double>
+			<double>4.75</double>
+			<double>4.80</double>
+			<double>4.85</double>
+			<double>4.90</double>
+			<double>4.95</double>
+			<double>5.00</double>
+			<double>5.05</double>
+			<double>5.10</double>
+			<double>5.15</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>

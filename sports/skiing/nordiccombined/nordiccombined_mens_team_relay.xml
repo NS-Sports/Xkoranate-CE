@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Nordic combined—Men’s team 4×5 km</name>
+	<discipline>Nordic combined</discipline>
+	<event>Men’s team 4×5 km</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">1</int>
+		<double type="tiebreakerDigits">3</double>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.041666666666667">3135.8</dataPoint>
+		<dataPoint pos="0.20138888888889">3114.3</dataPoint>
+		<dataPoint pos="0.52083333333333">2989.85</dataPoint>
+		<dataPoint pos="0.84027777777778">2957.25</dataPoint>
+		<dataPoint pos="0.95833333333333">2935.6</dataPoint>
+	</dataPoints>
+</sport>

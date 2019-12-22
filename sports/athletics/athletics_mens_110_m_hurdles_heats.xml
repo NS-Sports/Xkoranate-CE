@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s 110 m hurdles—Heats</name>
+	<alphabetizedName>Athletics—Men’s 2hurdles 110 m—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s 110 m hurdles</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0310559006211</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0119047619048">14.52</dataPoint>
+		<dataPoint pos="0.094246031746">13.9475</dataPoint>
+		<dataPoint pos="0.258928571429">13.7875</dataPoint>
+		<dataPoint pos="0.423611111111">13.61</dataPoint>
+		<dataPoint pos="0.588293650794">13.5725</dataPoint>
+		<dataPoint pos="0.752976190476">13.515</dataPoint>
+		<dataPoint pos="0.917658730159">13.395</dataPoint>
+		<dataPoint pos="0.988095238095">13.30</dataPoint>
+	</dataPoints>
+</sport>

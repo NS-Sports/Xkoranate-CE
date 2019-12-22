@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Athletics—Men’s high jump—Qualifying</name>
+	<alphabetizedName>Athletics—Men’s high jump—Round 1</alphabetizedName>
+	<discipline>Athletics</discipline>
+	<event>Men’s high jump</event>
+	<scorinator>Qualifying</scorinator>
+	
+	<paradigm>highjump</paradigm>
+	<paradigmOptions>
+		<double type="baseProb">0.85</double>
+		<double type="depreciation">0.95</double>
+		<double type="depreciationCoefficient">100</double>
+		<double type="depreciationBase">210</double>
+		<list type="heights">
+			<double>2.10</double>
+			<double>2.15</double>
+			<double>2.20</double>
+			<double>2.25</double>
+			<double>2.29</double>
+			<double>2.32</double>
+		</list>
+		<int type="displayDigits">2</int>
+		<int type="attemptsPerHeight">3</int>
+		<double type="attackModifier">0.5</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+</sport>
