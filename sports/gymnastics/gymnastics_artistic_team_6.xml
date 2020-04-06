@@ -12,7 +12,7 @@
 		<int type="displayDigits">3</int>
 		<double type="roundingValue">0.025</double>
 		<string type="sortOrder">descending</string>
-		<int type="attempts">4</int>
+		<int type="attempts">6</int>
 	</paradigmOptions>
 	
 	<dataPoints name="score">

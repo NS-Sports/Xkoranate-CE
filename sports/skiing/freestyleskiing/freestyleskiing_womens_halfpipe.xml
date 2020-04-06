@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle Skiing—Women’s halfpipe</name>
+	<discipline>Freestyle skiing</discipline>
+	<event>Women’s halfpipe</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.015152">5.4</dataPoint>
+		<dataPoint pos="0.090909">9.6</dataPoint>
+		<dataPoint pos="0.19697">20.4</dataPoint>
+		<dataPoint pos="0.24242">29.6</dataPoint>
+		<dataPoint pos="0.257576">40.6</dataPoint>
+		<dataPoint pos="0.333333">50</dataPoint>
+		<dataPoint pos="0.439394">59.8</dataPoint>
+		<dataPoint pos="0.545455">70.6</dataPoint>
+		<dataPoint pos="0.681818">75.2</dataPoint>
+		<dataPoint pos="0.787879">80</dataPoint>
+		<dataPoint pos="0.924242">85.4</dataPoint>
+	        <dataPoint pos="0.984848">89</dataPoint>
+	</dataPoints>
+</sport>

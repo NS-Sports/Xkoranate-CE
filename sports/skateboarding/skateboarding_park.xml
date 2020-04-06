@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Skateboarding—Park</name>
+	<discipline>Skateboarding</discipline>
+	<event>Park</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+		<int type="attempts">3</int>
+		<string type="totalType">best</string>
+                <double type="roundingValue">0.33</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0047169811320755">10</dataPoint>
+		<dataPoint pos="0.054481132075472">15</dataPoint>
+		<dataPoint pos="0.15400943396226">31</dataPoint>
+		<dataPoint pos="0.25353773584906">41</dataPoint>
+		<dataPoint pos="0.35306603773585">49</dataPoint>
+		<dataPoint pos="0.45259433962264">52.66</dataPoint>
+		<dataPoint pos="0.55212264150943">58</dataPoint>
+		<dataPoint pos="0.65165094339623">63.33</dataPoint>
+		<dataPoint pos="0.75117924528302">66</dataPoint>
+		<dataPoint pos="0.85070754716981">68</dataPoint>
+		<dataPoint pos="0.9502358490566">75</dataPoint>
+		<dataPoint pos="0.99528301886792">83.66</dataPoint>
+	</dataPoints>
+</sport>

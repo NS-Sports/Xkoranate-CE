@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle Skiing—Men’s slopestyle</name>
+	<discipline>Freestyle skiing</discipline>
+	<event>Men’s slopestyle</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.011364">2.2</dataPoint>
+		<dataPoint pos="0.090909">10.8</dataPoint>
+		<dataPoint pos="0.170455">20</dataPoint>
+		<dataPoint pos="0.25">31</dataPoint>
+		<dataPoint pos="0.295455">40</dataPoint>
+		<dataPoint pos="0.340909">50</dataPoint>
+		<dataPoint pos="0.431818">60.6</dataPoint>
+		<dataPoint pos="0.568182">70</dataPoint>
+		<dataPoint pos="0.659091">80.2</dataPoint>
+		<dataPoint pos="0.829545">85.6</dataPoint>
+		<dataPoint pos="0.931818">91</dataPoint>
+                <dataPoint pos="0.988636">95.8</dataPoint>
+	</dataPoints>
+</sport>

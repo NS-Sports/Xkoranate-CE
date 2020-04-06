@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team 10 m air pistol—Final (Last series)</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team 10 m air pistol</event>
+	<scorinator>Final (Last series)</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">1</int>
+		<int type="qualifyingDisplayDigits">1</int>
+		
+		<string type="useBestGroups">true</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="qualifyingScore">
+		<dataPoint pos="0.05">57.775</dataPoint>
+		<dataPoint pos="0.20833333333333">58.6541666667</dataPoint>
+		<dataPoint pos="0.525">60.025</dataPoint>
+		<dataPoint pos="0.84166666666667">60.8208333333</dataPoint>
+		<dataPoint pos="0.95">60.875</dataPoint>
+	</dataPoints>
+</sport>

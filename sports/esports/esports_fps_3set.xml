@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>eSports—FPS—3 Match</name>
+	<alphabetizedName>eSports—FPS—3 Match</alphabetizedName>
+	<discipline>eSports</discipline>
+	<event>FPS</event>
+	<scorinator>Three Match</scorinator>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">3</int>
+		<int type="winPoints">16</int>
+		<int type="winMargin">1</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">16</int>
+		<int type="finalSetWinMargin">1</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">3</double>
+	</paradigmOptions>
+</sport>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Sport climbing—Speed</name>
+	<discipline>Sport Climbing</discipline>
+	<event>Speed</event>
+	<scorinator/>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+                <int type="attempts">2</int>
+		<string type="totalType">best</string>
+		<list type="statuses">
+			<string>Fall</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.047619048</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0047169811320755">18.05</dataPoint>
+		<dataPoint pos="0.054481132075472">14.44</dataPoint>
+		<dataPoint pos="0.15400943396226">13.69</dataPoint>
+		<dataPoint pos="0.25353773584906">13.03</dataPoint>
+		<dataPoint pos="0.35306603773585">11.83</dataPoint>
+		<dataPoint pos="0.45259433962264">10.85</dataPoint>
+		<dataPoint pos="0.55212264150943">10.44</dataPoint>
+		<dataPoint pos="0.65165094339623">10.11</dataPoint>
+		<dataPoint pos="0.75117924528302">9.69</dataPoint>
+		<dataPoint pos="0.85070754716981">9.19</dataPoint>
+		<dataPoint pos="0.9502358490566">8.65</dataPoint>
+		<dataPoint pos="0.99528301886792">8.10</dataPoint>
+	</dataPoints>
+</sport>

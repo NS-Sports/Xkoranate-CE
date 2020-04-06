@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>eSports—Best of 7</name>
+	<alphabetizedName>eSports—Best of 7</alphabetizedName>
+	<discipline>eSports</discipline>
+	<event>Best of 7</event>
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="results">
+			<string>4–0</string>
+			<string>4–1</string>
+			<string>4–2</string>
+			<string>4–3</string>
+		</list>
+		<list type="reversedResults">
+			<string>0–4</string>
+			<string>1–4</string>
+			<string>2–4</string>
+			<string>3–4</string>
+		</list>
+		<list type="winnerScores">
+			<double>4</double>
+			<double>4</double>
+			<double>4</double>
+			<double>4</double>
+		</list>
+		<list type="loserScores">
+			<double>0</double>
+			<double>1</double>
+			<double>2</double>
+			<double>3</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.125</double>
+			<double>0.25</double>
+			<double>0.3125</double>
+			<double>0.3125</double>
+		</list>
+	</paradigmOptions>
+</sport>

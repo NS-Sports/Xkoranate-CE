@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team 10 m air rifle—Final (Shoot-off)</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team 10 m air rifle</event>
+	<scorinator>Final (Shoot-off)</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="shootoffDisplayDigits">1</int>
+	</paradigmOptions>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0.0060975609756098">9.15</dataPoint>
+		<dataPoint pos="0.061314363143631">9.65</dataPoint>
+		<dataPoint pos="0.17174796747967">9.95</dataPoint>
+		<dataPoint pos="0.28218157181572">10.05</dataPoint>
+		<dataPoint pos="0.39261517615176">10.15</dataPoint>
+		<dataPoint pos="0.5030487804878">10.25</dataPoint>
+		<dataPoint pos="0.61348238482385">10.35</dataPoint>
+		<dataPoint pos="0.72391598915989">10.45</dataPoint>
+		<dataPoint pos="0.83434959349594">10.55</dataPoint>
+		<dataPoint pos="0.94478319783198">10.75</dataPoint>
+		<dataPoint pos="0.99390243902439">10.75</dataPoint>
+	</dataPoints>
+</sport>

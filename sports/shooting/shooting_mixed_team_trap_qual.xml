@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team trap—Qualification</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team trap</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">3</int>
+		<list type="qualifyingAttemptTypes">
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		<double type="qualifyingRankModifier">1.015</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<int type="shootoffDisplayDigits">0</int>
+		<double type="shootoffRankModifier">2</double>
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.0073529411764706">38</dataPoint>
+		<dataPoint pos="0.069393382352941">40</dataPoint>
+		<dataPoint pos="0.19347426470588">41</dataPoint>
+		<dataPoint pos="0.31755514705882">42</dataPoint>
+		<dataPoint pos="0.44163602941176">44</dataPoint>
+		<dataPoint pos="0.56571691176471">45</dataPoint>
+		<dataPoint pos="0.68979779411765">46</dataPoint>
+		<dataPoint pos="0.81387867647059">47</dataPoint>
+		<dataPoint pos="0.93795955882353">48</dataPoint>
+		<dataPoint pos="0.99264705882353">49</dataPoint>
+	</dataPoints>
+
+	<dataPoints name="shootoffScore">
+		<dataPoint pos="0">0</dataPoint>
+		<dataPoint pos="0.3">0</dataPoint>
+		<dataPoint pos="1">1</dataPoint>
+	</dataPoints>
+</sport>

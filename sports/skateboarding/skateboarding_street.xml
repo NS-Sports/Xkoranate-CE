@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Skateboarding—Street</name>
+	<discipline>Skateboarding</discipline>
+	<event>Street</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">1</int>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0047169811320755">0.1</dataPoint>
+		<dataPoint pos="0.054481132075472">0.1</dataPoint>
+		<dataPoint pos="0.15400943396226">0.1</dataPoint>
+		<dataPoint pos="0.25353773584906">0.1</dataPoint>
+		<dataPoint pos="0.35306603773585">2.7</dataPoint>
+		<dataPoint pos="0.45259433962264">4.4</dataPoint>
+		<dataPoint pos="0.55212264150943">4.9</dataPoint>
+		<dataPoint pos="0.65165094339623">5.4</dataPoint>
+		<dataPoint pos="0.75117924528302">6.1</dataPoint>
+		<dataPoint pos="0.85070754716981">6.9</dataPoint>
+		<dataPoint pos="0.9502358490566">7.7</dataPoint>
+		<dataPoint pos="0.99528301886792">8.9</dataPoint>
+	</dataPoints>
+</sport>

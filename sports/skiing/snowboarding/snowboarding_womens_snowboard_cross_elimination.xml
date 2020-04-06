@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <sport version="0.3">
 	<name>Snowboarding—Women’s snowboard cross—Elimination</name>
-	<alphabetizedName>Snowboarding—Men’s snowboard cross—Round 2</alphabetizedName>
+	<alphabetizedName>Snowboarding—Women’s snowboard cross—Round 2</alphabetizedName>
 	<discipline>Snowboarding</discipline>
 	<event>Women’s snowboard cross</event>
 	<scorinator>Elimination</scorinator>

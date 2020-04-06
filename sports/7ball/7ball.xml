@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>7ball—sonnelian formula</name>
+	<discipline>7ball</discipline>
+	<event>7ball</event> 	<scorinator/>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">13</int>
+		<int type="winPoints">7</int>
+		<int type="winMargin">0</int>
+		<int type="endPoints">7</int>
+		<int type="finalSetWinPoints">17</int>
+		<int type="finalSetWinMargin">0</int>
+		<int type="finalSetEndPoints">17</int>
+		<double type="attackModifier">5.5</double>
+	</paradigmOptions>
+</sport>

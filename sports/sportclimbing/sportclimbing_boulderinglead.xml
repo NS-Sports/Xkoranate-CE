@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Sport Climbing—bouldering and lead</name>
+	<alphabetizedName>Sport Climbing-bouldering and lead</alphabetizedName>
+	<discipline>Sport Climbing</discipline>
+	<event>Bouldering and Lead</event>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>ordinal</paradigm>
+	<paradigmOptions>
+		<double type="attackModifier">1</double>
+	</paradigmOptions>
+</sport>

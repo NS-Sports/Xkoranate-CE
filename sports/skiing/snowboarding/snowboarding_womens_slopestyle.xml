@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Women’s slopestyle</name>
+	<discipline>Snowboarding</discipline>
+	<event>Women’s slopestyle</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.25</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.010989">1</dataPoint>
+		<dataPoint pos="0.021978">10.5</dataPoint>
+		<dataPoint pos="0.121868">20</dataPoint>
+		<dataPoint pos="0.197802">30</dataPoint>
+		<dataPoint pos="0.417582">39</dataPoint>
+		<dataPoint pos="0.483516">50.5</dataPoint>
+		<dataPoint pos="0.571429">60.25</dataPoint>
+		<dataPoint pos="0.659341">70.5</dataPoint>
+		<dataPoint pos="0.780220">80</dataPoint>
+		<dataPoint pos="0.956044">90.5</dataPoint>
+		<dataPoint pos="0.989011">95.5</dataPoint>
+	</dataPoints>
+</sport>

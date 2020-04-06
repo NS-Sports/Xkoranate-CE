@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Foot Races—Hoplitodromos—Heats</name>
+	<alphabetizedName>Foot Races—Hoplitodromos—Round 1</alphabetizedName>
+	<discipline>Foot Races</discipline>
+	<event>Hoplitodromos</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">7</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.0121951219512</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00833333333333">117.48</dataPoint>
+		<dataPoint pos="0.0791666666667">127.26228571445</dataPoint>
+		<dataPoint pos="0.220833333333">124.90889285665</dataPoint>
+		<dataPoint pos="0.3625">124.0611785711</dataPoint>
+		<dataPoint pos="0.504166666667">123.5905</dataPoint>
+		<dataPoint pos="0.645833333333">122.981</dataPoint>
+		<dataPoint pos="0.7875">121.96078571445</dataPoint>
+		<dataPoint pos="0.929166666667">121.58046428555</dataPoint>
+		<dataPoint pos="0.991666666667">120.635</dataPoint>
+	</dataPoints>
+</sport>

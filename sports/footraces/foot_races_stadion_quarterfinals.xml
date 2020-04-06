@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Foot Races—Stadion—Quarterfinals</name>
+	<alphabetizedName>Foot Races—Stadion—Round 2</alphabetizedName>
+	<discipline>Foot Races</discipline>
+	<event>Stadion</event>
+	<scorinator>Quarterfinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.00909090909091</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0151515151515">21.48</dataPoint>
+		<dataPoint pos="0.113636363636">20.96</dataPoint>
+		<dataPoint pos="0.310606060606">20.63</dataPoint>
+		<dataPoint pos="0.507575757576">20.45</dataPoint>
+		<dataPoint pos="0.704545454545">20.42</dataPoint>
+		<dataPoint pos="0.901515151515">20.28</dataPoint>
+		<dataPoint pos="0.984848484848">20.23</dataPoint>
+	</dataPoints>
+</sport>

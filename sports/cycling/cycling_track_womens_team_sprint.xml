@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sport version="0.3">
-	<name>Cycling—Women’s track team sprint</name>
-	<alphabetizedName>Cycling, track—Women’s team sprint</alphabetizedName>
+	<name>Cycling—Women’s track team sprint (3 woman)</name>
+	<alphabetizedName>Cycling, track—Women’s team sprint-3 woman</alphabetizedName>
 	<discipline>Cycling, track</discipline>
-	<event>Women’s team sprint</event>
+	<event>Women’s team sprint (3 woman)</event>
 	<scorinator/>
 	
 	<paradigm>timed</paradigm>

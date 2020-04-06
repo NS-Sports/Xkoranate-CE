@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Squash—xkoranate formula—5 sets</name>
+	<alphabetizedName>Squash—5 sets</alphabetizedName>
+	<discipline>Squash</discipline>
+	<event>Five sets</event>
+	<scorinator/>
+	
+	<paradigm>tennis</paradigm>
+	<paradigmOptions>
+		<int type="sets">5</int>
+		<int type="winPoints">11</int>
+		<int type="winMargin">2</int>
+		<int type="endPoints">0</int>
+		<int type="finalSetWinPoints">11</int>
+		<int type="finalSetWinMargin">2</int>
+		<int type="finalSetEndPoints">0</int>
+		<double type="attackModifier">3</double>
+	</paradigmOptions>
+</sport>

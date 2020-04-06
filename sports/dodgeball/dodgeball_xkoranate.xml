@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Dodgeball—xkoranate formula</name>
+	<discipline>Dodgeball</discipline>
+	<event/>
+	<scorinator /> <!-- only one scorinator is needed for this event -->
+	
+	<paradigm>xkoranate-h2h</paradigm>
+	<paradigmOptions>
+		<list type="tiebreakers">
+			<string>extratime</string>
+		</list>
+		<list type="tiebreakerNames">
+			<string></string>
+		</list>
+		<int type="forceTieBreak">1</int>
+		<int type="quietTieBreak">1</int>
+		<string type="tableHeaderGoalsFor">PF</string>
+		<string type="tableHeaderGoalsAgainst">PA</string>
+		<string type="tableHeaderGoalDifference">PD</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.00384615384615">0</dataPoint>
+		<dataPoint pos="0.139685314685">0</dataPoint>
+		<dataPoint pos="0.230244755245">2</dataPoint>
+		<dataPoint pos="0.320804195804">3</dataPoint>
+		<dataPoint pos="0.411363636364">5</dataPoint>
+		<dataPoint pos="0.501923076923">7</dataPoint>
+		<dataPoint pos="0.592482517483">9</dataPoint>
+		<dataPoint pos="0.683041958042">11</dataPoint>
+		<dataPoint pos="0.773601398601">12</dataPoint>
+		<dataPoint pos="0.864160839161">13</dataPoint>
+		<dataPoint pos="0.95472027972">14</dataPoint>
+		<dataPoint pos="0.996153846154">17</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="etScore">
+		<dataPoint pos="0.0192307692308">0</dataPoint>
+		<dataPoint pos="0.509615384615">0</dataPoint>
+		<dataPoint pos="0.705769230769">1</dataPoint>
+		<dataPoint pos="0.901923076923">3.4</dataPoint>
+		<dataPoint pos="0.980769230769">5</dataPoint>
+	</dataPoints>
+</sport>

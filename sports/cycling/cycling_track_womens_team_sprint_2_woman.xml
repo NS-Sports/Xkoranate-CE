@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+    <name>Cycling—Women’s track team sprint (2 woman)</name>
+    <alphabetizedName>Cycling, track—Women’s team sprint-2 woman</alphabetizedName>
+    <discipline>Cycling, track</discipline>
+    <event>Women’s team sprint (2 woman)</event>
+    <scorinator/>
+    
+    <paradigm>timed</paradigm>
+    <paradigmOptions>
+        <int type="resultWidth">6</int>
+        <int type="displayDigits">3</int>
+        <list type="statuses">
+            <string>REL</string>
+        </list>
+        <list type="statusProbs">
+            <double>0.030303030303</double>
+        </list>
+    </paradigmOptions>
+    
+    <dataPoints name="score">
+        <dataPoint pos="0.0185185185185">36.32</dataPoint>
+        <dataPoint pos="0.116666666667">34.3185555556</dataPoint>
+        <dataPoint pos="0.312962962963">33.6092222222</dataPoint>
+        <dataPoint pos="0.509259259259">33.1303333333</dataPoint>
+        <dataPoint pos="0.705555555556">32.6632222222</dataPoint>
+        <dataPoint pos="0.901851851852">32.3296666667</dataPoint>
+        <dataPoint pos="0.981481481481">31.928</dataPoint>
+    </dataPoints>
+</sport>

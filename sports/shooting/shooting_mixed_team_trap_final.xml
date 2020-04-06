@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team trap—Final</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team trap</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="qualifyingAttempts">10</int>
+		<list type="qualifyingAttemptTypes">
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+			<string>finalScore</string>
+		</list>
+		<int type="qualifyingDisplayDigits">0</int>
+		
+		
+		<string type="useBestGroups">false</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.0073529411764706">1</dataPoint>
+		<dataPoint pos="0.069393382352941">2.1</dataPoint>
+		<dataPoint pos="0.19347426470588">2.8</dataPoint>
+		<dataPoint pos="0.31755514705882">3.1</dataPoint>
+		<dataPoint pos="0.44163602941176">3.7</dataPoint>
+		<dataPoint pos="0.56571691176471">3.9</dataPoint>
+		<dataPoint pos="0.68979779411765">4.1</dataPoint>
+		<dataPoint pos="0.81387867647059">4.6</dataPoint>
+		<dataPoint pos="0.93795955882353">4.8</dataPoint>
+		<dataPoint pos="0.99264705882353">4.9</dataPoint>
+	</dataPoints>
+
+</sport>

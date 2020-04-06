@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>eSports—Best of 5</name>
+	<alphabetizedName>eSports—Best of 5</alphabetizedName>
+	<discipline>eSports</discipline>
+	<event>Best of 5</event>
+	<scorinator/>
+	
+	<paradigm>wrestling</paradigm>
+	<paradigmOptions>
+		<list type="results">
+			<string>3–0</string>
+			<string>3–1</string>
+			<string>3–2</string>
+		</list>
+		<list type="reversedResults">
+			<string>0–3</string>
+			<string>1–3</string>
+			<string>2–3</string>
+		</list>
+		<list type="winnerScores">
+			<double>3</double>
+			<double>3</double>
+			<double>3</double>
+		</list>
+		<list type="loserScores">
+			<double>0</double>
+			<double>1</double>
+			<double>2</double>
+		</list>
+		<list type="resultProbs">
+			<double>0.25</double>
+			<double>0.375</double>
+			<double>0.375</double>
+		</list>
+	</paradigmOptions>
+</sport>

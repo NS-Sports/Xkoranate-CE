@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team 10 m air rifle—Final (First six series)</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team 10 m air rifle</event>
+	<scorinator>Final (First six series)</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="qualifyingAttempts">3</int>
+		<int type="qualifyingDisplayDigits">1</int>
+		
+		<int type="finalAttempts">3</int>
+		<int type="finalDisplayDigits">1</int>
+		
+		<string type="useBestGroups">true</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="qualifyingScore">
+		<dataPoint pos="0.0016556291390728">99.4158940397</dataPoint>
+		<dataPoint pos="0.031018698870277">101.308565446</dataPoint>
+		<dataPoint pos="0.089744838332684">101.5</dataPoint>
+		<dataPoint pos="0.14847097779509">101.7196484223</dataPoint>
+		<dataPoint pos="0.2071971172575">102.0503798208</dataPoint>
+		<dataPoint pos="0.26592325671991">102.2307313985</dataPoint>
+		<dataPoint pos="0.44210167510713">103.0473558629</dataPoint>
+		<dataPoint pos="0.50082781456954">103.2</dataPoint>
+		<dataPoint pos="0.55955395403194">103.3584388391</dataPoint>
+		<dataPoint pos="0.79445851188157">104.1806047916</dataPoint>
+		<dataPoint pos="0.85318465134398">104.5445851188</dataPoint>
+		<dataPoint pos="0.99834437086093">105.482615894</dataPoint>
+	</dataPoints>
+	
+	<dataPoints name="finalScore">
+		<dataPoint pos="0.05">40.34</dataPoint>
+		<dataPoint pos="0.20833333333333">41.2</dataPoint>
+		<dataPoint pos="0.525">42</dataPoint>
+		<dataPoint pos="0.84166666666667">42.3</dataPoint>
+		<dataPoint pos="0.95">42.72</dataPoint>
+	</dataPoints>
+</sport>

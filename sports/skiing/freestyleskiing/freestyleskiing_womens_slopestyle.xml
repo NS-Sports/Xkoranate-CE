@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Freestyle Skiing—Women’s slopestyle</name>
+	<discipline>Freestyle skiing</discipline>
+	<event>Women’s slopestyle</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.2</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.014706">5.6</dataPoint>
+		<dataPoint pos="0.058824">10</dataPoint>
+		<dataPoint pos="0.161765">20</dataPoint>
+		<dataPoint pos="0.308824">30</dataPoint>
+		<dataPoint pos="0.455882">39.2</dataPoint>
+		<dataPoint pos="0.5">50</dataPoint>
+		<dataPoint pos="0.558824">62.4</dataPoint>
+		<dataPoint pos="0.808824">70.6</dataPoint>
+		<dataPoint pos="0.882353">80.4</dataPoint>
+		<dataPoint pos="0.985294">88.8</dataPoint>
+		<dataPoint pos="0.99">94.2</dataPoint>
+	</dataPoints>
+</sport>

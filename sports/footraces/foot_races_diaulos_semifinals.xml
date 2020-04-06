@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Foot Races—Diaulos—Semifinals</name>
+	<alphabetizedName>Foot Races—Diaulos—Round 2</alphabetizedName>
+	<discipline>Foot Races</discipline>
+	<event>Diaulos</event>
+	<scorinator>Semifinals</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.005</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0192307692308">45.81</dataPoint>
+		<dataPoint pos="0.117307692308">45.581</dataPoint>
+		<dataPoint pos="0.313461538462">45.195</dataPoint>
+		<dataPoint pos="0.509615384615">45.04</dataPoint>
+		<dataPoint pos="0.705769230769">44.874</dataPoint>
+		<dataPoint pos="0.901923076923">44.593</dataPoint>
+		<dataPoint pos="0.980769230769">44.12</dataPoint>
+	</dataPoints>
+</sport>

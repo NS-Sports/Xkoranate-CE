@@ -7,24 +7,23 @@
 	
 	<paradigm>scored</paradigm>
 	<paradigmOptions>
-		<int type="resultWidth">4</int>
-		<int type="displayDigits">1</int>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.25</double>
 		<string type="sortOrder">descending</string>
 	</paradigmOptions>
 	
 	<dataPoints name="score">
-		<dataPoint pos="0.00390625">2.5</dataPoint>
-		<dataPoint pos="0.049183238636364">6.6318181818182</dataPoint>
-		<dataPoint pos="0.13973721590909">11.104545454545</dataPoint>
-		<dataPoint pos="0.23029119318182">14.981818181818</dataPoint>
-		<dataPoint pos="0.32084517045455">17.577272727273</dataPoint>
-		<dataPoint pos="0.41139914772727">20.113636363636</dataPoint>
-		<dataPoint pos="0.501953125">26</dataPoint>
-		<dataPoint pos="0.59250710227273">30.377272727273</dataPoint>
-		<dataPoint pos="0.68306107954545">33.2</dataPoint>
-		<dataPoint pos="0.77361505681818">36.359090909091</dataPoint>
-		<dataPoint pos="0.86416903409091">40.736363636364</dataPoint>
-		<dataPoint pos="0.95472301136364">43.386363636364</dataPoint>
-		<dataPoint pos="0.99609375">48.4</dataPoint>
+		<dataPoint pos="0.008065">4.5</dataPoint>
+		<dataPoint pos="0.016129">12</dataPoint>
+		<dataPoint pos="0.096774">20</dataPoint>
+		<dataPoint pos="0.233871">29.25</dataPoint>
+		<dataPoint pos="0.330645">40</dataPoint>
+		<dataPoint pos="0.435484">49.25</dataPoint>
+		<dataPoint pos="0.532258">60.75</dataPoint>
+		<dataPoint pos="0.661290">69.75</dataPoint>
+		<dataPoint pos="0.798387">79.5</dataPoint>
+		<dataPoint pos="0.927419">90</dataPoint>
+		<dataPoint pos="0.991935">95.75</dataPoint>
 	</dataPoints>
 </sport>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Pro Wrestling</name>
+	<discipline>Pro Wrestling</discipline>
+	<event/>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+                <double type="roundingValue">0.25</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.008065">-4.75</dataPoint>
+		<dataPoint pos="0.016129">-1.75</dataPoint>
+		<dataPoint pos="0.096774">0.25</dataPoint>
+		<dataPoint pos="0.233871">0.75</dataPoint>
+		<dataPoint pos="0.330645">1.25</dataPoint>
+		<dataPoint pos="0.435484">1.75</dataPoint>
+		<dataPoint pos="0.532258">2.50</dataPoint>
+		<dataPoint pos="0.661290">3.25</dataPoint>
+		<dataPoint pos="0.798387">4.00</dataPoint>
+		<dataPoint pos="0.927419">4.75</dataPoint>
+		<dataPoint pos="0.991935">6.25</dataPoint>
+	</dataPoints>
+</sport>

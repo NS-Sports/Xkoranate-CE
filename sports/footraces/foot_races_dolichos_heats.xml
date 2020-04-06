@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Foot Races—Dolichos—Heats</name>
+	<alphabetizedName>Foot Races—Dolichos—Round 1</alphabetizedName>
+	<discipline>Foot Races</discipline>
+	<event>Dolichos</event>
+	<scorinator>Heats</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.0121951219512">950.56</dataPoint>
+		<dataPoint pos="0.094512195122">859.366666667</dataPoint>
+		<dataPoint pos="0.259146341463">840.22</dataPoint>
+		<dataPoint pos="0.423780487805">830.575</dataPoint>
+		<dataPoint pos="0.588414634146">826.551666667</dataPoint>
+		<dataPoint pos="0.753048780488">821.845</dataPoint>
+		<dataPoint pos="0.917682926829">817.746666667</dataPoint>
+		<dataPoint pos="0.987804878049">817.36</dataPoint>
+	</dataPoints>
+</sport>

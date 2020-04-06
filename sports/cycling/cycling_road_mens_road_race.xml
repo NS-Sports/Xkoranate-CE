@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+    <name>Cycling—Men’s individual road race</name>
+    <alphabetizedName>Cycling, road—Men’s individual road race</alphabetizedName>
+    <discipline>Cycling, road</discipline>
+    <event>Men’s individual road race</event>
+    <scorinator/>
+    
+    <paradigm>timed</paradigm>
+    <paradigmOptions>
+        <int type="resultWidth">7</int>
+        <int type="displayDigits">0</int>
+        <list type="statuses">
+            <string>OTL</string>
+            <string>DNF</string>
+        </list>
+        <list type="statusProbs">
+            <double>0.027272727272</double>
+            <double>0.272727272727</double>
+        </list>
+        <list type="statusSortOrder">
+            <double>1</double>
+            <double>2</double>
+        </list>
+    </paradigmOptions>
+    
+    <dataPoints name="score">
+        <dataPoint pos="0.0054347826087">24112</dataPoint>
+        <dataPoint pos="0.0883152173913">23405</dataPoint>
+        <dataPoint pos="0.254076086957">23398.7</dataPoint>
+        <dataPoint pos="0.419836956522">22949.2</dataPoint>
+        <dataPoint pos="0.585597826087">22721.2</dataPoint>
+        <dataPoint pos="0.751358695652">22423</dataPoint>
+        <dataPoint pos="0.917119565217">22275.1</dataPoint>
+        <dataPoint pos="0.994565217391">22205</dataPoint>
+    </dataPoints>
+</sport>

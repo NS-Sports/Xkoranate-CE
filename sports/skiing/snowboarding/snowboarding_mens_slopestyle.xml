@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Snowboarding—Men’s slopestyle</name>
+	<discipline>Snowboarding</discipline>
+	<event>Men’s slopestyle</event>
+	<scorinator/>
+	
+	<paradigm>scored</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">6</int>
+		<int type="displayDigits">2</int>
+           <double type="roundingValue">0.25</double>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.008197">12.5</dataPoint>
+		<dataPoint pos="0.081967">20</dataPoint>
+		<dataPoint pos="0.278689">31</dataPoint>
+		<dataPoint pos="0.401639">40</dataPoint>
+		<dataPoint pos="0.57377">63</dataPoint>
+		<dataPoint pos="0.688525">80</dataPoint>
+		<dataPoint pos="0.803279">86</dataPoint>
+		<dataPoint pos="0.893443">90</dataPoint>
+		<dataPoint pos="0.959016">93.5</dataPoint>
+		<dataPoint pos="0.991803">97.5</dataPoint>
+	</dataPoints>
+</sport>

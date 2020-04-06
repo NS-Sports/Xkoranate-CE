@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Foot Races—Dolichos—Final</name>
+	<alphabetizedName>Foot Races—Dolichos—Round 2</alphabetizedName>
+	<discipline>Foot Races</discipline>
+	<event>Dolichos</event>
+	<scorinator>Final</scorinator>
+	
+	<paradigm>timed</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">8</int>
+		<int type="displayDigits">2</int>
+		<double type="tiebreakerDigits">5</double>
+		<double type="interheatTiebreakerDigits">3</double>
+		<list type="statuses">
+			<string>DNF</string>
+			<string>DQ</string>
+		</list>
+		<list type="statusProbs">
+			<double>0.02</double>
+			<double>0.00284697508897</double>
+		</list>
+	</paradigmOptions>
+	
+	<dataPoints name="score">
+		<dataPoint pos="0.03125">835.94</dataPoint>
+		<dataPoint pos="0.192708333333">811.196666667</dataPoint>
+		<dataPoint pos="0.515625">801.635</dataPoint>
+		<dataPoint pos="0.838541666667">786.943333333</dataPoint>
+		<dataPoint pos="0.96875">777.82</dataPoint>
+	</dataPoints>
+</sport>

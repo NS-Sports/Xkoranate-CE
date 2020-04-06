@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+	<name>Shooting—Mixed team 10 m air rifle—Qualification</name>
+	<discipline>Shooting</discipline>
+	<event>Mixed team 10 m air rifle</event>
+	<scorinator>Qualification</scorinator>
+	
+	<paradigm>shooting</paradigm>
+	<paradigmOptions>
+		<int type="resultWidth">5</int>
+		<int type="qualifyingAttempts">4</int>
+		<int type="qualifyingDisplayDigits">1</int>
+		<double type="qualifyingRankModifier">1.03</double>
+		<double type="qualifyingRankAdjustmentFactor">0.75</double>
+		
+		<string type="useBestGroups">true</string>
+		<string type="sortOrder">descending</string>
+	</paradigmOptions>
+
+	<dataPoints name="qualifyingScore">
+		<dataPoint pos="0.0016556291390728">199.8097682119</dataPoint>
+		<dataPoint pos="0.031018698870277">202.5060284379</dataPoint>
+		<dataPoint pos="0.089744838332684">203.4</dataPoint>
+		<dataPoint pos="0.14847097779509">204.3829518894</dataPoint>
+		<dataPoint pos="0.2071971172575">205.2979207246</dataPoint>
+		<dataPoint pos="0.26592325671991">205.8128895598</dataPoint>
+		<dataPoint pos="0.44210167510713">206.9</dataPoint>
+		<dataPoint pos="0.50082781456954">207.1</dataPoint>
+		<dataPoint pos="0.55955395403194">207.4</dataPoint>
+		<dataPoint pos="0.79445851188157">208.5</dataPoint>
+		<dataPoint pos="0.85318465134398">208.9</dataPoint>
+		<dataPoint pos="0.99834437086093">211.2089403974</dataPoint>
+	</dataPoints>
+</sport>
