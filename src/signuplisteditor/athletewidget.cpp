@@ -109,8 +109,9 @@ void XkorAthleteWidget::importAthletes(QString filename)
 				QString athleteName = l[0].trimmed();
 				QString athleteNation = l[1].trimmed();
 				QString athleteSkill = l[2].trimmed();
+				QString styleValue = l[3].trimmed();
 				
-				initItem(createItem(), athleteName, QUuid(r(), r(), r(), r(), r(), r(), r(), r(), r(), r(), r()), athleteNation, athleteSkill.toDouble());
+				initItem(createItem(), athleteName, QUuid(r(), r(), r(), r(), r(), r(), r(), r(), r(), r(), r()), athleteNation, athleteSkill, styleValue.toDouble());
 			}
 		}
 
@@ -123,12 +124,13 @@ void XkorAthleteWidget::importAthletes(QString filename)
 	emit listChanged();
 }
 
-void XkorAthleteWidget::initItem(QTreeWidgetItem * item, QString athleteName, QUuid id, QString nation, double skill, QHash<QString, QVariant> properties)
+void XkorAthleteWidget::initItem(QTreeWidgetItem * item, QString athleteName, QUuid id, QString nation, double skill, double style, QHash<QString, QVariant> properties)
 {
 	item->setText(m_columnKeys.indexOf("name"), athleteName);
 	item->setData(m_columnKeys.indexOf("name"), Qt::UserRole, id.toString());
 	item->setText(m_columnKeys.indexOf("nation"), nation);
 	item->setText(m_columnKeys.indexOf("skill"), QString::number(skill));
+	item->setText(m_columnKeys.indexOf("style"), QString::number(style));
 	item->setTextAlignment(m_columnKeys.indexOf("skill"), Qt::AlignRight);
 	for(int i = 0; i < m_columnTypes.size(); ++i)
 		if(properties.contains(m_columnKeys[i]))
@@ -151,7 +153,7 @@ void XkorAthleteWidget::setAthletes(QList<XkorAthlete> athletes)
 	{
 		QTreeWidgetItem * item = new QTreeWidgetItem(treeWidget);
 		item->setFlags(item->flags() | Qt::ItemIsEditable);
-		initItem(item, i->name, i->id, i->nation, i->skill, i->properties);
+		initItem(item, i->name, i->id, i->nation, i->skill, i->style, i->properties);
 	}
 	emit listChanged();
 }
