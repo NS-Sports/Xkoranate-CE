@@ -4,7 +4,7 @@
 TEMPLATE = app
 TARGET = xkoranate
 
-# mac: TARGET = xkoranate.app
+# mac:TARGET = xkoranate.app
 # mac:CONFIG += ppc x86
 # mac:CONFIG = x86_64
 # mac:ICON = icons/xkoranate.icns
