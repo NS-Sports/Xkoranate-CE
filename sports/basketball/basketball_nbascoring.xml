@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sport version="0.3">
-    <name>Basketballâ€”NBA Rules</name>
+    <name>Basketball-NBA Rules</name>
     <discipline>Basketball</discipline>
     <event/> <!-- only one scorinator is available for this sport -->
     <scorinator/>
