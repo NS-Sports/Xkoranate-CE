@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sport version="0.3">
-	<name>Association football—WC68 formula</name>
+	<name>Association football—SLIS formula</name>
 	<discipline>Association football</discipline>
-	<event>World Cup 68 formula</event>
+	<event>SLIS formula</event>
 	<scorinator/> <!-- only one scorinator is needed for this event -->
 	
 	<paradigm>sqis</paradigm>
