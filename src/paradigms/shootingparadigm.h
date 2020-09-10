@@ -20,7 +20,7 @@ class XkorShootingParadigm : public XkorScoredParadigm
 			supportedCompetitions.insert("shooting", true);
 		}
 
-		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString::null)
+		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString())
 		{
 			for(QList<XkorAthlete>::iterator i = athletes.begin(); i != athletes.end(); ++i)
 			{
