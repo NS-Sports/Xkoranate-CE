@@ -46,8 +46,8 @@ XkorSQISParadigmOptions::XkorSQISParadigmOptions(QHash<QString, QVariant> opts, 
 	label->setContentsMargins(0, -4, 0, 0);
 
 	QFormLayout * form = new QFormLayout(this);
-	form->addRow(QString::null, homeAdvantage);
-	form->addRow(QString::null, showTLAs);
+	form->addRow(QString(), homeAdvantage);
+	form->addRow(QString(), showTLAs);
 	form->addRow(label, styleModsForm);
 }
 
