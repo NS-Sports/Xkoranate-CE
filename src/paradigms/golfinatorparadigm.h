@@ -18,7 +18,7 @@ class XkorGolfinatorParadigm : public XkorAbstractParadigm
 			supportedCompetitions.insert("standard", true);
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorBasicResultComparator(type, opt);
 		}
