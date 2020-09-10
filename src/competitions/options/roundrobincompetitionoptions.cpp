@@ -73,8 +73,8 @@ XkorRoundRobinCompetitionOptions::XkorRoundRobinCompetitionOptions(QHash<QString
 
 	QFormLayout * layout = new QFormLayout(this);
 	layout->addRow(tr("Number of legs:"), numberOfLegs);
-	layout->addRow(QString::null, allowDraws);
-	layout->addRow(QString::null, showResultsGrid);
+	layout->addRow(QString(), allowDraws);
+	layout->addRow(QString(), showResultsGrid);
 	layout->addRow(tr("Table sort rules:"), sc);
 	layout->addRow(tr("Points for win:"), pointsLayout);
 }
