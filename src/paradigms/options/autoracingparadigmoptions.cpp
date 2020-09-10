@@ -94,8 +94,8 @@ XkorAutoRacingParadigmOptions::XkorAutoRacingParadigmOptions(QHash<QString, QVar
 	form->addRow(tr("Lap record:"), lapLayout);
 	form->addRow(label, skillTypeForm);
 	form->addRow(tr("Acceleration:"), modifiersLayout);
-	form->addRow(QString::null, useStartingGrid);
-	form->addRow(QString::null, showTLAs);
+	form->addRow(QString(), useStartingGrid);
+	form->addRow(QString(), showTLAs);
 }
 
 XkorAutoRacingParadigmOptions::~XkorAutoRacingParadigmOptions()
