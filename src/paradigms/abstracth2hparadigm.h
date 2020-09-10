@@ -86,7 +86,7 @@ class XkorAbstractH2HParadigm : public XkorAbstractParadigm
 			}
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorH2HResultComparator(type, opt);
 		}
