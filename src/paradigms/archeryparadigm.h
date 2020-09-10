@@ -113,7 +113,7 @@ class XkorArcheryParadigm : public XkorAbstractParadigm
 			generateOutput();
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			if(userOpt.value("rankingRound") == "true")
 				return new XkorArcheryResultComparator("rankingRound", opt);
