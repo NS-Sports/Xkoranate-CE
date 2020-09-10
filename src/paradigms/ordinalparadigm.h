@@ -22,7 +22,7 @@ class XkorOrdinalParadigm : public XkorAbstractParadigm
 			qDebug() << "unexpected tie break request in ordinal paradigm";
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			QHash<QString, QVariant> comparisonOpt = opt;
 			comparisonOpt.insert("sortOrder", "descending");
