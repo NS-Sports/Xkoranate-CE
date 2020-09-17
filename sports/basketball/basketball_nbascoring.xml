@@ -2,13 +2,12 @@
 <sport version="0.3">
     <name>Basketball-NBA Rules</name>
     <discipline>Basketball</discipline>
-    <event/> <!-- only one scorinator is available for this sport -->
+    <event>NBA Rules<event/> 
     <scorinator/>
 
     <paradigm>xkoranate-h2h</paradigm>
     <paradigmOptions>
-                     <double type="homeAdvantage">7.5</double>
-		     <double type="homeAdvantageGG">0.133333333333</double>
+                     
 
         <list type="tiebreakers">
             <string>extratime</string>
