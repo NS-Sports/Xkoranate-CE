@@ -23,3 +23,12 @@ Coming soon!
 ## Sport files
 
 Each available event has parameters which are stored in an editable xml file. These files are placed in the “sports” directory, which can be found in xkoranate.app/Contents/Resources/sports/ in the Mac os version. In version 0.3.1 and later (including xkoranate-CE), the application should automatically find this directory.
+
+## Contribution guidelines
+When making a change, please follow these steps to maintain code integrity:
+* Create a new branch from master to make your changes 
+* Compile and test your changes
+* If successful, merge to the test branch, with your results, and request a review by another developer
+* Once verified by a second developer, merge the changes to the master branch
+
+Code changes should never be commmitted directly to the master branch without testing and review.
