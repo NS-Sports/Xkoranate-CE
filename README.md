@@ -26,9 +26,10 @@ Each available event has parameters which are stored in an editable xml file. Th
 
 ## Contribution guidelines
 When making a change, please follow these steps to maintain code integrity:
-* Create a new branch from master to make your changes 
-* Compile and test your changes
-* If successful, merge to the test branch, with your results, and request a review by another developer
-* Once verified by a second developer, merge the changes to the master branch
+* Create a new branch from master to your own fork. DO NOT create new branches on the main repo. 
+* Compile and test your changes on your fork where possible.
+* If successful, merge to the test (or dev) branch, with a comment explaining your results, and request a review by another member of the organisation (anyone will do!)
+* Once verified by a second developer, they can merge changes to the master branch.
 
 Code changes should never be commmitted directly to the master branch without testing and review.
+Full guidelines will be added here later, with more detail for those who are less experienced with Git.

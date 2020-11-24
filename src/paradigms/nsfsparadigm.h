@@ -30,6 +30,7 @@ class XkorNSFSParadigm : public XkorAbstractH2HParadigm
 			int baseAttacksInferior = opt.value("baseAttacksInferior").toInt();
 			double attackCoeffSuperior = opt.value("attackCoeffSuperior").toDouble();
 			double attackCoeffInferior = opt.value("attackCoeffInferior").toDouble();
+			double homeAdvValue = (homeAdvantage ? opt.value("homeAdvantage").toDouble() : 1);
 
 			int attacks;
 			if(skill > oppSkill)
@@ -38,7 +39,7 @@ class XkorNSFSParadigm : public XkorAbstractH2HParadigm
 				attacks = static_cast<int>((baseAttacksInferior + ((skill - oppSkill) * attackCoeffInferior)) * attackMultiplier);
 
 			// calculate P(goal) on any given attack
-			double pGoal = 1 - (bast + rankDiffModifier * (pow(oppSkill * rankCoeff, rankScalar) - pow(skill * rankCoeff, rankScalar))) / (baseAttackCoeff + homeAdvantage);
+			double pGoal = 1 - (bast + rankDiffModifier * (pow(oppSkill * rankCoeff, rankScalar) - pow(skill * rankCoeff, rankScalar))) / (baseAttackCoeff + homeAdvValue);
 
 			// score
 			double rand = s->randUniform();
