@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+    <name>Sepak Takraw—Trial formula</name>
+    <discipline>Sepak Takraw</discipline>
+    <event/> <!-- only a single  scorinator is available for this sport and this is just a trial one -->
+    <scorinator/>
+    
+    <paradigm>tennis</paradigm>
+    <paradigmOptions>
+        <int type="sets">3</int>
+        <int type="winPoints">21</int>
+        <int type="winMargin">2</int>
+        <int type="endPoints">25</int>
+        <int type="finalSetWinPoints">21</int>
+        <int type="finalSetWinMargin">2</int>
+        <int type="finalSetEndPoints">25</int>
+        <double type="attackModifier">5.5</double>
+    </paradigmOptions>
+</sport>
+

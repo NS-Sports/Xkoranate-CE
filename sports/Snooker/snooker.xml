@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+    <name>Snooker</name>
+<discipline>Snooker</discipline>
+    <event/> <!-- only a single  scorinator is available for this sport and this is the first one-->
+    <scorinator/>
+    
+    <paradigm>tennis</paradigm>
+    <paradigmOptions>
+        <int type="sets">1</int>
+        <int type="winPoints">10</int>
+        <int type="winMargin">1</int>
+        <int type="endPoints">10</int>
+        <int type="finalSetWinPoints">10</int>
+        <int type="finalSetWinMargin">1</int>
+        <int type="finalSetEndPoints">10</int>
+        <double type="attackModifier">5.5</double>
+    </paradigmOptions>
+</sport>

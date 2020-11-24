@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <sport version="0.3">
+ <name>Baseball—LLWS formula</name>
+ <discipline>Baseball</discipline>
+ <event>NSFS3 formula</event>
+ <scorinator /> <!-- only one scorinator is needed for this event -->
+ <paradigm>nsfs-baseball</paradigm>
+ <paradigmOptions>
+ <string type="resultStyle">periods</string>
+ <int type="resultWidth">1</int>
+ <double type="baseScoringProb">0.3905</double>
+ <double type="baseScoringCoeff">0.03</double>
+ <double type="extraScoringProb">0.4095</double>
+ <double type="extraScoringCoeff">0.05</double>
+ <list type="tiebreakers">
+ <string>extratime</string>
+ </list>
+ <list type="tiebreakerNames">
+ <string></string>
+ </list>
+ <int type="forceTieBreak">1</int>
+ <int type="quietTieBreak">1</int>
+ <int type="periods">6</int>
+ <string type="tableHeaderGoalsFor">RF</string>
+ <string type="tableHeaderGoalsAgainst">RA</string>
+ <string type="tableHeaderGoalDifference">RD</string>
+ </paradigmOptions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport version="0.3">
+    <name>eSports—Best of 1</name>
+    <alphabetizedName>eSports—Best of 1</alphabetizedName>
+    <discipline>eSports</discipline>
+    <event>Best of 1</event>
+    <scorinator/>
+    
+    <paradigm>wrestling</paradigm>
+    <paradigmOptions>
+        <list type="results">
+            <string>1-0</string>
+        </list>
+        <list type="reversedResults">
+            <string>0-1</string>
+        </list>
+        <list type="winnerScores">
+            <double>1</double>
+        </list>
+        <list type="loserScores">
+            <double>0</double>
+        </list>
+        <list type="resultProbs">
+            <double>1</double>
+        </list>
+    </paradigmOptions>
+</sport>
