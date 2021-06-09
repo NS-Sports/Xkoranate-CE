@@ -32,4 +32,5 @@ When making a change, please follow these steps to maintain code integrity:
 * Once verified by a second developer, they can merge changes to the master branch.
 
 Code changes should never be commmitted directly to the master branch without testing and review.
-Full guidelines will be added here later, with more detail for those who are less experienced with Git.
+
+Full guidelines are available [here](https://docs.google.com/document/d/1h_5nLUJ90Qs3oYZVGRUY9hYA3lsy1btA3Lb0AW_digc/edit), providing more detail for those who are less experienced with Git.
