@@ -1,4 +1,6 @@
 #include "paradigms/options/nsfsgridironparadigmoptions.h"
+#include <QGridLayout>
+#include <QStyle>
 
 XkorNSFSGridironParadigmOptions::XkorNSFSGridironParadigmOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

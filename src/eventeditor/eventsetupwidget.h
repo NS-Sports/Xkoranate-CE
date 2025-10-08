@@ -11,6 +11,9 @@
 #include "group.h"
 #include "signuplist.h"
 
+#include <QAction>
+#include <QTreeWidgetItem>
+
 class XkorEventSetupWidget : public XkorAbstractTreeWidget
 {
 	Q_OBJECT
@@ -22,10 +25,10 @@ class XkorEventSetupWidget : public XkorAbstractTreeWidget
 		QList<QUuid> availableAthletes;
 		XkorSignupList sl;
 		
-		XkorAthlete getAthleteByID(QUuid id) throw(XkorSearchFailedException);
+		XkorAthlete getAthleteByID(QUuid id) noexcept(false);
 		
 		virtual QTreeWidgetItem * createAthlete(QTreeWidgetItem * parent);
-		virtual void initAthlete(QTreeWidgetItem * athlete) { initAthlete(athlete, 0); }
+		virtual void initAthlete(QTreeWidgetItem * athlete) { initAthlete(athlete, QUuid()); }
 		virtual void initAthlete(QTreeWidgetItem * athlete, QUuid id);
 		virtual void initItem(QTreeWidgetItem * group) { initItem(group, QString()); } // initItem is used for groups
 		virtual void initItem(QTreeWidgetItem * group, QString groupName);

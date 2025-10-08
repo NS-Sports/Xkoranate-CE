@@ -151,7 +151,7 @@ XkorGroup XkorXmlReader::readGroup()
 		if(isStartElement())
 		{
 			if(name() == "signup")
-				rval.athletes.append(readString());
+				rval.athletes.append(QUuid(readString()));
 			else
 				readUnknownElement();
 		}

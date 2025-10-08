@@ -1,4 +1,5 @@
 #include "paradigms/options/howzzatparadigmoptions.h"
+#include <QStyle>
 
 #include <QtDebug>
 

@@ -1,4 +1,7 @@
-#include "multipleruncompetitionoptions.h"
+#include "competitions/options/multipleruncompetitionoptions.h"
+#include <QFormLayout>
+#include <QGridLayout>
+#include <QStyle>
 
 XkorMultipleRunCompetitionOptions::XkorMultipleRunCompetitionOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

@@ -1,6 +1,6 @@
 #include "competitions/roundrobincompetition.h"
 
-#include <QTextCodec>
+
 #include <algorithm>
 #include "competitions/options/roundrobincompetitionoptions.h"
 #include "paradigms/paradigmfactory.h"
@@ -167,9 +167,9 @@ std::vector<XkorTableMatch> XkorRoundRobinCompetition::retrieveMatches(unsigned 
 			QList<QVariant> results = tableData[groupNo].toList();
 			for(QList<QVariant>::iterator i = results.begin(); i != results.end(); ++i)
 			{
-				QRegExp rx("[0-9]+: (.+) ([0-9.]+)–([0-9.]+) (.+)"); // match scores of form “1: Aquilla 3–1 Busby”
-				if(rx.indexIn(i->toString()) != -1) // if we matched
-					rval.push_back(XkorTableMatch(rx.cap(1), rx.cap(4), rx.cap(2).toDouble(), rx.cap(3).toDouble()));
+				QRegularExpression rx("[0-9]+: (.+) ([0-9.]+)–([0-9.]+) (.+)"); // match scores of form “1: Aquilla 3–1 Busby”
+				QRegularExpressionMatch match = rx.match(i->toString()); if(match.hasMatch())
+					rval.push_back(XkorTableMatch(match.captured(1), match.captured(4), match.captured(2).toDouble(), match.captured(3).toDouble()));
 			}
 		}
 	}
@@ -190,8 +190,8 @@ QHash<QString, QVariant> XkorRoundRobinCompetition::revertToMatchday(int matchda
 		QList<QVariant> groupData = i->toList();
 		for(int j = 0; j < groupData.size(); ++j)
 		{
-			QRegExp rx("([0-9]+): (.+ [0-9.]+–[0-9.]+ .+)"); // find out what matchday the score is from
-			if(rx.indexIn(groupData[j].toString()) != -1 && rx.cap(1).toDouble() >= matchday) // if it’s on “matchday” or later…
+			QRegularExpression rx("([0-9]+): (.+ [0-9.]+–[0-9.]+ .+)"); // find out what matchday the score is from
+			QRegularExpressionMatch match = rx.match(groupData[j].toString()); if(match.hasMatch() && match.captured(1).toDouble() >= matchday)
 				groupData[j] = ""; // …blank the value
 		}
 		// actually delete the blanked values

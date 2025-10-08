@@ -1,17 +1,25 @@
 #ifndef CONFIGEDITOR_H
 #define CONFIGEDITOR_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "rplist.h"
 #include "rpeditor/abstractrpbonuswidget.h"
 
-class XkorRPEditor : public QWidget
+#include <QRadioButton>
+#include <QComboBox>
+
+#include <QRadioButton>
+#include <QComboBox>
+#include <QWidget>
+#include <QDoubleSpinBox>
+
+class XkorRpEditor : public QWidget
 {
 	Q_OBJECT
 
 	public:
-		XkorRPEditor(QWidget * parent = 0);
+		XkorRpEditor(QWidget * parent = 0);
 
 		void updateData();
 	signals:

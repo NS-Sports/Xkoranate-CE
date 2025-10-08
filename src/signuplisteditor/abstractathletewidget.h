@@ -1,12 +1,14 @@
 #ifndef ABSTRACTATHLETEWIDGET_H
 #define ABSTRACTATHLETEWIDGET_H
 
-#include <QtWidgets>
-#include <tr1/random>
+#include <QtGui>
+#include <random>
 
 #include "abstracttreewidget.h"
 #include "athlete.h"
 #include "signuplisteditor/athletedelegate.h"
+
+#include <QTreeWidgetItem>
 
 class XkorAbstractAthleteWidget : public XkorAbstractTreeWidget
 {
@@ -16,7 +18,7 @@ class XkorAbstractAthleteWidget : public XkorAbstractTreeWidget
 		QStringList m_columnKeys, m_columnNames, m_columnTypes;
 		double m_minDouble, m_maxDouble, m_doubleStep;
 
-		std::tr1::mt19937 r;
+        std::mt19937 r;
 
 		virtual void initItem(QTreeWidgetItem * item) { initItem(item, QString(), QUuid(r(), r(), r(), r(), r(), r(), r(), r(), r(), r(), r()), QString(), 0); }
 		virtual void initItem(QTreeWidgetItem * item, QString athleteName, QUuid id, QString nation, double skill) { initItem(item, athleteName, id, nation, skill, QHash<QString, QVariant>()); }

@@ -12,7 +12,7 @@ XkorSignupList::XkorSignupList()
 
 void XkorSignupList::addAthlete(XkorAthlete a)
 {
-	if(a.id == 0)
+	if(a.id == QUuid())
 		a.id = generateID();
 	ath.append(a);
 }
@@ -32,7 +32,7 @@ QUuid XkorSignupList::generateID()
 	return QUuid(r(), r(), r(), r(), r(), r(), r(), r(), r(), r(), r());
 }
 
-XkorAthlete XkorSignupList::getAthleteByID(const QUuid id) throw(XkorSearchFailedException)
+XkorAthlete XkorSignupList::getAthleteByID(const QUuid id) noexcept(false)
 {
 	for(QList<XkorAthlete>::iterator i = ath.begin(); i != ath.end(); ++i)
 		if(i->id == id)
@@ -57,7 +57,7 @@ double XkorSignupList::minRank()
 void XkorSignupList::setAthletes(QList<XkorAthlete> newAthletes)
 {
 	for(QList<XkorAthlete>::iterator i = newAthletes.begin(); i != newAthletes.end(); ++i)
-		if(i->id == 0)
+		if(i->id == QUuid())
 			i->id = generateID();
 	ath = newAthletes;
 }

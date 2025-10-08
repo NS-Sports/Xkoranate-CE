@@ -1,6 +1,8 @@
 #include "eventeditor/scorinatewidget.h"
+#include <QToolBar>
+#include <QMessageBox>
 
-#include <QtWidgets>
+#include <QtGui>
 #include <ctime>
 #include "sport.h"
 #include "xml/xmlindex.h"
@@ -51,7 +53,7 @@ XkorScorinateWidget::XkorScorinateWidget(QWidget * parent) : QWidget(parent)
 	layout->addWidget(textedit, 1);
 	layout->addWidget(toolBar, 0, Qt::AlignCenter);
 
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 }
 
 XkorScorinateWidget::~XkorScorinateWidget()
@@ -79,7 +81,7 @@ void XkorScorinateWidget::exportResults()
 	{
 		dialog = new QFileDialog(this);
 		dialog->setWindowTitle(tr("Save results"));
-        dialog->setNameFilter(tr("Text files (*.txt)"));
+		dialog->setNameFilter(tr("Text files (*.txt)"));
 		dialog->setDefaultSuffix("txt");
 		dialog->setWindowModality(Qt::WindowModal);
 		dialog->setAcceptMode(QFileDialog::AcceptSave);
@@ -95,7 +97,7 @@ void XkorScorinateWidget::exportResults(QString filename)
 		QFile f(filename);
 		f.open(QIODevice::WriteOnly);
 		QTextStream ost(&f);
-		ost.setCodec(QTextCodec::codecForName("UTF-8"));
+		
 		ost << textedit->document()->toPlainText();
 
 		QDir path(filename);

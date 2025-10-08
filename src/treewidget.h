@@ -3,6 +3,9 @@
 
 #include <QTreeWidget>
 
+#include <QTreeWidget>
+#include <QWidget>
+
 class XkorTreeWidget : public QTreeWidget
 {
 	public:

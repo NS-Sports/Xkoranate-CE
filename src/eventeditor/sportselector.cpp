@@ -1,11 +1,12 @@
-#include "sportselector.h"
+#include "eventeditor/sportselector.h"
+#include <QLabel>
 
 #include "sportmodel.h"
 #include "xml/xmlindex.h"
 #include "xml/xmlsportreader.h"
 #include "paradigms/paradigmfactory.h"
 
-XkorSportSelector::XkorSportSelector(QWidget * parent) : QWidget(parent)
+XkorSportSelector::XkorSportSelector(QWidget * parent) : QGroupBox(parent)
 {
     paradigmOptionsWidget = 0;
     selectionModel = 0;
@@ -22,7 +23,7 @@ XkorSportSelector::XkorSportSelector(QWidget * parent) : QWidget(parent)
     label->setFont(headingFont);
     layout->addWidget(label, 0, 0, Qt::AlignCenter);
     layout->addWidget(sportView, 1, 0);
-    layout->setMargin(0);
+    layout->setContentsMargins(0, 0, 0, 0);
 }
 
 void XkorSportSelector::setParadigmOptions(QHash<QString, QVariant> paradigmOptions)
@@ -96,11 +97,11 @@ void XkorSportSelector::updateSport()
         paradigmOptionsWidget = p->newOptionsWidget(currentParadigmOptions);
         layout->addWidget(paradigmOptionsWidget);
         paradigmOptionsWidget->show();
-        connect(paradigmOptionsWidget, SIGNAL(optionsChanged(QHash<QString, QVariant>)), this, SLOT(updateParadigmOptions(QHash<QString, QVariant>)));
+        connect(paradigmOptionsWidget, &XkorAbstractOptionsWidget::optionsChanged, this, &XkorSportSelector::updateParadigmOptions);
     }
 }
 
-void XkorSportSelector::updateSportList()
+void XkorSportSelector::updateSportList(const QString &sportPath)
 {
     isLoading = true;
     try
@@ -114,11 +115,11 @@ void XkorSportSelector::updateSportList()
         delete selectionModel;
         selectionModel = new QItemSelectionModel(model);
         sportView->setSelectionModel(selectionModel);
-        connect(selectionModel, SIGNAL(selectionChanged(const QItemSelection &, const QItemSelection &)), this, SLOT(updateSport()));
+        connect(selectionModel, &QItemSelectionModel::selectionChanged, this, &XkorSportSelector::updateSport);
 
         // load the sports
         XkorXmlIndex x;
-        x.traverse("sports:./");
+        x.traverse(sportPath);
 
         std::map<QString, QString> s = x.getAllFiles();
         for(std::map<QString, QString>::iterator i = s.begin(); i != s.end(); ++i)

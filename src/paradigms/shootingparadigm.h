@@ -20,7 +20,7 @@ class XkorShootingParadigm : public XkorScoredParadigm
 			supportedCompetitions.insert("shooting", true);
 		}
 
-		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString::null)
+		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString())
 		{
 			for(QList<XkorAthlete>::iterator i = athletes.begin(); i != athletes.end(); ++i)
 			{
@@ -43,7 +43,7 @@ class XkorShootingParadigm : public XkorScoredParadigm
 			generateOutput();
 		}
 
-		virtual int compare(XkorResult a, XkorResult b, QString type = QString::null)
+		virtual int compare(XkorResult a, XkorResult b, QString type = QString())
 		{
 			XkorAbstractResultComparator * f = comparisonFunction(type);
 			if((*f)(a, b)) // if(a < b)
@@ -54,7 +54,7 @@ class XkorShootingParadigm : public XkorScoredParadigm
 				return 0;
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			if(userOpt.value("qualifying") == "true")
 				return new XkorShootingResultComparator("qualifying", opt);

@@ -1,8 +1,13 @@
 #ifndef SQISPARADIGMOPTIONS_H
 #define SQISPARADIGMOPTIONS_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
+
+#include <QCheckBox>
+#include <QRadioButton>
+#include <QFormLayout>
+#include <QLabel>
 
 class XkorSQISParadigmOptions : public XkorAbstractOptionsWidget
 {

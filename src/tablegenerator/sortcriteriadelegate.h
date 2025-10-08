@@ -3,6 +3,9 @@
 
 #include <QItemDelegate>
 
+#include <QWidget>
+#include <QItemDelegate>
+
 class XkorSortCriteriaDelegate : public QItemDelegate
 {
 	Q_OBJECT

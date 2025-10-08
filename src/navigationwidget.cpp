@@ -6,6 +6,8 @@ XkorNavigationWidget::XkorNavigationWidget()
 {
 	r.seed(time(0));
 
+	m_rpList = new XkorRPList;
+
 	m_rpListItem = m_eventsItem = 0;
 
 	QPalette palette = this->palette();
@@ -67,7 +69,8 @@ void XkorNavigationWidget::createCategories()
 	m_rpListItem->setFont(0, font);
 	m_eventsItem->setFont(0, font);
 
-	m_rpList = new XkorRPList;
+	
+m_rpList = new XkorRPList;
 	emit editRPList(m_rpList);
 }
 

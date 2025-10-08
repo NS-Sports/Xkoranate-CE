@@ -3,6 +3,8 @@
 
 #include "rpeditor/abstractrpbonuswidget.h"
 
+#include <QTreeWidgetItem>
+
 class XkorOlympicRPBonusWidget : public XkorAbstractRPBonusWidget
 {
 	Q_OBJECT

@@ -70,7 +70,7 @@ struct XkorEliminationRaceParadigm : public XkorTimedParadigm
 				thirdBestResult->result["points"] = thirdBestResult->value("points").toInt() + 1;
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorEliminationRaceResultComparator(type, opt);
 		}

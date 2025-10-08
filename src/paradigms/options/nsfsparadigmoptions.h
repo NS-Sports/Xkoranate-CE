@@ -1,8 +1,13 @@
 #ifndef NSFSPARADIGMOPTIONS_H
 #define NSFSPARADIGMOPTIONS_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
+
+#include <QCheckBox>
+#include <QRadioButton>
+#include <QFormLayout>
+#include <QLabel>
 
 class XkorNSFSParadigmOptions : public XkorAbstractOptionsWidget
 {

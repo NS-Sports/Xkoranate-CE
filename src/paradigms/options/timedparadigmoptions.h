@@ -5,6 +5,9 @@
 #include <QFormLayout>
 #include "abstractoptionswidget.h"
 
+#include <QCheckBox>
+#include <QFormLayout>
+
 class XkorTimedParadigmOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

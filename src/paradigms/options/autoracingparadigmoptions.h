@@ -1,8 +1,16 @@
 #ifndef AUTORACINGPARADIGMOPTIONS_H
 #define AUTORACINGPARADIGMOPTIONS_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
+
+#include <QSpinBox>
+#include <QDoubleSpinBox>
+#include <QCheckBox>
+#include <QRadioButton>
+#include <QGridLayout>
+#include <QLabel>
+#include <QFormLayout>
 
 class XkorAutoRacingParadigmOptions : public XkorAbstractOptionsWidget
 {

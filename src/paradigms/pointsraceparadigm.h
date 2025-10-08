@@ -23,7 +23,7 @@ class XkorPointsRaceParadigm : public XkorAbstractParadigm
 			qDebug() << "unexpected tie break request in points race paradigm";
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorPointsRaceResultComparator(type, opt);
 		}

@@ -1,4 +1,5 @@
 #include "paradigms/options/shorttrackparadigmoptions.h"
+#include <QStyle>
 
 XkorShortTrackParadigmOptions::XkorShortTrackParadigmOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

@@ -1,4 +1,5 @@
-#include "tablegeneratorwindow.h"
+#include "tablegenerator/tablegeneratorwindow.h"
+#include <QToolBar>
 
 XkorTableGeneratorWindow::XkorTableGeneratorWindow(QWidget * parent) : QMainWindow(parent)
 {
@@ -28,7 +29,7 @@ XkorTableGeneratorWindow::XkorTableGeneratorWindow(QWidget * parent) : QMainWind
 	connect(saveAsAction, SIGNAL(triggered()), generator, SLOT(saveFileAs()));
 
 	importAction = new QAction(QIcon(":/icons/document-import"), tr("Import match results…"), this);
-	importAction->setShortcut(Qt::CTRL + Qt::Key_I);
+	importAction->setShortcut(Qt::CTRL | Qt::Key_I);
 	connect(importAction, SIGNAL(triggered()), generator, SLOT(importResults()));
 
 	generateAction = new QAction(QIcon(":/icons/table-generator-refresh"), tr("Generate table"), this);
@@ -52,10 +53,11 @@ XkorTableGeneratorWindow::XkorTableGeneratorWindow(QWidget * parent) : QMainWind
 
 void XkorTableGeneratorWindow::closeEvent(QCloseEvent * event)
 {
-	if(generator->close())
-		QMainWindow::closeEvent(event);
-	else
-		event->ignore();
+	
+		if(generator->okayToLoad())
+			QMainWindow::closeEvent(event);
+		else
+			event->ignore();
 }
 
 void XkorTableGeneratorWindow::setFileName(QString filename)

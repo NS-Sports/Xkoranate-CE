@@ -36,7 +36,7 @@ class XkorEvent
 		void setResult(int matchday, QString result);
 		void setResults(QHash<int, QString> results) { m_results = results; }
 		void setSignupList(XkorSignupList signupList) { m_signupList = signupList; }
-		void setSport(QString sport, QString newParadigm = QString()) throw(XkorSearchFailedException);
+		void setSport(QString sport, QString newParadigm = QString()) noexcept(false);
 	
 	private:
 		QString m_competition;

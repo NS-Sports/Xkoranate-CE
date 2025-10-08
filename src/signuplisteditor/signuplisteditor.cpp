@@ -1,4 +1,6 @@
 #include "signuplisteditor/signuplisteditor.h"
+#include <QLabel>
+#include <QFormLayout>
 
 #include "paradigms/paradigmfactory.h"
 
@@ -35,7 +37,7 @@ XkorSignupListEditor::XkorSignupListEditor(QWidget * parent) : QWidget(parent)
 	layout = new QVBoxLayout(this);
 	layout->addWidget(label, 0, Qt::AlignCenter);
 	layout->addLayout(form, 0);
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 
 	connect(minRank, SIGNAL(valueChanged(double)), this, SLOT(setDataChanged()));
 	connect(maxRank, SIGNAL(valueChanged(double)), this, SLOT(setDataChanged()));

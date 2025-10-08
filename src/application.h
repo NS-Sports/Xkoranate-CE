@@ -38,7 +38,10 @@ class XkorApplication : public QApplication
 	
 	public:
 		XkorApplication(int & c, char * * v);
-		void loadSports();
+		void loadSports(const QString &sportPath);
+	
+	private:
+		QString m_sportPath;
 		bool notify(QObject * rec, QEvent * ev);
 };
 

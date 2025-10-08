@@ -1,11 +1,17 @@
 #ifndef ABSTRACTTREEWIDGET_H
 #define ABSTRACTTREEWIDGET_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "treewidget.h"
 
-class XkorAbstractTreeWidget : public QWidget
+#include <QGridLayout>
+
+#include <QTreeWidget>
+#include <QAction>
+#include <QGridLayout>
+
+class XkorAbstractTreeWidget : public QTreeWidget
 {
 	Q_OBJECT
 	

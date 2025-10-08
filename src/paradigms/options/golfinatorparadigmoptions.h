@@ -2,7 +2,9 @@
 #define GOLFINATORPARADIGMOPTIONS_H
 
 #include "abstractoptionswidget.h"
-#include <QtWidgets>
+#include <QtGui>
+
+#include <QTableWidget>
 
 class XkorGolfinatorParadigmOptions : public XkorAbstractOptionsWidget
 {

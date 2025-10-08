@@ -3,6 +3,9 @@
 
 #include <QItemDelegate>
 
+#include <QWidget>
+#include <QItemDelegate>
+
 class XkorOlympicRPBonusDelegate : public QItemDelegate
 {
 	Q_OBJECT

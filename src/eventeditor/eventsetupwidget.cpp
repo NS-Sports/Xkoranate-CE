@@ -1,4 +1,8 @@
 #include "eventeditor/eventsetupwidget.h"
+#include <QLabel>
+#include <QToolBar>
+#include <random>
+#include <algorithm>
 
 #include <QGridLayout>
 #include <QGroupBox>
@@ -67,7 +71,7 @@ void XkorEventSetupWidget::deleteAthlete(QUuid id)
     emit listChanged();
 }
 
-XkorAthlete XkorEventSetupWidget::getAthleteByID(QUuid id) throw(XkorSearchFailedException)
+XkorAthlete XkorEventSetupWidget::getAthleteByID(QUuid id) noexcept(false)
 {
 	XkorAthlete rval;
 	try
@@ -166,7 +170,7 @@ void XkorEventSetupWidget::randomizeGroup()
 			group = group->parent();
 
 		QList<QTreeWidgetItem *> groupMembers = group->takeChildren();
-		std::random_shuffle(groupMembers.begin(), groupMembers.end());
+		std::shuffle(groupMembers.begin(), groupMembers.end(), std::mt19937(std::random_device()()));
 		group->addChildren(groupMembers);
 		for(QList<QTreeWidgetItem *>::iterator j = groupMembers.begin(); j != groupMembers.end(); ++j)
 			treeWidget->setCurrentItem(*j, 0, QItemSelectionModel::Select);
@@ -221,7 +225,7 @@ void XkorEventSetupWidget::setupLayout(QList<QAction *> actions)
 	layout->addWidget(label, 0, 0, Qt::AlignCenter);
 	layout->addWidget(treeWidget, 1, 0);
 	layout->addWidget(toolBar, 2, 0, Qt::AlignCenter);
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 }
 
 void XkorEventSetupWidget::updateButtons()

@@ -1,7 +1,12 @@
 #ifndef ATHLETEDELEGATE_H
 #define ATHLETEDELEGATE_H
 
-#include <QtWidgets>
+#include <QtGui>
+
+#include <QItemDelegate>
+
+#include <QWidget>
+#include <QItemDelegate>
 
 class XkorAthleteDelegate : public QItemDelegate
 {

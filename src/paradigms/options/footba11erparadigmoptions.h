@@ -1,8 +1,11 @@
 #ifndef FOOTBA11ERPARADIGMOPTIONS_H
 #define FOOTBA11ERPARADIGMOPTIONS_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
+
+#include <QCheckBox>
+#include <QGridLayout>
 
 class XkorFootba11erParadigmOptions : public XkorAbstractOptionsWidget
 {

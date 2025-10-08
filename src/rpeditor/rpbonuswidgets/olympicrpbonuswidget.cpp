@@ -12,8 +12,8 @@ XkorOlympicRPBonusWidget::XkorOlympicRPBonusWidget()
 	setUseTeamBonus();
 	
 	// set the column widths
-    treeWidget->header()->setSectionResizeMode(0, QHeaderView::Stretch);
-    treeWidget->header()->setSectionResizeMode(1, QHeaderView::Fixed);
+	treeWidget->header()->setSectionResizeMode(0, QHeaderView::Stretch);
+	treeWidget->header()->setSectionResizeMode(1, QHeaderView::Fixed);
 	treeWidget->header()->resizeSection(1, 100);
 	
 	QList<QAction *> actions;

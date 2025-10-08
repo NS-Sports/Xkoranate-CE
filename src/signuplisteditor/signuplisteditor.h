@@ -1,11 +1,14 @@
 #ifndef SIGNUPLISTEDITOR_H
 #define SIGNUPLISTEDITOR_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "signuplist.h"
 #include "signuplisteditor/abstractathletewidget.h"
 #include "sport.h"
+
+#include <QWidget>
+#include <QDoubleSpinBox>
 
 class XkorSignupListEditor : public QWidget
 {

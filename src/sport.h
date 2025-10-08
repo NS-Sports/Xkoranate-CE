@@ -2,7 +2,7 @@
 #define SPORT_H
 
 #include <QtCore>
-#include <tr1/random>
+#include <random>
 
 class XkorSport
 {
@@ -14,7 +14,7 @@ class XkorSport
 		
 		QHash<QString, QMap<double, double> > m_dataPoints;
 
-		std::tr1::mt19937 * r;
+        std::mt19937 * r;
 		
 		double rand_kumaraswamy(double a, double b, bool skew);
 		double randWeighted(double skill, double minConstant, double midConstant, double maxConstant, bool skew);
@@ -46,7 +46,7 @@ class XkorSport
 		void setName(QString name) { m_name = name; }
 		void setParadigm(QString paradigm) { m_paradigm = paradigm; }
 		void setParadigmOptions(QHash<QString, QVariant> paradigmOptions) { m_paradigmOptions = paradigmOptions; }
-		void setPRNG(std::tr1::mt19937 * newR) { r = newR; }
+        void setPRNG(std::mt19937 * newR) { r = newR; }
 		void setScorinator(QString scorinator) { m_scorinator = scorinator; }
 };
 

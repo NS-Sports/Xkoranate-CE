@@ -1,4 +1,5 @@
 #include "xmltablereader.h"
+#include <QRegularExpression>
 
 XkorXmlTableReader::XkorXmlTableReader(QString filename)
 {
@@ -112,14 +113,14 @@ void XkorXmlTableReader::readMatches()
 			{
 				QString matchText = readString();
 
-				QRegExp rx("([0-9]+)[-–:]([0-9]+)"); // match scores of form Aquilla 3–1 Busby, with en dash, hyphen-minus, or colon as delimiter
-				int index = rx.indexIn(matchText);
-				if(index != -1) // if we matched
+				QRegularExpression rx("([0-9]+)[-–:]([0-9]+)"); // match scores of form Aquilla 3–1 Busby, with en dash, hyphen-minus, or colon as delimiter
+				QRegularExpressionMatch match = rx.match(matchText);
+				if(match.hasMatch())
 				{
-					QString homeTeam = matchText.left(index - 1);
-					QString awayTeam = matchText.right(matchText.size() - index - rx.matchedLength() - 1);
-					double homeScore = rx.cap(1).toDouble();
-					double awayScore = rx.cap(2).toDouble();
+					QString homeTeam = matchText.left(match.capturedStart() - 1);
+					QString awayTeam = matchText.right(matchText.size() - match.capturedStart() - match.capturedLength() - 1);
+					double homeScore = match.captured(1).toDouble();
+					double awayScore = match.captured(2).toDouble();
 					matchesList.push_back(XkorTableMatch(homeTeam, awayTeam, homeScore, awayScore));
 				}
 				m_matches += matchText + "\n";

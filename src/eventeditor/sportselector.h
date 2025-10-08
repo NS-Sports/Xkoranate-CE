@@ -1,18 +1,23 @@
 #ifndef SPORTSELECTOR_H
 #define SPORTSELECTOR_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
 #include "sport.h"
 
-class XkorSportSelector : public QWidget
+#include <QTreeView>
+#include <QGridLayout>
+
+#include <QGroupBox>
+
+class XkorSportSelector : public QGroupBox
 {
 	Q_OBJECT
 	public:
 		XkorSportSelector(QWidget * parent = 0);
 		void setSelectedSport(QString fullName);
 		XkorSport sport();
-		void updateSportList();
+		void updateSportList(const QString &sportPath);
 
 	signals:
 		void paradigmOptionsChanged(QHash<QString, QVariant> paradigmOptions);

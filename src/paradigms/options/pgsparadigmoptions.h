@@ -5,6 +5,10 @@
 #include <QFormLayout>
 #include "abstractoptionswidget.h"
 
+#include <QCheckBox>
+#include <QDoubleSpinBox>
+#include <QFormLayout>
+
 class XkorPGSParadigmOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

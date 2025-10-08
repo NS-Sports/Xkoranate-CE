@@ -19,7 +19,7 @@ class XkorAbstractH2HParadigm : public XkorAbstractParadigm
 			supportedCompetitions.insert("roundRobin", true);
 		}
 
-		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString::null)
+		virtual void breakTie(QList<XkorAthlete> athletes, QString = QString())
 		{
 			int acc = 0;
 
@@ -86,7 +86,7 @@ class XkorAbstractH2HParadigm : public XkorAbstractParadigm
 			}
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorH2HResultComparator(type, opt);
 		}

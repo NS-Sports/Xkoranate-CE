@@ -1,4 +1,5 @@
 #include "paradigms/options/autoracingparadigmoptions.h"
+#include <QButtonGroup>
 
 #include <QtDebug>
 
@@ -61,7 +62,7 @@ XkorAutoRacingParadigmOptions::XkorAutoRacingParadigmOptions(QHash<QString, QVar
 	skillType = new QButtonGroup;
 	skillType->addButton(useSkill);
 	skillType->addButton(useACR);
-	connect(skillType, SIGNAL(buttonClicked(int)), this, SLOT(setSkillType()));
+	connect(skillType, &QButtonGroup::buttonClicked, this, &XkorAutoRacingParadigmOptions::setSkillType);
 
 	QFormLayout * skillTypeForm = new QFormLayout;
 	skillTypeForm->addRow(useSkill);
@@ -75,7 +76,7 @@ XkorAutoRacingParadigmOptions::XkorAutoRacingParadigmOptions(QHash<QString, QVar
 	lapLayout->addWidget(lapRecord, 0, 0);
 	lapLayout->addWidget(new QLabel(tr("Variance:")), 0, 1);
 	lapLayout->addWidget(lapVariance, 0, 2);
-	lapLayout->setMargin(0);
+	lapLayout->setContentsMargins(0, 0, 0, 0);
 	lapLayout->setColumnStretch(0, 1);
 	lapLayout->setColumnStretch(1, 0); // don’t stretch the label
 	lapLayout->setColumnStretch(2, 1);
@@ -84,7 +85,7 @@ XkorAutoRacingParadigmOptions::XkorAutoRacingParadigmOptions(QHash<QString, QVar
 	modifiersLayout->addWidget(trackAcceleration, 0, 0);
 	modifiersLayout->addWidget(new QLabel(tr("Cornering:")), 0, 1);
 	modifiersLayout->addWidget(trackCornering, 0, 2);
-	modifiersLayout->setMargin(0);
+	modifiersLayout->setContentsMargins(0, 0, 0, 0);
 	modifiersLayout->setColumnStretch(0, 1);
 	modifiersLayout->setColumnStretch(1, 0); // don’t stretch the label
 	modifiersLayout->setColumnStretch(2, 1);
@@ -94,8 +95,8 @@ XkorAutoRacingParadigmOptions::XkorAutoRacingParadigmOptions(QHash<QString, QVar
 	form->addRow(tr("Lap record:"), lapLayout);
 	form->addRow(label, skillTypeForm);
 	form->addRow(tr("Acceleration:"), modifiersLayout);
-	form->addRow(QString::null, useStartingGrid);
-	form->addRow(QString::null, showTLAs);
+	form->addRow(QString(), useStartingGrid);
+form->addRow(QString(), showTLAs);
 }
 
 XkorAutoRacingParadigmOptions::~XkorAutoRacingParadigmOptions()

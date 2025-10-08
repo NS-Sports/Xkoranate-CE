@@ -1,6 +1,7 @@
 #include "sport.h"
 
 #include <QtDebug>
+#include <iterator>
 
 using namespace std;
 
@@ -11,7 +12,7 @@ XkorSport::XkorSport()
 
 QString XkorSport::alphabetizedName()
 {
-	if(m_alphaName != QString::null)
+	if(m_alphaName != QString())
 		return m_alphaName;
 	else
 		return m_name;
@@ -98,26 +99,29 @@ double XkorSport::randWeighted(double skill, double minConstant, double midConst
 
 double XkorSport::transformNumber(double x, QString index) const
 {
+	// store the QMap in a local variable to ensure its lifetime and avoid segfault
+	const QMap<double, double> &dataMap = m_dataPoints.value(index);
+
 	QMap<double, double>::const_iterator a, b;
-	if(m_dataPoints.value(index).size() <= 1) // we can’t deal with only one value
+	if(dataMap.size() <= 1) // we can’t deal with only one value
 	{
-		qDebug() << "m_dataPoints not big enough for index" << index << "in XkorSport::transformNumber(double, QString)";
+		qDebug() << "dataMap not big enough for index" << index << "in XkorSport::transformNumber(double, QString)";
 		return -1;
 	}
-	for(QMap<double, double>::const_iterator j = m_dataPoints.value(index).begin(); j != m_dataPoints.value(index).end(); ++j)
+	for(QMap<double, double>::const_iterator j = dataMap.begin(); j != dataMap.end(); ++j)
 	{
-		QMap<double, double>::const_iterator next = j + 1;
-		if(next == m_dataPoints.value(index).end())
+		QMap<double, double>::const_iterator next = std::next(j);
+		if(next == dataMap.end())
 		{
 			// b is j; a is the point before j
-			a = j - 1;
+			a = std::prev(j);
 			b = j;
 			break;
 		}
 		else if(x < next.key())
 		{
 			a = j;
-			b = j + 1;
+			b = std::next(j);
 			break;
 		}
 	}

@@ -1,4 +1,5 @@
-#include "matchescompetitionoptions.h"
+#include "competitions/options/matchescompetitionoptions.h"
+#include <QStyle>
 
 #include <QGridLayout>
 

@@ -3,6 +3,8 @@
 
 #include "abstracttreewidget.h"
 
+#include <QTreeWidgetItem>
+
 class XkorSortCriteriaWidget : public XkorAbstractTreeWidget
 {
 	Q_OBJECT

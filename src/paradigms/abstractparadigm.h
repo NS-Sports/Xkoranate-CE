@@ -45,7 +45,7 @@ class XkorAbstractParadigm : public QObject
 			return; // tell whoever’s requesting a tiebreaker to stuff it
 		}
 
-		virtual int compare(XkorResult a, XkorResult b, QString type = QString::null)
+		virtual int compare(XkorResult a, XkorResult b, QString type = QString())
 		{
 			XkorAbstractResultComparator * f = comparisonFunction(type);
 			if((*f)(a, b)) // if(a < b)
@@ -56,7 +56,7 @@ class XkorAbstractParadigm : public QObject
 				return 0;
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorBasicResultComparator(type, opt);
 		}

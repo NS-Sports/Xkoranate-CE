@@ -1,7 +1,7 @@
 #ifndef EVENTEDITOR_H
 #define EVENTEDITOR_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "abstractoptionswidget.h"
 #include "event.h"
@@ -14,18 +14,20 @@
 #include "signuplisteditor/signuplisteditor.h"
 #include "eventeditor/competitionselector.h"
 
+#include <QStackedLayout>
+
 class XkorEventEditor : public QWidget
 {
 	Q_OBJECT
 	
 	public:
 		XkorEventEditor(QWidget * parent = 0);
-        void loadSports();
+        void loadSports(const QString &sportPath);
 	public slots:
         XkorEvent data() { updateData(); return m_data; }
 		void setData(XkorEvent data, XkorRPList rpList);
 		void updateData();
-		void updateSportList();
+
 	signals:
 		void dataChanged();
 		void resultExportDirectoryChanged(QString dir);

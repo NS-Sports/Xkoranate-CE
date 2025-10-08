@@ -9,13 +9,19 @@
 #include "rpeditor/rpeditor.h"
 #include "navigationwidget.h"
 
+#include <QLineEdit>
+#include <QStackedWidget>
+#include <QTreeWidget>
+#include <QWidget>
+#include <QFileDialog>
+
 class XkorCentralWidget : public QWidget
 {
 	Q_OBJECT
 
 	public:
 		XkorCentralWidget(QWidget * parent = 0);
-        void loadSports();
+        void loadSports(const QString &sportPath);
 	signals:
 		void eventDirectoryChanged(QString dir);
 		void fileChanged(QString filename);
@@ -38,7 +44,7 @@ class XkorCentralWidget : public QWidget
 
 		// editor widgets
 		XkorEventEditor * ee;
-		XkorRPEditor * rpe;
+		XkorRpEditor * rpe;
 
 		XkorEvent * currentEvent;
 

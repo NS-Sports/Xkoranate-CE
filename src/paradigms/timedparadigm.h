@@ -26,12 +26,12 @@ struct XkorTimedParadigm : public XkorAbstractParadigm
 		}
 
 	protected:
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorTimedResultComparator(type, opt);
 		}
 
-		virtual int compare(XkorResult a, XkorResult b, QString type = QString::null)
+		virtual int compare(XkorResult a, XkorResult b, QString type = QString())
 		{
 			XkorAbstractResultComparator * f = comparisonFunction(type);
 			if((*f)(a, b)) // if(a < b)
@@ -102,7 +102,7 @@ struct XkorTimedParadigm : public XkorAbstractParadigm
 			r.setOutput(outputLine(r));
 		}
 
-		virtual XkorResult individualResult(XkorAthlete ath, QString type = QString::null, QString roundingType = QString::null)
+		virtual XkorResult individualResult(XkorAthlete ath, QString type = QString(), QString roundingType = QString())
 		{
 			QList<QVariant> statuses = readOptionList("statuses");
 			QList<QVariant> statusProbs = readOptionList("statusProbs");
@@ -169,10 +169,10 @@ struct XkorTimedParadigm : public XkorAbstractParadigm
 			return rval;
 		}
 
-		virtual double roundScore(double score, QString roundingType = QString::null)
+		virtual double roundScore(double score, QString roundingType = QString())
 		{
 			QString tiebreakerDigits = "tiebreakerDigits", roundingValue = "roundingValue", displayDigits = "displayDigits";
-			if(roundingType != QString::null)
+			if(roundingType != QString())
 			{
 				tiebreakerDigits = roundingType + "TiebreakerDigits";
 				roundingValue = roundingType + "RoundingValue";

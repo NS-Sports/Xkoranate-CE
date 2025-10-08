@@ -1,4 +1,5 @@
-#include "rpeditor.h"
+#include "rpeditor/rpeditor.h"
+#include <QButtonGroup>
 
 #include <QFile>
 #include <QFileDialog>
@@ -12,7 +13,7 @@
 #include "rpeditor/rpbonuswidgets/olympicrpbonuswidget.h"
 #include "rpeditor/rpbonuswidgets/wc36rpbonuswidget.h"
 
-XkorRPEditor::XkorRPEditor(QWidget * parent) : QWidget(parent)
+XkorRpEditor::XkorRpEditor(QWidget * parent) : QWidget(parent)
 {
 	m_data = 0;
 	isLoading = false;
@@ -71,7 +72,7 @@ XkorRPEditor::XkorRPEditor(QWidget * parent) : QWidget(parent)
 	connect(m_rpBonus, SIGNAL(listChanged()), this, SLOT(setDataChanged()));
 }
 
-void XkorRPEditor::setData(XkorRPList * data)
+void XkorRpEditor::setData(XkorRPList * data)
 {
 	isLoading = true; // prevent dataChanged from being emitted
 	if(data)
@@ -91,12 +92,12 @@ void XkorRPEditor::setData(XkorRPList * data)
 		m_rpBonus->setMinBonus(data->minBonus());
 	}
 	else
-		qDebug() << "Null pointer in XkorRPEditor::setData(XkorRPList *)";
+		qDebug() << "Null pointer in XkorRpEditor::setData(XkorRPList *)";
 	m_data = data;
 	isLoading = false; // allow dataChanged to be emitted if the user does stuff
 }
 
-void XkorRPEditor::updateData()
+void XkorRpEditor::updateData()
 {
 	if(m_data)
 	{
@@ -109,10 +110,10 @@ void XkorRPEditor::updateData()
 		m_data->setMinBonus(m_rpBonus->minBonus());
 	}
 	else
-		qDebug() << "Null pointer in XkorRPEditor::updateData()";
+		qDebug() << "Null pointer in XkorRpEditor::updateData()";
 }
 
-void XkorRPEditor::updateRPBonusWidget()
+void XkorRpEditor::updateRPBonusWidget()
 {
 	QString newRPCalcType = m_rpCalcType->itemData(m_rpCalcType->currentIndex()).toString();
 	if(m_currentRPCalcType != newRPCalcType)

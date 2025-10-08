@@ -1,11 +1,20 @@
 #ifndef SCORINATEWIDGET_H
 #define SCORINATEWIDGET_H
 
-#include <QtWidgets>
-#include <tr1/random>
+#include <QtGui>
+#include <random>
 
 #include "competitions/competitionfactory.h"
 #include "event.h"
+
+#include <QComboBox>
+#include <QPlainTextEdit>
+
+#include <QWidget>
+#include <QComboBox>
+#include <QPlainTextEdit>
+#include <QAction>
+#include <QFileDialog>
 
 class XkorScorinateWidget : public QWidget
 {
@@ -16,7 +25,7 @@ class XkorScorinateWidget : public QWidget
 		QComboBox * matchday;
 		QPlainTextEdit * textedit;
 		int lastMatchday;
-		std::tr1::mt19937 r;
+        std::mt19937 r;
 		XkorAbstractCompetition * c;
 
 		QAction * scorinateAction, * exportResultsAction;

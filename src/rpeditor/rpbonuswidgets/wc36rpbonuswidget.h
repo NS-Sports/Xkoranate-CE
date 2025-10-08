@@ -1,9 +1,13 @@
 #ifndef WC36RPBONUSWIDGET_H
 #define WC36RPBONUSWIDGET_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "rpeditor/abstractrpbonuswidget.h"
+
+#include <QFormLayout>
+#include <QSpinBox>
+#include <QTreeWidgetItem>
 
 class XkorWC36RPBonusWidget : public XkorAbstractRPBonusWidget
 {

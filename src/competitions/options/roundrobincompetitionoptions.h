@@ -5,6 +5,10 @@
 #include "abstractoptionswidget.h"
 #include "tablegenerator/sortcriteriawidget.h"
 
+#include <QTabWidget>
+#include <QCheckBox>
+#include <QSpinBox>
+
 class XkorRoundRobinCompetitionOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

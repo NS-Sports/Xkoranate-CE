@@ -1,13 +1,19 @@
 #ifndef ATHLETEWIDGET_H
 #define ATHLETEWIDGET_H
 
-#include <QtWidgets>
-#include <tr1/random>
+#include <QtGui>
+#include <random>
 
 #include "abstracttreewidget.h"
 #include "athlete.h"
 #include "signuplisteditor/athletedelegate.h"
 #include "signuplisteditor/abstractathletewidget.h"
+
+#include <QFileDialog>
+
+#include <QAction>
+#include <QFileDialog>
+#include <QTreeWidgetItem>
 
 class XkorAthleteWidget : public XkorAbstractAthleteWidget
 {

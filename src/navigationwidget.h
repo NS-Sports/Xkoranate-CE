@@ -1,13 +1,16 @@
 #ifndef NAVIGATIONWIDGET_H
 #define NAVIGATIONWIDGET_H
 
-#include <QtWidgets>
-#include <tr1/random>
+#include <QtGui>
+#include <random>
 
 #include "abstracttreewidget.h"
 #include "event.h"
 #include "rplist.h"
 #include "signuplist.h"
+
+#include <QTreeWidgetItem>
+#include <QAction>
 
 class XkorNavigationWidget : public XkorAbstractTreeWidget
 {
@@ -19,7 +22,7 @@ class XkorNavigationWidget : public XkorAbstractTreeWidget
 		void reset();
 		XkorRPList * rpList() { return m_rpList; }
 		void setEvents(QList<QPair<QUuid, XkorEvent *> > events);
-		void setRPList(XkorRPList * rpList) { m_rpList = rpList; treeWidget->setCurrentItem(m_rpListItem, 0); emit editRPList(m_rpList); }
+		void setRPList(XkorRPList * rpList) { m_rpList = rpList; setCurrentItem(m_rpListItem, 0); emit editRPList(m_rpList); }
 	signals:
 		void editEvent(XkorEvent * event);
 		void editRPList(XkorRPList * rpList);
@@ -28,7 +31,7 @@ class XkorNavigationWidget : public XkorAbstractTreeWidget
 		QTreeWidgetItem * m_rpListItem, * m_eventsItem;
 		QAction * m_insertSheetAction;
 
-		std::tr1::mt19937 r;
+        std::mt19937 r;
 
 		// store the actual data
 		QHash<QUuid, XkorEvent *> m_events;

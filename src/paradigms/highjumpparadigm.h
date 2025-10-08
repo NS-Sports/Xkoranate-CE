@@ -23,7 +23,7 @@ class XkorHighJumpParadigm : public XkorAbstractParadigm
 			qDebug() << "unexpected tie break request in high jump paradigm";
 		}
 
-		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString::null)
+		virtual XkorAbstractResultComparator * comparisonFunction(QString type = QString())
 		{
 			return new XkorHighJumpResultComparator(type, opt);
 		}

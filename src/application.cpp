@@ -35,11 +35,11 @@ XkorApplication::XkorApplication(int & c, char * * v) : QApplication(c, v)
     connect(saveAction, SIGNAL(triggered()), cw, SLOT(saveFile()));
 
     saveAsAction = new QAction(QIcon(":/icons/document-save-as"), XkorApplication::tr("Save file as…"), this);
-    saveAsAction->setShortcut(Qt::CTRL + Qt::SHIFT + Qt::Key_S);
+    saveAsAction->setShortcut(Qt::CTRL | Qt::SHIFT | Qt::Key_S);
     connect(saveAsAction, SIGNAL(triggered()), cw, SLOT(saveFileAs()));
 
     tableAction = new QAction(QIcon(":/icons/table-generator"), XkorApplication::tr("Table generator"), this);
-    tableAction->setShortcut(Qt::CTRL + Qt::Key_T);
+    tableAction->setShortcut(Qt::CTRL | Qt::Key_T);
     connect(tableAction, SIGNAL(triggered()), this, SLOT(tableGenerator()));
 
     // toolbar
@@ -62,12 +62,14 @@ XkorApplication::XkorApplication(int & c, char * * v) : QApplication(c, v)
 #endif
 
     mainWindow->show();
+
+    refreshSearchPaths();
+    loadSports(m_sportPath);
 }
 
-void XkorApplication::loadSports()
+void XkorApplication::loadSports(const QString &sportPath)
 {
-    refreshSearchPaths();
-    cw->loadSports();
+    cw->loadSports(sportPath);
 }
 
 bool XkorApplication::notify(QObject * rec, QEvent * ev)
@@ -88,21 +90,24 @@ bool XkorApplication::notify(QObject * rec, QEvent * ev)
 	}
 }
 
+
+
 void XkorApplication::refreshSearchPaths()
 {
-    QDir sportDirectory = QDir(applicationDirPath());
-#ifdef Q_WS_MAC
-	sportDirectory.cd("../Resources/sports/");
+    QDir sportDirectory(QCoreApplication::applicationDirPath());
+#ifdef Q_OS_MACOS
+    sportDirectory.cdUp(); // go from MacOS/ to Contents/ first
+    sportDirectory.cd("Resources/sports/");
 #else
-	sportDirectory.cd("sports");
+    sportDirectory.cd("sports/");
 #endif
-    QDir::setSearchPaths("sports", QStringList(sportDirectory.absolutePath()));
+    m_sportPath = sportDirectory.absolutePath();
 
-	QDir::setSearchPaths("events", settings->value("eventDirectory").toStringList());
-	QDir::setSearchPaths("resultsExport", settings->value("resultExportDirectory").toStringList());
-	QDir::setSearchPaths("resultsImport", settings->value("resultImportDirectory").toStringList());
-	QDir::setSearchPaths("signupLists", settings->value("signupListDirectory").toStringList());
-	QDir::setSearchPaths("tables", settings->value("tableDirectory").toStringList());
+    QDir::setSearchPaths("events", settings->value("eventDirectory").toStringList());
+    QDir::setSearchPaths("resultsExport", settings->value("resultExportDirectory").toStringList());
+    QDir::setSearchPaths("resultsImport", settings->value("resultImportDirectory").toStringList());
+    QDir::setSearchPaths("signupLists", settings->value("signupListDirectory").toStringList());
+    QDir::setSearchPaths("tables", settings->value("tableDirectory").toStringList());
 }
 
 void XkorApplication::setDefaultSettings()

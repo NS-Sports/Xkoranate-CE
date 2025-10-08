@@ -55,7 +55,7 @@ void XkorEventSetupDelegate::setModelData(QWidget * editor, QAbstractItemModel *
 		}
 		else
 		{
-			id = 0;
+			id = QUuid();
 			longName = tr("<unknown participant>");
 		}
 		model->setData(index, longName);

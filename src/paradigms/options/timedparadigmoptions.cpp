@@ -1,4 +1,5 @@
 #include "paradigms/options/timedparadigmoptions.h"
+#include <QStyle>
 
 XkorTimedParadigmOptions::XkorTimedParadigmOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

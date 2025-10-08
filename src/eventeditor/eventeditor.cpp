@@ -1,4 +1,5 @@
-#include "eventeditor.h"
+#include "eventeditor/eventeditor.h"
+#include <QPushButton>
 
 #include "xml/xmlindex.h"
 #include "xml/xmlsportreader.h"
@@ -79,7 +80,7 @@ void XkorEventEditor::initLayout()
 	connect(prev, SIGNAL(clicked()), this, SLOT(goPrev()));
 	next = new QPushButton(tr("Continue"));
 	next->setDisabled(true);
-	connect(next, SIGNAL(clicked()), this, SLOT(goNext()));
+	connect(next, &QPushButton::clicked, this, &XkorEventEditor::goNext);
 
 	// main layout
 	layout = new QGridLayout(this);
@@ -113,9 +114,9 @@ void XkorEventEditor::initSportSelector()
 	connect(sportSelector, SIGNAL(paradigmOptionsChanged(QHash<QString, QVariant>)), this, SLOT(updateParadigmOptions(QHash<QString, QVariant>)));
 }
 
-void XkorEventEditor::loadSports()
+void XkorEventEditor::loadSports(const QString &sportPath)
 {
-    sportSelector->updateSportList();
+    sportSelector->updateSportList(sportPath);
 }
 
 void XkorEventEditor::setData(XkorEvent data, XkorRPList rpList)
@@ -223,7 +224,4 @@ void XkorEventEditor::updateSport(XkorSport s)
 	setDataChanged();
 }
 
-void XkorEventEditor::updateSportList()
-{
-	sportSelector->updateSportList();
-}
+

@@ -1,4 +1,5 @@
 #include "paradigms/options/pgsparadigmoptions.h"
+#include <QStyle>
 
 XkorPGSParadigmOptions::XkorPGSParadigmOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

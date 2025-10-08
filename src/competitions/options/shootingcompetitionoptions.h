@@ -3,6 +3,8 @@
 
 #include "abstractoptionswidget.h"
 #include <QSpinBox>
+#include <QLabel>
+#include <QFormLayout>
 
 class XkorShootingCompetitionOptions : public XkorAbstractOptionsWidget
 {

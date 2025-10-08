@@ -1,8 +1,11 @@
 #ifndef HOWZZATPARADIGMOPTIONS_H
 #define HOWZZATPARADIGMOPTIONS_H
 
-#include <QtWidgets>
+#include <QtGui>
 #include "abstractoptionswidget.h"
+
+#include <QCheckBox>
+#include <QGridLayout>
 
 class XkorHowzzatParadigmOptions : public XkorAbstractOptionsWidget
 {

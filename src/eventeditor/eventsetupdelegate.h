@@ -1,7 +1,10 @@
 #ifndef EVENTSETUPDELEGATE_H
 #define EVENTSETUPDELEGATE_H
 
-#include <QtWidgets>
+#include <QtGui>
+
+#include <QWidget>
+#include <QItemDelegate>
 
 class XkorEventSetupDelegate : public QItemDelegate
 {

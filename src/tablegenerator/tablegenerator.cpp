@@ -1,4 +1,10 @@
 #include "tablegenerator/tablegenerator.h"
+#include <QLabel>
+#include <QFormLayout>
+#include <QGridLayout>
+#include <QStyle>
+#include <QRegularExpression>
+#include <QMessageBox>
 
 #include <algorithm>
 #include "xml/xmltablereader.h"
@@ -6,11 +12,11 @@
 
 XkorTableGenerator::XkorTableGenerator(QWidget * parent) : QWidget(parent)
 {
-	dialog = new QFileDialog(this, tr("Save table file"), "tables:/", tr("XML files (*.xml)"));
+	dialog = new QFileDialog(nullptr, tr("Save table file"), "tables:/", tr("XML files (*.xml)"));
 	dialog->setWindowModality(Qt::WindowModal);
 	dialog->setDefaultSuffix("xml");
 
-	importDialog = new QFileDialog(this, tr("Import results file"), "resultsImport:/", tr("Text files (*.txt)"));
+	importDialog = new QFileDialog(nullptr, tr("Import results file"), "resultsImport:/", tr("Text files (*.txt)"));
 	importDialog->setWindowModality(Qt::WindowModal);
 	importDialog->setAcceptMode(QFileDialog::AcceptOpen);
 
@@ -54,7 +60,7 @@ XkorTableGenerator::XkorTableGenerator(QWidget * parent) : QWidget(parent)
 	pointsLayout->addWidget(pointsForDraw, 0, 2);
 	pointsLayout->addWidget(new QLabel(tr("Loss:")), 0, 3);
 	pointsLayout->addWidget(pointsForLoss, 0, 4);
-	pointsLayout->setMargin(0);
+	pointsLayout->setContentsMargins(0, 0, 0, 0);
 	pointsLayout->setColumnStretch(0, 1);
 	pointsLayout->setColumnStretch(1, 0); // don’t stretch the labels
 	pointsLayout->setColumnStretch(2, 1);
@@ -71,7 +77,7 @@ XkorTableGenerator::XkorTableGenerator(QWidget * parent) : QWidget(parent)
 
 	QLabel * matchResultsLabel = new QLabel("Match results:");
 
-	QGridLayout * layout = new QGridLayout(this);
+	QGridLayout * layout = new QGridLayout(nullptr);
 	layout->addWidget(matchResultsLabel, 0, 0, Qt::AlignTop);
 	layout->addWidget(matches, 0, 1);
 	layout->addLayout(form, 0, 2);
@@ -100,9 +106,8 @@ XkorTableGenerator::~XkorTableGenerator()
 void XkorTableGenerator::closeEvent(QCloseEvent * event)
 {
 	if(okayToLoad())
-		QWidget::closeEvent(event);
-	else
-		event->ignore();
+		
+	event->ignore();
 }
 
 void XkorTableGenerator::generateMatches()
@@ -116,14 +121,14 @@ void XkorTableGenerator::generateMatches()
 	while(!ist.atEnd())
 	{
 		QString line = ist.readLine();
-		QRegExp rx("([0-9]+)[-–:]([0-9]+)"); // match scores of form Aquilla 3–1 Busby, with en dash, hyphen-minus, or colon as delimiter
-		int index = rx.indexIn(line);
-		if(index != -1) // if we matched
+		QRegularExpression rx("([0-9]+)[-–:]([0-9]+)"); // match scores of form Aquilla 3–1 Busby, with en dash, hyphen-minus, or colon as delimiter
+		QRegularExpressionMatch match = rx.match(line);
+		if(match.hasMatch())
 		{
-			QString homeTeam = line.left(index - 1);
-			QString awayTeam = line.right(line.size() - index - rx.matchedLength() - 1);
-			double homeScore = rx.cap(1).toDouble();
-			double awayScore = rx.cap(2).toDouble();
+			QString homeTeam = line.left(match.capturedStart() - 1);
+			QString awayTeam = line.right(line.size() - match.capturedStart() - match.capturedLength() - 1);
+			double homeScore = match.captured(1).toDouble();
+			double awayScore = match.captured(2).toDouble();
 			matchesList.push_back(XkorTableMatch(homeTeam, awayTeam, homeScore, awayScore));
 			if(!teamsList.contains(homeTeam))
 				teamsList.append(homeTeam);
@@ -237,7 +242,7 @@ void XkorTableGenerator::openFile(QString filename)
 {
 	XkorXmlTableReader r(filename);
 	if(r.hasError())
-		QMessageBox::critical(this, tr("xkoranate"), r.error());
+		QMessageBox::critical(nullptr, tr("xkoranate"), r.error());
 	else
 	{
 		t = r.table();
@@ -334,9 +339,9 @@ void XkorTableGenerator::setMatchesModified()
 int XkorTableGenerator::showUnsavedDialog()
 {
 	QString displayFileName = currentFileName.isEmpty() ? "untitled" : QFileInfo(currentFileName).fileName();
-	QMessageBox warning(QMessageBox::NoIcon, tr("xkoranate"), tr("Do you want to save the changes you made to “%1”?").arg(displayFileName), QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel, this);
-	int iconSize = style()->pixelMetric(QStyle::PM_MessageBoxIconSize);
-	warning.setIconPixmap(QPixmap(":/icons/xkoranate").scaled(iconSize, iconSize, Qt::IgnoreAspectRatio, Qt::SmoothTransformation));
+	QMessageBox warning(QMessageBox::NoIcon, tr("xkoranate"), tr("Do you want to save the changes you made to “%1”?").arg(displayFileName), QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel, nullptr);
+	
+	
 	warning.setInformativeText(tr("Your changes will be lost if you don’t save them."));
 	warning.setWindowModality(Qt::WindowModal);
 	return warning.exec();

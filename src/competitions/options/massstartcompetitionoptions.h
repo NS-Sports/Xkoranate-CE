@@ -3,6 +3,8 @@
 
 #include "abstractoptionswidget.h"
 
+#include <QCheckBox>
+
 class XkorMassStartCompetitionOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

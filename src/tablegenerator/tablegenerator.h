@@ -1,10 +1,19 @@
 #ifndef TABLEGENERATOR_H
 #define TABLEGENERATOR_H
 
-#include <QtWidgets>
+#include <QtGui>
 
 #include "tablegenerator/sortcriteriawidget.h"
 #include "tablegenerator/table.h"
+
+#include <QPlainTextEdit>
+#include <QComboBox>
+
+#include <QPlainTextEdit>
+#include <QComboBox>
+#include <QSpinBox>
+#include <QCheckBox>
+#include <QFileDialog>
 
 class XkorTableGenerator : public QWidget
 {
@@ -24,6 +33,7 @@ class XkorTableGenerator : public QWidget
 
 		QFileDialog * dialog, * importDialog;
 
+		public:
 		bool okayToLoad();
 		int showUnsavedDialog();
 

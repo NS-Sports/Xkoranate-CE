@@ -1,4 +1,5 @@
 #include "paradigms/options/sqisparadigmoptions.h"
+#include <QButtonGroup>
 
 #include <QtDebug>
 
@@ -34,7 +35,7 @@ XkorSQISParadigmOptions::XkorSQISParadigmOptions(QHash<QString, QVariant> opts, 
 	styleMods->addButton(xkorStyleMods);
 	styleMods->addButton(nsfsStyleMods);
 	styleMods->addButton(noStyleMods);
-	connect(styleMods, SIGNAL(buttonClicked(int)), this, SLOT(setStyleMods()));
+	connect(styleMods, &QButtonGroup::buttonClicked, this, &XkorSQISParadigmOptions::setStyleMods);
 
 	QFormLayout * styleModsForm = new QFormLayout;
 	styleModsForm->addRow(xkorStyleMods);
@@ -46,8 +47,8 @@ XkorSQISParadigmOptions::XkorSQISParadigmOptions(QHash<QString, QVariant> opts, 
 	label->setContentsMargins(0, -4, 0, 0);
 
 	QFormLayout * form = new QFormLayout(this);
-	form->addRow(QString::null, homeAdvantage);
-	form->addRow(QString::null, showTLAs);
+	form->addRow(QString(), homeAdvantage);
+form->addRow(QString(), showTLAs);
 	form->addRow(label, styleModsForm);
 }
 

@@ -38,11 +38,11 @@ void XkorAthleteWidget::init()
 	for(int i = 0; i < m_columnTypes.size(); ++i)
 		if(m_columnTypes[i] == "double" || m_columnTypes[i] == "golfStyle" || m_columnTypes[i] == "skill")
 		{
-            treeWidget->header()->setSectionResizeMode(i, QHeaderView::Fixed);
+			treeWidget->header()->setSectionResizeMode(i, QHeaderView::Fixed);
 			treeWidget->header()->resizeSection(i, 80);
 		}
 		else
-            treeWidget->header()->setSectionResizeMode(i, QHeaderView::Stretch);
+			treeWidget->header()->setSectionResizeMode(i, QHeaderView::Stretch);
 	
 	importAction = new QAction(QIcon(":/icons/document-import"), tr("Import from text file"), this);
 	importAction->setEnabled(true);
@@ -80,7 +80,7 @@ void XkorAthleteWidget::importAthletes()
 
 	dialog = new QFileDialog(this);
 	dialog->setWindowTitle(tr("Open semicolon-delimited athlete file"));
-    dialog->setNameFilter(tr("Text files (*.txt)"));
+	dialog->setNameFilter(tr("Text files (*.txt)"));
 	dialog->setWindowModality(Qt::WindowModal);
 	dialog->setAcceptMode(QFileDialog::AcceptOpen);
 

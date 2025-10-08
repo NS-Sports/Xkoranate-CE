@@ -1,4 +1,6 @@
-#include "massstartcompetitionoptions.h"
+#include "competitions/options/massstartcompetitionoptions.h"
+#include <QGridLayout>
+#include <QStyle>
 
 XkorMassStartCompetitionOptions::XkorMassStartCompetitionOptions(QHash<QString, QVariant> opts, QWidget * parent) : XkorAbstractOptionsWidget(opts, parent)
 {

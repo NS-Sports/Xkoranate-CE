@@ -3,6 +3,9 @@
 
 #include "abstractoptionswidget.h"
 
+#include <QSpinBox>
+#include <QCheckBox>
+
 class XkorMultipleRunCompetitionOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

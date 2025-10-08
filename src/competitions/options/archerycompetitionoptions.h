@@ -4,6 +4,9 @@
 #include "abstractoptionswidget.h"
 #include <QCheckBox>
 
+#include <QSpinBox>
+#include <QLabel>
+
 class XkorArcheryCompetitionOptions : public XkorAbstractOptionsWidget
 {
 	Q_OBJECT

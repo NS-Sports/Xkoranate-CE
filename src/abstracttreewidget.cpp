@@ -1,4 +1,5 @@
 #include "abstracttreewidget.h"
+#include <QToolBar>
 
 XkorAbstractTreeWidget::XkorAbstractTreeWidget()
 {	
@@ -157,7 +158,7 @@ void XkorAbstractTreeWidget::setupLayout(QList<QAction *> actions, bool isVertic
 		layout->addWidget(toolBar, 0, 1, Qt::AlignCenter);
 	else
 		layout->addWidget(toolBar, 1, 0, Qt::AlignCenter);
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 }
 
 void XkorAbstractTreeWidget::updateButtons()

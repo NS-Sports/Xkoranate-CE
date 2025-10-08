@@ -12,8 +12,8 @@ class XkorXmlIndex
 		std::map<QString, QString> index;
 		void insert(QString filename);
 	public:
-		void traverse(QString dir) throw(XkorFileNotFoundException);
-		QString lookup(QString name) throw(XkorSearchFailedException);
+		void traverse(QString dir) noexcept(false);
+		QString lookup(QString name) noexcept(false);
 		std::map<QString, QString> getAllFiles();
 };
 

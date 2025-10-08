@@ -1,4 +1,5 @@
 #include "paradigms/options/footba11erparadigmoptions.h"
+#include <QStyle>
 
 #include <QtDebug>
 

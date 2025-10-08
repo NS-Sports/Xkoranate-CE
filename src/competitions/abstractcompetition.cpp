@@ -1,6 +1,6 @@
 #include "competitions/abstractcompetition.h"
 
-#include <QTextCodec>
+
 #include <QTextStream>
 
 void XkorAbstractCompetition::init(XkorStartList & sl, XkorSport & s, QHash<QString, QVariant> paradigmOptions, QHash<QString, QVariant> competitionOptions, QHash<int, QString> results)

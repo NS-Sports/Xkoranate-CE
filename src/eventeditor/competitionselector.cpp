@@ -22,7 +22,7 @@ XkorCompetitionSelector::XkorCompetitionSelector(QWidget * parent) : QWidget(par
 	layout->setRowStretch(0, 0);
 	layout->setRowStretch(1, 0);
 	layout->setRowStretch(2, 1);
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 
 	updateCompetition(-1); // show a big competition options widget so that the layout has room for it
 }

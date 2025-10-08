@@ -1,6 +1,7 @@
 #include "centralwidget.h"
+#include <QMessageBox>
 
-#include <QtWidgets>
+#include <QtGui>
 #include "exceptions.h"
 #include "thinsplitter.h"
 #include "xml/xmlreader.h"
@@ -19,7 +20,7 @@ XkorCentralWidget::XkorCentralWidget(QWidget * parent) : QWidget(parent)
 	editor = new QStackedWidget;
 
 	// set up editor widgets
-	rpe = new XkorRPEditor;
+	rpe = new XkorRpEditor;
 	rpe->setData(nw->rpList());
 	connect(rpe, SIGNAL(dataChanged()), this, SLOT(setModified()));
 	editor->addWidget(rpe);
@@ -43,7 +44,7 @@ XkorCentralWidget::XkorCentralWidget(QWidget * parent) : QWidget(parent)
 
 	QGridLayout * layout = new QGridLayout(this);
 	layout->addWidget(splitter);
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 }
 
 void XkorCentralWidget::closeEvent(QCloseEvent * event)
@@ -60,9 +61,9 @@ QList<QPair<QUuid, XkorEvent *> > XkorCentralWidget::events()
 	return nw->events();
 }
 
-void XkorCentralWidget::loadSports()
+void XkorCentralWidget::loadSports(const QString &sportPath)
 {
-    ee->loadSports();
+    ee->loadSports(sportPath);
 }
 
 void XkorCentralWidget::newFile()
@@ -218,6 +219,8 @@ int XkorCentralWidget::showUnsavedDialog()
 	QMessageBox warning(QMessageBox::NoIcon, tr("xkoranate"), tr("Do you want to save the changes you made to “%1”?").arg(displayFileName), QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel, this);
 	int iconSize = style()->pixelMetric(QStyle::PM_MessageBoxIconSize);
 	warning.setIconPixmap(QPixmap(":/icons/xkoranate").scaled(iconSize, iconSize, Qt::IgnoreAspectRatio, Qt::SmoothTransformation));
+	
+	
 	warning.setInformativeText(tr("Your changes will be lost if you don’t save them."));
 	warning.setWindowModality(Qt::WindowModal);
 	return warning.exec();

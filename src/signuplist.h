@@ -2,7 +2,7 @@
 #define SIGNUPLIST_H
 
 #include <QtCore>
-#include <tr1/random>
+#include <random>
 
 #include "athlete.h"
 #include "exceptions.h"
@@ -13,7 +13,7 @@ class XkorSignupList
 		QList<XkorAthlete> ath;
 		double min, max;
 
-		std::tr1::mt19937 r;
+        std::mt19937 r;
 
 		QUuid generateID();
 	public:
@@ -22,7 +22,7 @@ class XkorSignupList
 		void addAthlete(XkorAthlete a);
 		double adjustRank(double rank);
 		QList<XkorAthlete> athletes();
-		XkorAthlete getAthleteByID(const QUuid id) throw(XkorSearchFailedException);
+		XkorAthlete getAthleteByID(const QUuid id) noexcept(false);
 		double maxRank();
 		double minRank();
 		void setAthletes(QList<XkorAthlete> newAthletes);
